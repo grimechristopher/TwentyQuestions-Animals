@@ -1,79 +1,72 @@
+% Facts about Angelfish
+
 name('Angelfish').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.3).
-% Height in inches
-height_inches(6).
-has_color('Silver').
-has_color('Black').
-has_color('Yellow').
-has_color('Orange').
-pattern_type('Striped').
+animal_scales('Angelfish', true).
+animal_fur('Angelfish', false).
+animal_feathers('Angelfish', false).
+animal_legs('Angelfish', 0).
+animal_teeth('Angelfish', true).
+animal_wings('Angelfish', false).
+animal_weight_lbs('Angelfish', 0.3).
+animal_height_inches('Angelfish', 6).
+animal_has_color('Angelfish', 'Silver').
+animal_has_color('Angelfish', 'Black').
+animal_has_color('Angelfish', 'Yellow').
+animal_has_color('Angelfish', 'Orange').
+animal_pattern_type('Angelfish', 'Striped').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Pairs').
-hoarding_behavior(false).
+animal_nocturnal('Angelfish', false).
+animal_hibernates('Angelfish', false).
+animal_lives_in_groups('Angelfish', true).
+animal_social_bonding_level('Angelfish', 'Pairs').
+animal_hoarding_behavior('Angelfish', false).
 
 % Habitat and Environment
-habitat('Tropical').
-habitat('Freshwater').
-% Temperature in Fahrenheit
-preferred_environment_temperature(78).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Angelfish', 'Tropical').
+animal_habitat('Angelfish', 'Freshwater').
+animal_preferred_environment_temperature('Angelfish', 78).
+animal_territory_size_sq_miles('Angelfish', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('None').
+animal_flies('Angelfish', false).
+animal_changes_color('Angelfish', false).
+animal_tree_climbing('Angelfish', 'Poor').
+animal_fishing_ability('Angelfish', 'Poor').
+animal_speech_capability('Angelfish', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(300).
-% Number of clutches per year
-clutches_per_year(4).
+animal_eggs_per_clutch('Angelfish', 300).
+animal_clutches_per_year('Angelfish', 4).
 
 % Diet
-diet('Omnivore').
-diet_preference('Small Fish').
-diet_preference('Plants').
+animal_diet('Angelfish', 'Omnivore').
+animal_diet_preference('Angelfish', 'Small Fish').
+animal_diet_preference('Angelfish', 'Plants').
 
 % Other Characteristics
-category('Fish').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(3).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(10).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(2).
-nest_location('Plants').
-migration(false).
-hunting_technique('Ambush').
-burrowing_behavior('Non-Burrowing').
+animal_category('Angelfish', 'Fish').
+animal_lays_eggs('Angelfish', true).
+animal_speed_mph('Angelfish', 3).
+animal_has_a_pouch('Angelfish', false).
+animal_domesticated('Angelfish', true).
+animal_poisonous_or_venomous('Angelfish', false).
+animal_breathes_under_water('Angelfish', true).
+animal_metamorphosis('Angelfish', false).
+animal_average_lifespan('Angelfish', 10).
+animal_temperature('Angelfish', 'Warm').
+animal_common_pet('Angelfish', true).
+animal_endangered('Angelfish', false).
+animal_has_tail('Angelfish', true).
+animal_has_dorsal_fin('Angelfish', true).
+animal_human_interaction('Angelfish', 'Dependent').
+animal_intelligence_level('Angelfish', 'Learning').
+animal_cheek_pouches('Angelfish', false).
+animal_human_usage('Angelfish', 'Pets').
+animal_group_size('Angelfish', 2).
+animal_nest_location('Angelfish', 'Plants').
+animal_migration('Angelfish', false).
+animal_hunting_technique('Angelfish', 'Ambush').
+animal_burrowing_behavior('Angelfish', 'Non-Burrowing').

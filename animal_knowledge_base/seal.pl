@@ -1,77 +1,70 @@
+% Facts about Seal
+
 name('Seal').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(250).
-% Height in inches
-height_inches(72).
-has_color('Gray').
-pattern_type('Solid').
+animal_scales('Seal', false).
+animal_fur('Seal', 'Fur').
+animal_feathers('Seal', false).
+animal_legs('Seal', 4).
+animal_teeth('Seal', true).
+animal_wings('Seal', false).
+animal_weight_lbs('Seal', 250).
+animal_height_inches('Seal', 72).
+animal_has_color('Seal', 'Gray').
+animal_pattern_type('Seal', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Seal', false).
+animal_hibernates('Seal', false).
+animal_lives_in_groups('Seal', true).
+animal_social_bonding_level('Seal', 'Colonial').
+animal_hoarding_behavior('Seal', false).
 
 % Habitat and Environment
-habitat('Coastal').
-% Temperature in Fahrenheit
-preferred_environment_temperature(45).
-% Territory size in square miles
-territory_size_sq_miles(10).
+animal_habitat('Seal', 'Coastal').
+animal_preferred_environment_temperature('Seal', 45).
+animal_territory_size_sq_miles('Seal', 10).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('Basic').
+animal_flies('Seal', false).
+animal_changes_color('Seal', false).
+animal_tree_climbing('Seal', 'Poor').
+animal_fishing_ability('Seal', 'Professional').
+animal_speech_capability('Seal', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Seal', 0).
+animal_clutches_per_year('Seal', 0).
 
 % Diet
-diet('Carnivore').
-diet_preference('Fish').
-diet_preference('Squid').
+animal_diet('Seal', 'Carnivore').
+animal_diet_preference('Seal', 'Fish').
+animal_diet_preference('Seal', 'Squid').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(23).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(30).
-temperature('Cold').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Fur').
-human_usage('Meat').
-% Number of individuals in a typical group
-group_size(50).
-nest_location('Beach').
-migration('Seasonal').
-hunting_technique('Diving').
-hunting_technique('Swimming').
-burrowing_behavior('Non-Burrowing').
+animal_category('Seal', 'Mammal').
+animal_lays_eggs('Seal', false).
+animal_speed_mph('Seal', 23).
+animal_has_a_pouch('Seal', false).
+animal_domesticated('Seal', false).
+animal_poisonous_or_venomous('Seal', false).
+animal_breathes_under_water('Seal', true).
+animal_metamorphosis('Seal', false).
+animal_average_lifespan('Seal', 30).
+animal_temperature('Seal', 'Cold').
+animal_common_pet('Seal', false).
+animal_endangered('Seal', false).
+animal_has_tail('Seal', true).
+animal_has_dorsal_fin('Seal', false).
+animal_human_interaction('Seal', 'Cautious').
+animal_intelligence_level('Seal', 'Complex Learner').
+animal_cheek_pouches('Seal', false).
+animal_human_usage('Seal', 'Fur').
+animal_human_usage('Seal', 'Meat').
+animal_group_size('Seal', 50).
+animal_nest_location('Seal', 'Beach').
+animal_migration('Seal', 'Seasonal').
+animal_hunting_technique('Seal', 'Diving').
+animal_hunting_technique('Seal', 'Swimming').
+animal_burrowing_behavior('Seal', 'Non-Burrowing').

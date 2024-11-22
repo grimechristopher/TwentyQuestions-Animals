@@ -1,76 +1,69 @@
+% Facts about Spider
+
 name('Spider').
 
 % Physical Characteristics
-scales(false).
-fur('Hair').
-feathers(false).
-legs(8).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.01).
-% Height in inches
-height_inches(1).
-has_color('Multiple').
-pattern_type('Various').
+animal_scales('Spider', false).
+animal_fur('Spider', 'Hair').
+animal_feathers('Spider', false).
+animal_legs('Spider', 8).
+animal_teeth('Spider', false).
+animal_wings('Spider', false).
+animal_weight_lbs('Spider', 0.01).
+animal_height_inches('Spider', 1).
+animal_has_color('Spider', 'Multiple').
+animal_pattern_type('Spider', 'Various').
 
 % Behavior
-nocturnal(true).
-hibernates(true).
-lives_in_groups(true).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Spider', true).
+animal_hibernates('Spider', true).
+animal_lives_in_groups('Spider', true).
+animal_social_bonding_level('Spider', 'Solitary').
+animal_hoarding_behavior('Spider', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(72).
-% Territory size in square miles
-territory_size_sq_miles(0.01).
+animal_habitat('Spider', 'Various').
+animal_preferred_environment_temperature('Spider', 72).
+animal_territory_size_sq_miles('Spider', 0.01).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Good').
-fishing_ability('Poor').
-speech_capability('None').
+animal_flies('Spider', false).
+animal_changes_color('Spider', false).
+animal_tree_climbing('Spider', 'Good').
+animal_fishing_ability('Spider', 'Poor').
+animal_speech_capability('Spider', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(100).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Spider', 100).
+animal_clutches_per_year('Spider', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Insects').
-diet_preference('Small Animals').
+animal_diet('Spider', 'Carnivore').
+animal_diet_preference('Spider', 'Insects').
+animal_diet_preference('Spider', 'Small Animals').
 
 % Other Characteristics
-category('Arachnid').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(1).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous('Venomous').
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(2).
-temperature('Cold').
-common_pet(false).
-endangered(true).
-has_tail(false).
-has_dorsal_fin(false).
-human_interaction('Neutral').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Unknown').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Web').
-migration(false).
-hunting_technique('Web Trapping').
-hunting_technique('Ambush').
-burrowing_behavior('Non-Burrowing').
+animal_category('Spider', 'Arachnid').
+animal_lays_eggs('Spider', true).
+animal_speed_mph('Spider', 1).
+animal_has_a_pouch('Spider', false).
+animal_domesticated('Spider', false).
+animal_poisonous_or_venomous('Spider', 'Venomous').
+animal_breathes_under_water('Spider', false).
+animal_metamorphosis('Spider', false).
+animal_average_lifespan('Spider', 2).
+animal_temperature('Spider', 'Cold').
+animal_common_pet('Spider', false).
+animal_endangered('Spider', true).
+animal_has_tail('Spider', false).
+animal_has_dorsal_fin('Spider', false).
+animal_human_interaction('Spider', 'Neutral').
+animal_intelligence_level('Spider', 'Learning').
+animal_cheek_pouches('Spider', false).
+animal_human_usage('Spider', 'Unknown').
+animal_group_size('Spider', 1).
+animal_nest_location('Spider', 'Web').
+animal_migration('Spider', false).
+animal_hunting_technique('Spider', 'Web Trapping').
+animal_hunting_technique('Spider', 'Ambush').
+animal_burrowing_behavior('Spider', 'Non-Burrowing').

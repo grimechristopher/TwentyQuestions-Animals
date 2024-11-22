@@ -1,77 +1,70 @@
+% Facts about Clownfish
+
 name('Clownfish').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.25).
-% Height in inches
-height_inches(4).
-has_color('Orange').
-has_color('White').
-pattern_type('Striped').
+animal_scales('Clownfish', true).
+animal_fur('Clownfish', false).
+animal_feathers('Clownfish', false).
+animal_legs('Clownfish', 0).
+animal_teeth('Clownfish', true).
+animal_wings('Clownfish', false).
+animal_weight_lbs('Clownfish', 0.25).
+animal_height_inches('Clownfish', 4).
+animal_has_color('Clownfish', 'Orange').
+animal_has_color('Clownfish', 'White').
+animal_pattern_type('Clownfish', 'Striped').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Pairs').
-hoarding_behavior(false).
+animal_nocturnal('Clownfish', false).
+animal_hibernates('Clownfish', false).
+animal_lives_in_groups('Clownfish', true).
+animal_social_bonding_level('Clownfish', 'Pairs').
+animal_hoarding_behavior('Clownfish', false).
 
 % Habitat and Environment
-habitat('Marine').
-habitat('Coral Reef').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Clownfish', 'Marine').
+animal_habitat('Clownfish', 'Coral Reef').
+animal_preferred_environment_temperature('Clownfish', 75).
+animal_territory_size_sq_miles('Clownfish', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('None').
+animal_flies('Clownfish', false).
+animal_changes_color('Clownfish', false).
+animal_tree_climbing('Clownfish', 'Poor').
+animal_fishing_ability('Clownfish', 'Professional').
+animal_speech_capability('Clownfish', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(1000).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Clownfish', 1000).
+animal_clutches_per_year('Clownfish', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Plankton').
-diet_preference('Algae').
+animal_diet('Clownfish', 'Omnivore').
+animal_diet_preference('Clownfish', 'Plankton').
+animal_diet_preference('Clownfish', 'Algae').
 
 % Other Characteristics
-category('Fish').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(4).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(10).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(2).
-nest_location('Anemone').
-migration(false).
-hunting_technique('Filter Feeding').
-burrowing_behavior('Non-Burrowing').
+animal_category('Clownfish', 'Fish').
+animal_lays_eggs('Clownfish', true).
+animal_speed_mph('Clownfish', 4).
+animal_has_a_pouch('Clownfish', false).
+animal_domesticated('Clownfish', true).
+animal_poisonous_or_venomous('Clownfish', false).
+animal_breathes_under_water('Clownfish', true).
+animal_metamorphosis('Clownfish', false).
+animal_average_lifespan('Clownfish', 10).
+animal_temperature('Clownfish', 'Warm').
+animal_common_pet('Clownfish', true).
+animal_endangered('Clownfish', false).
+animal_has_tail('Clownfish', true).
+animal_has_dorsal_fin('Clownfish', true).
+animal_human_interaction('Clownfish', 'Dependent').
+animal_intelligence_level('Clownfish', 'Learning').
+animal_cheek_pouches('Clownfish', false).
+animal_human_usage('Clownfish', 'Pets').
+animal_group_size('Clownfish', 2).
+animal_nest_location('Clownfish', 'Anemone').
+animal_migration('Clownfish', false).
+animal_hunting_technique('Clownfish', 'Filter Feeding').
+animal_burrowing_behavior('Clownfish', 'Non-Burrowing').

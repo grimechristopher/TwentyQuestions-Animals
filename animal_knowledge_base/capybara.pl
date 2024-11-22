@@ -1,77 +1,70 @@
+% Facts about Capybara
+
 name('Capybara').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(150).
-% Height in inches
-height_inches(24).
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Capybara', false).
+animal_fur('Capybara', false).
+animal_feathers('Capybara', false).
+animal_legs('Capybara', 4).
+animal_teeth('Capybara', true).
+animal_wings('Capybara', false).
+animal_weight_lbs('Capybara', 150).
+animal_height_inches('Capybara', 24).
+animal_has_color('Capybara', 'Brown').
+animal_pattern_type('Capybara', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Capybara', false).
+animal_hibernates('Capybara', false).
+animal_lives_in_groups('Capybara', true).
+animal_social_bonding_level('Capybara', 'Colonial').
+animal_hoarding_behavior('Capybara', false).
 
 % Habitat and Environment
-habitat('Wetlands').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(1).
+animal_habitat('Capybara', 'Wetlands').
+animal_preferred_environment_temperature('Capybara', 75).
+animal_territory_size_sq_miles('Capybara', 1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Capybara', false).
+animal_changes_color('Capybara', false).
+animal_tree_climbing('Capybara', 'Poor').
+animal_fishing_ability('Capybara', 'Good').
+animal_speech_capability('Capybara', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Capybara', 0).
+animal_clutches_per_year('Capybara', 2).
 
 % Diet
-diet('Herbivore').
-diet_preference('Grass').
-diet_preference('Aquatic Plants').
+animal_diet('Capybara', 'Herbivore').
+animal_diet_preference('Capybara', 'Grass').
+animal_diet_preference('Capybara', 'Aquatic Plants').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(35).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(12).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Tolerant').
-intelligence_level('Complex Learner').
-cheek_pouches(true).
-human_usage('Meat').
-human_usage('Leather').
-% Number of individuals in a typical group
-group_size(20).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Grazing').
-hunting_technique('Swimming').
-burrowing_behavior('Non-Burrowing').
+animal_category('Capybara', 'Mammal').
+animal_lays_eggs('Capybara', false).
+animal_speed_mph('Capybara', 35).
+animal_has_a_pouch('Capybara', false).
+animal_domesticated('Capybara', false).
+animal_poisonous_or_venomous('Capybara', false).
+animal_breathes_under_water('Capybara', true).
+animal_metamorphosis('Capybara', false).
+animal_average_lifespan('Capybara', 12).
+animal_temperature('Capybara', 'Warm').
+animal_common_pet('Capybara', true).
+animal_endangered('Capybara', false).
+animal_has_tail('Capybara', true).
+animal_has_dorsal_fin('Capybara', false).
+animal_human_interaction('Capybara', 'Tolerant').
+animal_intelligence_level('Capybara', 'Complex Learner').
+animal_cheek_pouches('Capybara', true).
+animal_human_usage('Capybara', 'Meat').
+animal_human_usage('Capybara', 'Leather').
+animal_group_size('Capybara', 20).
+animal_nest_location('Capybara', 'Ground Level').
+animal_migration('Capybara', false).
+animal_hunting_technique('Capybara', 'Grazing').
+animal_hunting_technique('Capybara', 'Swimming').
+animal_burrowing_behavior('Capybara', 'Non-Burrowing').

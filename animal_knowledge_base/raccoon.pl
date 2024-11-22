@@ -1,78 +1,71 @@
+% Facts about Raccoon
+
 name('Raccoon').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(20).
-% Height in inches
-height_inches(24).
-has_color('Gray').
-has_color('Black').
-pattern_type('Masked').
+animal_scales('Raccoon', false).
+animal_fur('Raccoon', 'Fur').
+animal_feathers('Raccoon', false).
+animal_legs('Raccoon', 4).
+animal_teeth('Raccoon', true).
+animal_wings('Raccoon', false).
+animal_weight_lbs('Raccoon', 20).
+animal_height_inches('Raccoon', 24).
+animal_has_color('Raccoon', 'Gray').
+animal_has_color('Raccoon', 'Black').
+animal_pattern_type('Raccoon', 'Masked').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Family').
-hoarding_behavior('Simple').
+animal_nocturnal('Raccoon', true).
+animal_hibernates('Raccoon', false).
+animal_lives_in_groups('Raccoon', false).
+animal_social_bonding_level('Raccoon', 'Family').
+animal_hoarding_behavior('Raccoon', 'Simple').
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(1).
+animal_habitat('Raccoon', 'Various').
+animal_preferred_environment_temperature('Raccoon', 65).
+animal_territory_size_sq_miles('Raccoon', 1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Excellent').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Raccoon', false).
+animal_changes_color('Raccoon', false).
+animal_tree_climbing('Raccoon', 'Excellent').
+animal_fishing_ability('Raccoon', 'Good').
+animal_speech_capability('Raccoon', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Raccoon', 0).
+animal_clutches_per_year('Raccoon', 0).
 
 % Diet
-diet('Omnivore').
-diet_preference('Fruits').
-diet_preference('Small Animals').
-diet_preference('Human Food').
+animal_diet('Raccoon', 'Omnivore').
+animal_diet_preference('Raccoon', 'Fruits').
+animal_diet_preference('Raccoon', 'Small Animals').
+animal_diet_preference('Raccoon', 'Human Food').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(15).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(3).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Tolerant').
-intelligence_level('Tool User').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(4).
-nest_location('Tree Cavity').
-migration(false).
-hunting_technique('Tool Use').
-hunting_technique('Foraging').
-burrowing_behavior('Non-Burrowing').
+animal_category('Raccoon', 'Mammal').
+animal_lays_eggs('Raccoon', false).
+animal_speed_mph('Raccoon', 15).
+animal_has_a_pouch('Raccoon', false).
+animal_domesticated('Raccoon', false).
+animal_poisonous_or_venomous('Raccoon', false).
+animal_breathes_under_water('Raccoon', false).
+animal_metamorphosis('Raccoon', false).
+animal_average_lifespan('Raccoon', 3).
+animal_temperature('Raccoon', 'Warm').
+animal_common_pet('Raccoon', false).
+animal_endangered('Raccoon', false).
+animal_has_tail('Raccoon', true).
+animal_has_dorsal_fin('Raccoon', false).
+animal_human_interaction('Raccoon', 'Tolerant').
+animal_intelligence_level('Raccoon', 'Tool User').
+animal_cheek_pouches('Raccoon', false).
+animal_human_usage('Raccoon', 'Tourism').
+animal_group_size('Raccoon', 4).
+animal_nest_location('Raccoon', 'Tree Cavity').
+animal_migration('Raccoon', false).
+animal_hunting_technique('Raccoon', 'Tool Use').
+animal_hunting_technique('Raccoon', 'Foraging').
+animal_burrowing_behavior('Raccoon', 'Non-Burrowing').

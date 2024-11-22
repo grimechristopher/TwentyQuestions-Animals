@@ -1,77 +1,70 @@
+% Facts about Groundhog
+
 name('Groundhog').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(13.5).
-% Height in inches
-height_inches(18).
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Groundhog', false).
+animal_fur('Groundhog', 'Fur').
+animal_feathers('Groundhog', false).
+animal_legs('Groundhog', 4).
+animal_teeth('Groundhog', true).
+animal_wings('Groundhog', false).
+animal_weight_lbs('Groundhog', 13.5).
+animal_height_inches('Groundhog', 18).
+animal_has_color('Groundhog', 'Brown').
+animal_pattern_type('Groundhog', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(true).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior('Simple').
+animal_nocturnal('Groundhog', false).
+animal_hibernates('Groundhog', true).
+animal_lives_in_groups('Groundhog', false).
+animal_social_bonding_level('Groundhog', 'Solitary').
+animal_hoarding_behavior('Groundhog', 'Simple').
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Groundhog', 'Various').
+animal_preferred_environment_temperature('Groundhog', 70).
+animal_territory_size_sq_miles('Groundhog', 0.1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Groundhog', false).
+animal_changes_color('Groundhog', false).
+animal_tree_climbing('Groundhog', 'Poor').
+animal_fishing_ability('Groundhog', 'Poor').
+animal_speech_capability('Groundhog', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Groundhog', 0).
+animal_clutches_per_year('Groundhog', 1).
 
 % Diet
-diet('Herbivore').
-diet_preference('Plants').
-diet_preference('Vegetables').
+animal_diet('Groundhog', 'Herbivore').
+animal_diet_preference('Groundhog', 'Plants').
+animal_diet_preference('Groundhog', 'Vegetables').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(15).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(6).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(true).
-human_usage('Pest Control').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Underground Burrow').
-migration(false).
-hunting_technique('Grazing').
-hunting_technique('Browsing').
-burrowing_behavior('Tunneling').
+animal_category('Groundhog', 'Mammal').
+animal_lays_eggs('Groundhog', false).
+animal_speed_mph('Groundhog', 15).
+animal_has_a_pouch('Groundhog', false).
+animal_domesticated('Groundhog', false).
+animal_poisonous_or_venomous('Groundhog', false).
+animal_breathes_under_water('Groundhog', false).
+animal_metamorphosis('Groundhog', false).
+animal_average_lifespan('Groundhog', 6).
+animal_temperature('Groundhog', 'Warm').
+animal_common_pet('Groundhog', false).
+animal_endangered('Groundhog', false).
+animal_has_tail('Groundhog', true).
+animal_has_dorsal_fin('Groundhog', false).
+animal_human_interaction('Groundhog', 'Cautious').
+animal_intelligence_level('Groundhog', 'Learning').
+animal_cheek_pouches('Groundhog', true).
+animal_human_usage('Groundhog', 'Pest Control').
+animal_human_usage('Groundhog', 'Research').
+animal_group_size('Groundhog', 1).
+animal_nest_location('Groundhog', 'Underground Burrow').
+animal_migration('Groundhog', false).
+animal_hunting_technique('Groundhog', 'Grazing').
+animal_hunting_technique('Groundhog', 'Browsing').
+animal_burrowing_behavior('Groundhog', 'Tunneling').

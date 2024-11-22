@@ -1,75 +1,68 @@
+% Facts about Koi
+
 name('Koi').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(25).
-% Height in inches
-height_inches(24).
-has_color('Multiple').
-pattern_type('Various').
+animal_scales('Koi', true).
+animal_fur('Koi', false).
+animal_feathers('Koi', false).
+animal_legs('Koi', 0).
+animal_teeth('Koi', true).
+animal_wings('Koi', false).
+animal_weight_lbs('Koi', 25).
+animal_height_inches('Koi', 24).
+animal_has_color('Koi', 'Multiple').
+animal_pattern_type('Koi', 'Various').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Social').
-hoarding_behavior(false).
+animal_nocturnal('Koi', false).
+animal_hibernates('Koi', false).
+animal_lives_in_groups('Koi', true).
+animal_social_bonding_level('Koi', 'Social').
+animal_hoarding_behavior('Koi', false).
 
 % Habitat and Environment
-habitat('Freshwater').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Koi', 'Freshwater').
+animal_preferred_environment_temperature('Koi', 65).
+animal_territory_size_sq_miles('Koi', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('None').
+animal_flies('Koi', false).
+animal_changes_color('Koi', false).
+animal_tree_climbing('Koi', 'Poor').
+animal_fishing_ability('Koi', 'Poor').
+animal_speech_capability('Koi', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(500000).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Koi', 500000).
+animal_clutches_per_year('Koi', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Fish Food').
-diet_preference('Plants').
+animal_diet('Koi', 'Omnivore').
+animal_diet_preference('Koi', 'Fish Food').
+animal_diet_preference('Koi', 'Plants').
 
 % Other Characteristics
-category('Fish').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(4).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(40).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Ornamental').
-% Number of individuals in a typical group
-group_size(15).
-nest_location('Pond').
-migration(false).
-hunting_technique('Filter Feeding').
-burrowing_behavior('Non-Burrowing').
+animal_category('Koi', 'Fish').
+animal_lays_eggs('Koi', true).
+animal_speed_mph('Koi', 4).
+animal_has_a_pouch('Koi', false).
+animal_domesticated('Koi', true).
+animal_poisonous_or_venomous('Koi', false).
+animal_breathes_under_water('Koi', true).
+animal_metamorphosis('Koi', false).
+animal_average_lifespan('Koi', 40).
+animal_temperature('Koi', 'Warm').
+animal_common_pet('Koi', true).
+animal_endangered('Koi', false).
+animal_has_tail('Koi', true).
+animal_has_dorsal_fin('Koi', true).
+animal_human_interaction('Koi', 'Dependent').
+animal_intelligence_level('Koi', 'Learning').
+animal_cheek_pouches('Koi', false).
+animal_human_usage('Koi', 'Ornamental').
+animal_group_size('Koi', 15).
+animal_nest_location('Koi', 'Pond').
+animal_migration('Koi', false).
+animal_hunting_technique('Koi', 'Filter Feeding').
+animal_burrowing_behavior('Koi', 'Non-Burrowing').

@@ -1,79 +1,72 @@
+% Facts about Quail
+
 name('Quail').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(0.3).
-% Height in inches
-height_inches(7).
-has_color('Brown').
-has_color('White').
-pattern_type('Speckled').
+animal_scales('Quail', false).
+animal_fur('Quail', false).
+animal_feathers('Quail', true).
+animal_legs('Quail', 2).
+animal_teeth('Quail', false).
+animal_wings('Quail', true).
+animal_weight_lbs('Quail', 0.3).
+animal_height_inches('Quail', 7).
+animal_has_color('Quail', 'Brown').
+animal_has_color('Quail', 'White').
+animal_pattern_type('Quail', 'Speckled').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Quail', false).
+animal_hibernates('Quail', false).
+animal_lives_in_groups('Quail', true).
+animal_social_bonding_level('Quail', 'Colonial').
+animal_hoarding_behavior('Quail', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(72).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Quail', 'Various').
+animal_preferred_environment_temperature('Quail', 72).
+animal_territory_size_sq_miles('Quail', 0).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Quail', true).
+animal_changes_color('Quail', false).
+animal_tree_climbing('Quail', 'Poor').
+animal_fishing_ability('Quail', 'Poor').
+animal_speech_capability('Quail', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(12).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Quail', 12).
+animal_clutches_per_year('Quail', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Seeds').
-diet_preference('Insects').
+animal_diet('Quail', 'Omnivore').
+animal_diet_preference('Quail', 'Seeds').
+animal_diet_preference('Quail', 'Insects').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(20).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(4).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Eggs').
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(15).
-nest_location('Ground Cover').
-migration('Some').
-hunting_technique('Ground Feeding').
-hunting_technique('Scratching').
-burrowing_behavior('Simple Burrower').
+animal_category('Quail', 'Bird').
+animal_lays_eggs('Quail', true).
+animal_speed_mph('Quail', 20).
+animal_has_a_pouch('Quail', false).
+animal_domesticated('Quail', true).
+animal_poisonous_or_venomous('Quail', false).
+animal_breathes_under_water('Quail', false).
+animal_metamorphosis('Quail', false).
+animal_average_lifespan('Quail', 4).
+animal_temperature('Quail', 'Warm').
+animal_common_pet('Quail', true).
+animal_endangered('Quail', false).
+animal_has_tail('Quail', true).
+animal_has_dorsal_fin('Quail', false).
+animal_human_interaction('Quail', 'Dependent').
+animal_intelligence_level('Quail', 'Learning').
+animal_cheek_pouches('Quail', false).
+animal_human_usage('Quail', 'Meat').
+animal_human_usage('Quail', 'Eggs').
+animal_human_usage('Quail', 'Pets').
+animal_group_size('Quail', 15).
+animal_nest_location('Quail', 'Ground Cover').
+animal_migration('Quail', 'Some').
+animal_hunting_technique('Quail', 'Ground Feeding').
+animal_hunting_technique('Quail', 'Scratching').
+animal_burrowing_behavior('Quail', 'Simple Burrower').

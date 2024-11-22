@@ -1,74 +1,67 @@
+% Facts about Chameleon
+
 name('Chameleon').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(4).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.3).
-% Height in inches
-height_inches(8).
-has_color('Multiple').
-pattern_type('Variable').
+animal_scales('Chameleon', true).
+animal_fur('Chameleon', false).
+animal_feathers('Chameleon', false).
+animal_legs('Chameleon', 4).
+animal_teeth('Chameleon', false).
+animal_wings('Chameleon', false).
+animal_weight_lbs('Chameleon', 0.3).
+animal_height_inches('Chameleon', 8).
+animal_has_color('Chameleon', 'Multiple').
+animal_pattern_type('Chameleon', 'Variable').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Chameleon', false).
+animal_hibernates('Chameleon', false).
+animal_lives_in_groups('Chameleon', false).
+animal_social_bonding_level('Chameleon', 'Solitary').
+animal_hoarding_behavior('Chameleon', false).
 
 % Habitat and Environment
-habitat('Forest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Chameleon', 'Forest').
+animal_preferred_environment_temperature('Chameleon', 80).
+animal_territory_size_sq_miles('Chameleon', 0.1).
 
 % Abilities
-flies(false).
-changes_color(true).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Chameleon', false).
+animal_changes_color('Chameleon', true).
+animal_tree_climbing('Chameleon', 'Professional').
+animal_fishing_ability('Chameleon', 'Poor').
+animal_speech_capability('Chameleon', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(20).
-% Number of clutches per year
-clutches_per_year(3).
+animal_eggs_per_clutch('Chameleon', 20).
+animal_clutches_per_year('Chameleon', 3).
 
 % Diet
-diet('Carnivore').
-diet_preference('Insects').
+animal_diet('Chameleon', 'Carnivore').
+animal_diet_preference('Chameleon', 'Insects').
 
 % Other Characteristics
-category('Reptile').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(0.3).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(5).
-temperature('Warm').
-common_pet(true).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Tree Branch').
-migration(false).
-hunting_technique('Tongue Shooting').
-burrowing_behavior('Non-Burrowing').
+animal_category('Chameleon', 'Reptile').
+animal_lays_eggs('Chameleon', true).
+animal_speed_mph('Chameleon', 0.3).
+animal_has_a_pouch('Chameleon', false).
+animal_domesticated('Chameleon', false).
+animal_poisonous_or_venomous('Chameleon', false).
+animal_breathes_under_water('Chameleon', false).
+animal_metamorphosis('Chameleon', false).
+animal_average_lifespan('Chameleon', 5).
+animal_temperature('Chameleon', 'Warm').
+animal_common_pet('Chameleon', true).
+animal_endangered('Chameleon', true).
+animal_has_tail('Chameleon', true).
+animal_has_dorsal_fin('Chameleon', false).
+animal_human_interaction('Chameleon', 'Cautious').
+animal_intelligence_level('Chameleon', 'Learning').
+animal_cheek_pouches('Chameleon', false).
+animal_human_usage('Chameleon', 'Pets').
+animal_group_size('Chameleon', 1).
+animal_nest_location('Chameleon', 'Tree Branch').
+animal_migration('Chameleon', false).
+animal_hunting_technique('Chameleon', 'Tongue Shooting').
+animal_burrowing_behavior('Chameleon', 'Non-Burrowing').

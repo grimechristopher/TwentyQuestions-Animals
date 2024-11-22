@@ -1,78 +1,71 @@
+% Facts about Blue-Tongued Skink
+
 name('Blue-Tongued Skink').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(1.1).
-% Height in inches
-height_inches(20).
-has_color('Brown').
-has_color('Gray').
-pattern_type('Banded').
+animal_scales('Blue-Tongued Skink', true).
+animal_fur('Blue-Tongued Skink', false).
+animal_feathers('Blue-Tongued Skink', false).
+animal_legs('Blue-Tongued Skink', 4).
+animal_teeth('Blue-Tongued Skink', true).
+animal_wings('Blue-Tongued Skink', false).
+animal_weight_lbs('Blue-Tongued Skink', 1.1).
+animal_height_inches('Blue-Tongued Skink', 20).
+animal_has_color('Blue-Tongued Skink', 'Brown').
+animal_has_color('Blue-Tongued Skink', 'Gray').
+animal_pattern_type('Blue-Tongued Skink', 'Banded').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Blue-Tongued Skink', false).
+animal_hibernates('Blue-Tongued Skink', false).
+animal_lives_in_groups('Blue-Tongued Skink', false).
+animal_social_bonding_level('Blue-Tongued Skink', 'Solitary').
+animal_hoarding_behavior('Blue-Tongued Skink', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Blue-Tongued Skink', 'Various').
+animal_preferred_environment_temperature('Blue-Tongued Skink', 80).
+animal_territory_size_sq_miles('Blue-Tongued Skink', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Blue-Tongued Skink', false).
+animal_changes_color('Blue-Tongued Skink', false).
+animal_tree_climbing('Blue-Tongued Skink', 'Poor').
+animal_fishing_ability('Blue-Tongued Skink', 'Poor').
+animal_speech_capability('Blue-Tongued Skink', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(10).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Blue-Tongued Skink', 10).
+animal_clutches_per_year('Blue-Tongued Skink', 2).
 
 % Diet
-diet('Omnivore').
-diet_preference('Insects').
-diet_preference('Fruits').
+animal_diet('Blue-Tongued Skink', 'Omnivore').
+animal_diet_preference('Blue-Tongued Skink', 'Insects').
+animal_diet_preference('Blue-Tongued Skink', 'Fruits').
 
 % Other Characteristics
-category('Reptile').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(2).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-human_usage('Education').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Ground Shelter').
-migration(false).
-hunting_technique('Foraging').
-hunting_technique('Crushing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Blue-Tongued Skink', 'Reptile').
+animal_lays_eggs('Blue-Tongued Skink', true).
+animal_speed_mph('Blue-Tongued Skink', 2).
+animal_has_a_pouch('Blue-Tongued Skink', false).
+animal_domesticated('Blue-Tongued Skink', true).
+animal_poisonous_or_venomous('Blue-Tongued Skink', false).
+animal_breathes_under_water('Blue-Tongued Skink', false).
+animal_metamorphosis('Blue-Tongued Skink', false).
+animal_average_lifespan('Blue-Tongued Skink', 20).
+animal_temperature('Blue-Tongued Skink', 'Warm').
+animal_common_pet('Blue-Tongued Skink', true).
+animal_endangered('Blue-Tongued Skink', false).
+animal_has_tail('Blue-Tongued Skink', true).
+animal_has_dorsal_fin('Blue-Tongued Skink', false).
+animal_human_interaction('Blue-Tongued Skink', 'Dependent').
+animal_intelligence_level('Blue-Tongued Skink', 'Learning').
+animal_cheek_pouches('Blue-Tongued Skink', false).
+animal_human_usage('Blue-Tongued Skink', 'Pets').
+animal_human_usage('Blue-Tongued Skink', 'Education').
+animal_group_size('Blue-Tongued Skink', 1).
+animal_nest_location('Blue-Tongued Skink', 'Ground Shelter').
+animal_migration('Blue-Tongued Skink', false).
+animal_hunting_technique('Blue-Tongued Skink', 'Foraging').
+animal_hunting_technique('Blue-Tongued Skink', 'Crushing').
+animal_burrowing_behavior('Blue-Tongued Skink', 'Non-Burrowing').

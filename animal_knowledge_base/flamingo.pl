@@ -1,77 +1,70 @@
+% Facts about Flamingo
+
 name('Flamingo').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(6).
-% Height in inches
-height_inches(52).
-has_color('Pink').
-has_color('White').
-has_color('Red').
-pattern_type('Solid').
+animal_scales('Flamingo', false).
+animal_fur('Flamingo', false).
+animal_feathers('Flamingo', true).
+animal_legs('Flamingo', 2).
+animal_teeth('Flamingo', false).
+animal_wings('Flamingo', true).
+animal_weight_lbs('Flamingo', 6).
+animal_height_inches('Flamingo', 52).
+animal_has_color('Flamingo', 'Pink').
+animal_has_color('Flamingo', 'White').
+animal_has_color('Flamingo', 'Red').
+animal_pattern_type('Flamingo', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior('Complex').
+animal_nocturnal('Flamingo', false).
+animal_hibernates('Flamingo', false).
+animal_lives_in_groups('Flamingo', true).
+animal_social_bonding_level('Flamingo', 'Colonial').
+animal_hoarding_behavior('Flamingo', 'Complex').
 
 % Habitat and Environment
-habitat('Wetland').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(1).
+animal_habitat('Flamingo', 'Wetland').
+animal_preferred_environment_temperature('Flamingo', 75).
+animal_territory_size_sq_miles('Flamingo', 1).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Flamingo', true).
+animal_changes_color('Flamingo', false).
+animal_tree_climbing('Flamingo', 'Poor').
+animal_fishing_ability('Flamingo', 'Good').
+animal_speech_capability('Flamingo', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(1).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Flamingo', 1).
+animal_clutches_per_year('Flamingo', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Algae').
-diet_preference('Small Crustaceans').
+animal_diet('Flamingo', 'Omnivore').
+animal_diet_preference('Flamingo', 'Algae').
+animal_diet_preference('Flamingo', 'Small Crustaceans').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(35).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(50).
-nest_location('Mudflat').
-migration(true).
-hunting_technique('Filter Feeding').
-burrowing_behavior('Non-Burrowing').
+animal_category('Flamingo', 'Bird').
+animal_lays_eggs('Flamingo', true).
+animal_speed_mph('Flamingo', 35).
+animal_has_a_pouch('Flamingo', false).
+animal_domesticated('Flamingo', false).
+animal_poisonous_or_venomous('Flamingo', false).
+animal_breathes_under_water('Flamingo', false).
+animal_metamorphosis('Flamingo', false).
+animal_average_lifespan('Flamingo', 20).
+animal_temperature('Flamingo', 'Warm').
+animal_common_pet('Flamingo', false).
+animal_endangered('Flamingo', false).
+animal_has_tail('Flamingo', true).
+animal_has_dorsal_fin('Flamingo', false).
+animal_human_interaction('Flamingo', 'Cautious').
+animal_intelligence_level('Flamingo', 'Learning').
+animal_cheek_pouches('Flamingo', false).
+animal_human_usage('Flamingo', 'Pets').
+animal_group_size('Flamingo', 50).
+animal_nest_location('Flamingo', 'Mudflat').
+animal_migration('Flamingo', true).
+animal_hunting_technique('Flamingo', 'Filter Feeding').
+animal_burrowing_behavior('Flamingo', 'Non-Burrowing').

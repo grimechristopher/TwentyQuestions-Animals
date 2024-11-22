@@ -1,80 +1,73 @@
+% Facts about Canada Goose
+
 name('Canada Goose').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(14).
-% Height in inches
-height_inches(30).
-has_color('Brown').
-has_color('Black').
-has_color('White').
-pattern_type('Two-toned').
+animal_scales('Canada Goose', false).
+animal_fur('Canada Goose', false).
+animal_feathers('Canada Goose', true).
+animal_legs('Canada Goose', 2).
+animal_teeth('Canada Goose', false).
+animal_wings('Canada Goose', true).
+animal_weight_lbs('Canada Goose', 14).
+animal_height_inches('Canada Goose', 30).
+animal_has_color('Canada Goose', 'Brown').
+animal_has_color('Canada Goose', 'Black').
+animal_has_color('Canada Goose', 'White').
+animal_pattern_type('Canada Goose', 'Two-toned').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Canada Goose', false).
+animal_hibernates('Canada Goose', false).
+animal_lives_in_groups('Canada Goose', true).
+animal_social_bonding_level('Canada Goose', 'Colonial').
+animal_hoarding_behavior('Canada Goose', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(2).
+animal_habitat('Canada Goose', 'Various').
+animal_preferred_environment_temperature('Canada Goose', 65).
+animal_territory_size_sq_miles('Canada Goose', 2).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Canada Goose', true).
+animal_changes_color('Canada Goose', false).
+animal_tree_climbing('Canada Goose', 'Poor').
+animal_fishing_ability('Canada Goose', 'Good').
+animal_speech_capability('Canada Goose', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(5).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Canada Goose', 5).
+animal_clutches_per_year('Canada Goose', 1).
 
 % Diet
-diet('Herbivore').
-diet_preference('Grass').
-diet_preference('Aquatic Plants').
+animal_diet('Canada Goose', 'Herbivore').
+animal_diet_preference('Canada Goose', 'Grass').
+animal_diet_preference('Canada Goose', 'Aquatic Plants').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(40).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(25).
-temperature('Cold').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Tolerant').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Down').
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(30).
-nest_location('Ground Near Water').
-migration('Seasonal').
-hunting_technique('Grazing').
-hunting_technique('Dabbling').
-burrowing_behavior('Non-Burrowing').
+animal_category('Canada Goose', 'Bird').
+animal_lays_eggs('Canada Goose', true).
+animal_speed_mph('Canada Goose', 40).
+animal_has_a_pouch('Canada Goose', false).
+animal_domesticated('Canada Goose', false).
+animal_poisonous_or_venomous('Canada Goose', false).
+animal_breathes_under_water('Canada Goose', false).
+animal_metamorphosis('Canada Goose', false).
+animal_average_lifespan('Canada Goose', 25).
+animal_temperature('Canada Goose', 'Cold').
+animal_common_pet('Canada Goose', false).
+animal_endangered('Canada Goose', false).
+animal_has_tail('Canada Goose', true).
+animal_has_dorsal_fin('Canada Goose', false).
+animal_human_interaction('Canada Goose', 'Tolerant').
+animal_intelligence_level('Canada Goose', 'Learning').
+animal_cheek_pouches('Canada Goose', false).
+animal_human_usage('Canada Goose', 'Meat').
+animal_human_usage('Canada Goose', 'Down').
+animal_human_usage('Canada Goose', 'Tourism').
+animal_group_size('Canada Goose', 30).
+animal_nest_location('Canada Goose', 'Ground Near Water').
+animal_migration('Canada Goose', 'Seasonal').
+animal_hunting_technique('Canada Goose', 'Grazing').
+animal_hunting_technique('Canada Goose', 'Dabbling').
+animal_burrowing_behavior('Canada Goose', 'Non-Burrowing').

@@ -1,78 +1,71 @@
+% Facts about Prairie Dog
+
 name('Prairie Dog').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(2).
-% Height in inches
-height_inches(12).
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Prairie Dog', false).
+animal_fur('Prairie Dog', 'Fur').
+animal_feathers('Prairie Dog', false).
+animal_legs('Prairie Dog', 4).
+animal_teeth('Prairie Dog', true).
+animal_wings('Prairie Dog', false).
+animal_weight_lbs('Prairie Dog', 2).
+animal_height_inches('Prairie Dog', 12).
+animal_has_color('Prairie Dog', 'Brown').
+animal_pattern_type('Prairie Dog', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(true).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(true).
+animal_nocturnal('Prairie Dog', false).
+animal_hibernates('Prairie Dog', true).
+animal_lives_in_groups('Prairie Dog', true).
+animal_social_bonding_level('Prairie Dog', 'Colonial').
+animal_hoarding_behavior('Prairie Dog', true).
 
 % Habitat and Environment
-habitat('Grassland').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(1).
+animal_habitat('Prairie Dog', 'Grassland').
+animal_preferred_environment_temperature('Prairie Dog', 75).
+animal_territory_size_sq_miles('Prairie Dog', 1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Complex').
+animal_flies('Prairie Dog', false).
+animal_changes_color('Prairie Dog', false).
+animal_tree_climbing('Prairie Dog', 'Poor').
+animal_fishing_ability('Prairie Dog', 'Poor').
+animal_speech_capability('Prairie Dog', 'Complex').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Prairie Dog', 0).
+animal_clutches_per_year('Prairie Dog', 1).
 
 % Diet
-diet('Herbivore').
-diet_preference('Grass').
-diet_preference('Seeds').
-diet_preference('Roots').
+animal_diet('Prairie Dog', 'Herbivore').
+animal_diet_preference('Prairie Dog', 'Grass').
+animal_diet_preference('Prairie Dog', 'Seeds').
+animal_diet_preference('Prairie Dog', 'Roots').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(10).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(8).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Complex Learner').
-cheek_pouches(true).
-human_usage('Research').
-human_usage('Education').
-% Number of individuals in a typical group
-group_size(200).
-nest_location('Underground').
-migration(false).
-hunting_technique('Grazing').
-hunting_technique('Social Foraging').
-burrowing_behavior('Tunneling').
+animal_category('Prairie Dog', 'Mammal').
+animal_lays_eggs('Prairie Dog', false).
+animal_speed_mph('Prairie Dog', 10).
+animal_has_a_pouch('Prairie Dog', false).
+animal_domesticated('Prairie Dog', false).
+animal_poisonous_or_venomous('Prairie Dog', false).
+animal_breathes_under_water('Prairie Dog', false).
+animal_metamorphosis('Prairie Dog', false).
+animal_average_lifespan('Prairie Dog', 8).
+animal_temperature('Prairie Dog', 'Warm').
+animal_common_pet('Prairie Dog', false).
+animal_endangered('Prairie Dog', false).
+animal_has_tail('Prairie Dog', true).
+animal_has_dorsal_fin('Prairie Dog', false).
+animal_human_interaction('Prairie Dog', 'Cautious').
+animal_intelligence_level('Prairie Dog', 'Complex Learner').
+animal_cheek_pouches('Prairie Dog', true).
+animal_human_usage('Prairie Dog', 'Research').
+animal_human_usage('Prairie Dog', 'Education').
+animal_group_size('Prairie Dog', 200).
+animal_nest_location('Prairie Dog', 'Underground').
+animal_migration('Prairie Dog', false).
+animal_hunting_technique('Prairie Dog', 'Grazing').
+animal_hunting_technique('Prairie Dog', 'Social Foraging').
+animal_burrowing_behavior('Prairie Dog', 'Tunneling').

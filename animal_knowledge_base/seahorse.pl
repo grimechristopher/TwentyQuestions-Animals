@@ -1,75 +1,68 @@
+% Facts about Seahorse
+
 name('Seahorse').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.01).
-% Height in inches
-height_inches(6).
-has_color('Multiple').
-pattern_type('Solid').
+animal_scales('Seahorse', true).
+animal_fur('Seahorse', false).
+animal_feathers('Seahorse', false).
+animal_legs('Seahorse', 0).
+animal_teeth('Seahorse', false).
+animal_wings('Seahorse', false).
+animal_weight_lbs('Seahorse', 0.01).
+animal_height_inches('Seahorse', 6).
+animal_has_color('Seahorse', 'Multiple').
+animal_pattern_type('Seahorse', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Pairs').
-hoarding_behavior(false).
+animal_nocturnal('Seahorse', false).
+animal_hibernates('Seahorse', false).
+animal_lives_in_groups('Seahorse', false).
+animal_social_bonding_level('Seahorse', 'Pairs').
+animal_hoarding_behavior('Seahorse', false).
 
 % Habitat and Environment
-habitat('Ocean').
-% Temperature in Fahrenheit
-preferred_environment_temperature(72).
-% Territory size in square miles
-territory_size_sq_miles(0.001).
+animal_habitat('Seahorse', 'Ocean').
+animal_preferred_environment_temperature('Seahorse', 72).
+animal_territory_size_sq_miles('Seahorse', 0.001).
 
 % Abilities
-flies(false).
-changes_color(true).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('None').
+animal_flies('Seahorse', false).
+animal_changes_color('Seahorse', true).
+animal_tree_climbing('Seahorse', 'Poor').
+animal_fishing_ability('Seahorse', 'Professional').
+animal_speech_capability('Seahorse', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(200).
-% Number of clutches per year
-clutches_per_year(3).
+animal_eggs_per_clutch('Seahorse', 200).
+animal_clutches_per_year('Seahorse', 3).
 
 % Diet
-diet('Carnivore').
-diet_preference('Plankton').
-diet_preference('Tiny Crustaceans').
+animal_diet('Seahorse', 'Carnivore').
+animal_diet_preference('Seahorse', 'Plankton').
+animal_diet_preference('Seahorse', 'Tiny Crustaceans').
 
 % Other Characteristics
-category('Fish').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(0.1).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(4).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Neutral').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(2).
-nest_location('Coral').
-migration(false).
-hunting_technique('Suction Feeding').
-burrowing_behavior('Non-Burrowing').
+animal_category('Seahorse', 'Fish').
+animal_lays_eggs('Seahorse', true).
+animal_speed_mph('Seahorse', 0.1).
+animal_has_a_pouch('Seahorse', false).
+animal_domesticated('Seahorse', false).
+animal_poisonous_or_venomous('Seahorse', false).
+animal_breathes_under_water('Seahorse', true).
+animal_metamorphosis('Seahorse', false).
+animal_average_lifespan('Seahorse', 4).
+animal_temperature('Seahorse', 'Warm').
+animal_common_pet('Seahorse', false).
+animal_endangered('Seahorse', true).
+animal_has_tail('Seahorse', true).
+animal_has_dorsal_fin('Seahorse', true).
+animal_human_interaction('Seahorse', 'Neutral').
+animal_intelligence_level('Seahorse', 'Learning').
+animal_cheek_pouches('Seahorse', false).
+animal_human_usage('Seahorse', 'Pets').
+animal_group_size('Seahorse', 2).
+animal_nest_location('Seahorse', 'Coral').
+animal_migration('Seahorse', false).
+animal_hunting_technique('Seahorse', 'Suction Feeding').
+animal_burrowing_behavior('Seahorse', 'Non-Burrowing').

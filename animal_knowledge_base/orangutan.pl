@@ -1,77 +1,70 @@
+% Facts about Orangutan
+
 name('Orangutan').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(200).
-% Height in inches
-height_inches(54).
-has_color('Red').
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Orangutan', false).
+animal_fur('Orangutan', 'Fur').
+animal_feathers('Orangutan', false).
+animal_legs('Orangutan', 4).
+animal_teeth('Orangutan', true).
+animal_wings('Orangutan', false).
+animal_weight_lbs('Orangutan', 200).
+animal_height_inches('Orangutan', 54).
+animal_has_color('Orangutan', 'Red').
+animal_has_color('Orangutan', 'Brown').
+animal_pattern_type('Orangutan', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Orangutan', false).
+animal_hibernates('Orangutan', false).
+animal_lives_in_groups('Orangutan', false).
+animal_social_bonding_level('Orangutan', 'Solitary').
+animal_hoarding_behavior('Orangutan', false).
 
 % Habitat and Environment
-habitat('Forest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(10).
+animal_habitat('Orangutan', 'Forest').
+animal_preferred_environment_temperature('Orangutan', 80).
+animal_territory_size_sq_miles('Orangutan', 10).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Complex Vocalizations').
+animal_flies('Orangutan', false).
+animal_changes_color('Orangutan', false).
+animal_tree_climbing('Orangutan', 'Professional').
+animal_fishing_ability('Orangutan', 'Poor').
+animal_speech_capability('Orangutan', 'Complex Vocalizations').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Orangutan', 0).
+animal_clutches_per_year('Orangutan', 0).
 
 % Diet
-diet('Omnivore').
-diet_preference('Fruits').
-diet_preference('Leaves').
-diet_preference('Insects').
+animal_diet('Orangutan', 'Omnivore').
+animal_diet_preference('Orangutan', 'Fruits').
+animal_diet_preference('Orangutan', 'Leaves').
+animal_diet_preference('Orangutan', 'Insects').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(15).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(50).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(false).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Abstract Thinker').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Tree Branch').
-migration(false).
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Orangutan', 'Mammal').
+animal_lays_eggs('Orangutan', false).
+animal_speed_mph('Orangutan', 15).
+animal_has_a_pouch('Orangutan', false).
+animal_domesticated('Orangutan', false).
+animal_poisonous_or_venomous('Orangutan', false).
+animal_breathes_under_water('Orangutan', false).
+animal_metamorphosis('Orangutan', false).
+animal_average_lifespan('Orangutan', 50).
+animal_temperature('Orangutan', 'Warm').
+animal_common_pet('Orangutan', false).
+animal_endangered('Orangutan', true).
+animal_has_tail('Orangutan', false).
+animal_has_dorsal_fin('Orangutan', false).
+animal_human_interaction('Orangutan', 'Cautious').
+animal_intelligence_level('Orangutan', 'Abstract Thinker').
+animal_cheek_pouches('Orangutan', false).
+animal_human_usage('Orangutan', 'Tourism').
+animal_group_size('Orangutan', 1).
+animal_nest_location('Orangutan', 'Tree Branch').
+animal_migration('Orangutan', false).
+animal_hunting_technique('Orangutan', 'Grazing').
+animal_burrowing_behavior('Orangutan', 'Non-Burrowing').

@@ -1,77 +1,70 @@
+% Facts about Hummingbird
+
 name('Hummingbird').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(0.01).
-% Height in inches
-height_inches(4).
-has_color('Green').
-has_color('Red').
-has_color('Multiple').
-pattern_type('Iridescent').
+animal_scales('Hummingbird', false).
+animal_fur('Hummingbird', false).
+animal_feathers('Hummingbird', true).
+animal_legs('Hummingbird', 2).
+animal_teeth('Hummingbird', false).
+animal_wings('Hummingbird', true).
+animal_weight_lbs('Hummingbird', 0.01).
+animal_height_inches('Hummingbird', 4).
+animal_has_color('Hummingbird', 'Green').
+animal_has_color('Hummingbird', 'Red').
+animal_has_color('Hummingbird', 'Multiple').
+animal_pattern_type('Hummingbird', 'Iridescent').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Hummingbird', false).
+animal_hibernates('Hummingbird', false).
+animal_lives_in_groups('Hummingbird', false).
+animal_social_bonding_level('Hummingbird', 'Solitary').
+animal_hoarding_behavior('Hummingbird', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Hummingbird', 'Various').
+animal_preferred_environment_temperature('Hummingbird', 75).
+animal_territory_size_sq_miles('Hummingbird', 0.1).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Hummingbird', true).
+animal_changes_color('Hummingbird', false).
+animal_tree_climbing('Hummingbird', 'Professional').
+animal_fishing_ability('Hummingbird', 'Good').
+animal_speech_capability('Hummingbird', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(2).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Hummingbird', 2).
+animal_clutches_per_year('Hummingbird', 2).
 
 % Diet
-diet('Omnivore').
-diet_preference('Nectar').
-diet_preference('Insects').
+animal_diet('Hummingbird', 'Omnivore').
+animal_diet_preference('Hummingbird', 'Nectar').
+animal_diet_preference('Hummingbird', 'Insects').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(30).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(4).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Tolerant').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Tree Branch').
-migration(true).
-hunting_technique('Hovering').
-burrowing_behavior('Non-Burrowing').
+animal_category('Hummingbird', 'Bird').
+animal_lays_eggs('Hummingbird', true).
+animal_speed_mph('Hummingbird', 30).
+animal_has_a_pouch('Hummingbird', false).
+animal_domesticated('Hummingbird', false).
+animal_poisonous_or_venomous('Hummingbird', false).
+animal_breathes_under_water('Hummingbird', false).
+animal_metamorphosis('Hummingbird', false).
+animal_average_lifespan('Hummingbird', 4).
+animal_temperature('Hummingbird', 'Warm').
+animal_common_pet('Hummingbird', false).
+animal_endangered('Hummingbird', false).
+animal_has_tail('Hummingbird', true).
+animal_has_dorsal_fin('Hummingbird', false).
+animal_human_interaction('Hummingbird', 'Tolerant').
+animal_intelligence_level('Hummingbird', 'Learning').
+animal_cheek_pouches('Hummingbird', false).
+animal_human_usage('Hummingbird', 'Pets').
+animal_group_size('Hummingbird', 1).
+animal_nest_location('Hummingbird', 'Tree Branch').
+animal_migration('Hummingbird', true).
+animal_hunting_technique('Hummingbird', 'Hovering').
+animal_burrowing_behavior('Hummingbird', 'Non-Burrowing').

@@ -1,79 +1,72 @@
+% Facts about Snow Goose
+
 name('Snow Goose').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(7).
-% Height in inches
-height_inches(28).
-has_color('White').
-has_color('Black').
-pattern_type('Two-toned').
+animal_scales('Snow Goose', false).
+animal_fur('Snow Goose', false).
+animal_feathers('Snow Goose', true).
+animal_legs('Snow Goose', 2).
+animal_teeth('Snow Goose', false).
+animal_wings('Snow Goose', true).
+animal_weight_lbs('Snow Goose', 7).
+animal_height_inches('Snow Goose', 28).
+animal_has_color('Snow Goose', 'White').
+animal_has_color('Snow Goose', 'Black').
+animal_pattern_type('Snow Goose', 'Two-toned').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Snow Goose', false).
+animal_hibernates('Snow Goose', false).
+animal_lives_in_groups('Snow Goose', true).
+animal_social_bonding_level('Snow Goose', 'Colonial').
+animal_hoarding_behavior('Snow Goose', false).
 
 % Habitat and Environment
-habitat('Arctic').
-% Temperature in Fahrenheit
-preferred_environment_temperature(45).
-% Territory size in square miles
-territory_size_sq_miles(2).
+animal_habitat('Snow Goose', 'Arctic').
+animal_preferred_environment_temperature('Snow Goose', 45).
+animal_territory_size_sq_miles('Snow Goose', 2).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Snow Goose', true).
+animal_changes_color('Snow Goose', false).
+animal_tree_climbing('Snow Goose', 'Poor').
+animal_fishing_ability('Snow Goose', 'Good').
+animal_speech_capability('Snow Goose', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(4).
-% Number of clutches per year
-clutches_per_year(0.5).
+animal_eggs_per_clutch('Snow Goose', 4).
+animal_clutches_per_year('Snow Goose', 0.5).
 
 % Diet
-diet('Herbivore').
-diet_preference('Plants').
-diet_preference('Seeds').
+animal_diet('Snow Goose', 'Herbivore').
+animal_diet_preference('Snow Goose', 'Plants').
+animal_diet_preference('Snow Goose', 'Seeds').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(45).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(15).
-temperature('Cold').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Down').
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(50).
-nest_location('Ground Near Water').
-migration('Seasonal').
-hunting_technique('Grazing').
-hunting_technique('Dabbling').
-burrowing_behavior('Non-Burrowing').
+animal_category('Snow Goose', 'Bird').
+animal_lays_eggs('Snow Goose', true).
+animal_speed_mph('Snow Goose', 45).
+animal_has_a_pouch('Snow Goose', false).
+animal_domesticated('Snow Goose', false).
+animal_poisonous_or_venomous('Snow Goose', false).
+animal_breathes_under_water('Snow Goose', true).
+animal_metamorphosis('Snow Goose', false).
+animal_average_lifespan('Snow Goose', 15).
+animal_temperature('Snow Goose', 'Cold').
+animal_common_pet('Snow Goose', false).
+animal_endangered('Snow Goose', false).
+animal_has_tail('Snow Goose', true).
+animal_has_dorsal_fin('Snow Goose', false).
+animal_human_interaction('Snow Goose', 'Cautious').
+animal_intelligence_level('Snow Goose', 'Learning').
+animal_cheek_pouches('Snow Goose', false).
+animal_human_usage('Snow Goose', 'Meat').
+animal_human_usage('Snow Goose', 'Down').
+animal_human_usage('Snow Goose', 'Tourism').
+animal_group_size('Snow Goose', 50).
+animal_nest_location('Snow Goose', 'Ground Near Water').
+animal_migration('Snow Goose', 'Seasonal').
+animal_hunting_technique('Snow Goose', 'Grazing').
+animal_hunting_technique('Snow Goose', 'Dabbling').
+animal_burrowing_behavior('Snow Goose', 'Non-Burrowing').

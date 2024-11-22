@@ -1,77 +1,70 @@
+% Facts about Guinea Pig
+
 name('Guinea Pig').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(2.5).
-% Height in inches
-height_inches(4).
-has_color('Multiple').
-pattern_type('Various').
+animal_scales('Guinea Pig', false).
+animal_fur('Guinea Pig', 'Fur').
+animal_feathers('Guinea Pig', false).
+animal_legs('Guinea Pig', 4).
+animal_teeth('Guinea Pig', true).
+animal_wings('Guinea Pig', false).
+animal_weight_lbs('Guinea Pig', 2.5).
+animal_height_inches('Guinea Pig', 4).
+animal_has_color('Guinea Pig', 'Multiple').
+animal_pattern_type('Guinea Pig', 'Various').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(true).
+animal_nocturnal('Guinea Pig', false).
+animal_hibernates('Guinea Pig', false).
+animal_lives_in_groups('Guinea Pig', true).
+animal_social_bonding_level('Guinea Pig', 'Colonial').
+animal_hoarding_behavior('Guinea Pig', true).
 
 % Habitat and Environment
-habitat('Domestic').
-% Temperature in Fahrenheit
-preferred_environment_temperature(72).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Guinea Pig', 'Domestic').
+animal_preferred_environment_temperature('Guinea Pig', 72).
+animal_territory_size_sq_miles('Guinea Pig', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Guinea Pig', false).
+animal_changes_color('Guinea Pig', false).
+animal_tree_climbing('Guinea Pig', 'Poor').
+animal_fishing_ability('Guinea Pig', 'Poor').
+animal_speech_capability('Guinea Pig', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(4).
+animal_eggs_per_clutch('Guinea Pig', 0).
+animal_clutches_per_year('Guinea Pig', 4).
 
 % Diet
-diet('Herbivore').
-diet_preference('Hay').
-diet_preference('Vegetables').
+animal_diet('Guinea Pig', 'Herbivore').
+animal_diet_preference('Guinea Pig', 'Hay').
+animal_diet_preference('Guinea Pig', 'Vegetables').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(3).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(8).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(true).
-human_usage('Pets').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(6).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Grazing').
-hunting_technique('Foraging').
-burrowing_behavior('Non-Burrowing').
+animal_category('Guinea Pig', 'Mammal').
+animal_lays_eggs('Guinea Pig', false).
+animal_speed_mph('Guinea Pig', 3).
+animal_has_a_pouch('Guinea Pig', false).
+animal_domesticated('Guinea Pig', true).
+animal_poisonous_or_venomous('Guinea Pig', false).
+animal_breathes_under_water('Guinea Pig', false).
+animal_metamorphosis('Guinea Pig', false).
+animal_average_lifespan('Guinea Pig', 8).
+animal_temperature('Guinea Pig', 'Warm').
+animal_common_pet('Guinea Pig', true).
+animal_endangered('Guinea Pig', false).
+animal_has_tail('Guinea Pig', true).
+animal_has_dorsal_fin('Guinea Pig', false).
+animal_human_interaction('Guinea Pig', 'Dependent').
+animal_intelligence_level('Guinea Pig', 'Learning').
+animal_cheek_pouches('Guinea Pig', true).
+animal_human_usage('Guinea Pig', 'Pets').
+animal_human_usage('Guinea Pig', 'Research').
+animal_group_size('Guinea Pig', 6).
+animal_nest_location('Guinea Pig', 'Ground Level').
+animal_migration('Guinea Pig', false).
+animal_hunting_technique('Guinea Pig', 'Grazing').
+animal_hunting_technique('Guinea Pig', 'Foraging').
+animal_burrowing_behavior('Guinea Pig', 'Non-Burrowing').

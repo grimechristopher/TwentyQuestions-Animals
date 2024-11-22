@@ -1,77 +1,70 @@
+% Facts about Chimpanzee
+
 name('Chimpanzee').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(130).
-% Height in inches
-height_inches(48).
-has_color('Black').
-pattern_type('Solid').
+animal_scales('Chimpanzee', false).
+animal_fur('Chimpanzee', 'Fur').
+animal_feathers('Chimpanzee', false).
+animal_legs('Chimpanzee', 4).
+animal_teeth('Chimpanzee', true).
+animal_wings('Chimpanzee', false).
+animal_weight_lbs('Chimpanzee', 130).
+animal_height_inches('Chimpanzee', 48).
+animal_has_color('Chimpanzee', 'Black').
+animal_pattern_type('Chimpanzee', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior('Complex').
+animal_nocturnal('Chimpanzee', false).
+animal_hibernates('Chimpanzee', false).
+animal_lives_in_groups('Chimpanzee', true).
+animal_social_bonding_level('Chimpanzee', 'Colonial').
+animal_hoarding_behavior('Chimpanzee', 'Complex').
 
 % Habitat and Environment
-habitat('Forest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(15).
+animal_habitat('Chimpanzee', 'Forest').
+animal_preferred_environment_temperature('Chimpanzee', 75).
+animal_territory_size_sq_miles('Chimpanzee', 15).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Complex Vocalizations').
+animal_flies('Chimpanzee', false).
+animal_changes_color('Chimpanzee', false).
+animal_tree_climbing('Chimpanzee', 'Professional').
+animal_fishing_ability('Chimpanzee', 'Poor').
+animal_speech_capability('Chimpanzee', 'Complex Vocalizations').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Chimpanzee', 0).
+animal_clutches_per_year('Chimpanzee', 0).
 
 % Diet
-diet('Omnivore').
-diet_preference('Fruits').
-diet_preference('Insects').
-diet_preference('Small Mammals').
+animal_diet('Chimpanzee', 'Omnivore').
+animal_diet_preference('Chimpanzee', 'Fruits').
+animal_diet_preference('Chimpanzee', 'Insects').
+animal_diet_preference('Chimpanzee', 'Small Mammals').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(25).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(50).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(false).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Abstract Thinker').
-cheek_pouches(false).
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(50).
-nest_location('Tree Branch').
-migration(false).
-hunting_technique('Tool Use').
-hunting_technique('Group Hunting').
-burrowing_behavior('Non-Burrowing').
+animal_category('Chimpanzee', 'Mammal').
+animal_lays_eggs('Chimpanzee', false).
+animal_speed_mph('Chimpanzee', 25).
+animal_has_a_pouch('Chimpanzee', false).
+animal_domesticated('Chimpanzee', false).
+animal_poisonous_or_venomous('Chimpanzee', false).
+animal_breathes_under_water('Chimpanzee', false).
+animal_metamorphosis('Chimpanzee', false).
+animal_average_lifespan('Chimpanzee', 50).
+animal_temperature('Chimpanzee', 'Warm').
+animal_common_pet('Chimpanzee', false).
+animal_endangered('Chimpanzee', true).
+animal_has_tail('Chimpanzee', false).
+animal_has_dorsal_fin('Chimpanzee', false).
+animal_human_interaction('Chimpanzee', 'Cautious').
+animal_intelligence_level('Chimpanzee', 'Abstract Thinker').
+animal_cheek_pouches('Chimpanzee', false).
+animal_human_usage('Chimpanzee', 'Research').
+animal_group_size('Chimpanzee', 50).
+animal_nest_location('Chimpanzee', 'Tree Branch').
+animal_migration('Chimpanzee', false).
+animal_hunting_technique('Chimpanzee', 'Tool Use').
+animal_hunting_technique('Chimpanzee', 'Group Hunting').
+animal_burrowing_behavior('Chimpanzee', 'Non-Burrowing').

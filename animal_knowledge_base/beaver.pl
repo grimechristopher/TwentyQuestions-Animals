@@ -1,77 +1,70 @@
+% Facts about Beaver
+
 name('Beaver').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(40).
-% Height in inches
-height_inches(15).
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Beaver', false).
+animal_fur('Beaver', 'Fur').
+animal_feathers('Beaver', false).
+animal_legs('Beaver', 4).
+animal_teeth('Beaver', true).
+animal_wings('Beaver', false).
+animal_weight_lbs('Beaver', 40).
+animal_height_inches('Beaver', 15).
+animal_has_color('Beaver', 'Brown').
+animal_pattern_type('Beaver', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Family').
-hoarding_behavior('Complex').
+animal_nocturnal('Beaver', false).
+animal_hibernates('Beaver', false).
+animal_lives_in_groups('Beaver', true).
+animal_social_bonding_level('Beaver', 'Family').
+animal_hoarding_behavior('Beaver', 'Complex').
 
 % Habitat and Environment
-habitat('Wetland').
-% Temperature in Fahrenheit
-preferred_environment_temperature(50).
-% Territory size in square miles
-territory_size_sq_miles(0.5).
+animal_habitat('Beaver', 'Wetland').
+animal_preferred_environment_temperature('Beaver', 50).
+animal_territory_size_sq_miles('Beaver', 0.5).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Beaver', false).
+animal_changes_color('Beaver', false).
+animal_tree_climbing('Beaver', 'Poor').
+animal_fishing_ability('Beaver', 'Good').
+animal_speech_capability('Beaver', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Beaver', 0).
+animal_clutches_per_year('Beaver', 0).
 
 % Diet
-diet('Herbivore').
-diet_preference('Bark').
-diet_preference('Leaves').
-diet_preference('Aquatic Plants').
+animal_diet('Beaver', 'Herbivore').
+animal_diet_preference('Beaver', 'Bark').
+animal_diet_preference('Beaver', 'Leaves').
+animal_diet_preference('Beaver', 'Aquatic Plants').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(6).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(10).
-temperature('Cold').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Problem Solver').
-cheek_pouches(true).
-human_usage('Fur').
-human_usage('Meat').
-% Number of individuals in a typical group
-group_size(6).
-nest_location('Water's Edge').
-migration(false).
-hunting_technique('Grazing').
-burrowing_behavior('Tunneling').
+animal_category('Beaver', 'Mammal').
+animal_lays_eggs('Beaver', false).
+animal_speed_mph('Beaver', 6).
+animal_has_a_pouch('Beaver', false).
+animal_domesticated('Beaver', false).
+animal_poisonous_or_venomous('Beaver', false).
+animal_breathes_under_water('Beaver', false).
+animal_metamorphosis('Beaver', false).
+animal_average_lifespan('Beaver', 10).
+animal_temperature('Beaver', 'Cold').
+animal_common_pet('Beaver', false).
+animal_endangered('Beaver', false).
+animal_has_tail('Beaver', true).
+animal_has_dorsal_fin('Beaver', false).
+animal_human_interaction('Beaver', 'Cautious').
+animal_intelligence_level('Beaver', 'Problem Solver').
+animal_cheek_pouches('Beaver', true).
+animal_human_usage('Beaver', 'Fur').
+animal_human_usage('Beaver', 'Meat').
+animal_group_size('Beaver', 6).
+animal_nest_location('Beaver', 'Water''s Edge').
+animal_migration('Beaver', false).
+animal_hunting_technique('Beaver', 'Grazing').
+animal_burrowing_behavior('Beaver', 'Tunneling').

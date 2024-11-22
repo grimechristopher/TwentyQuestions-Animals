@@ -1,79 +1,72 @@
+% Facts about Ring-necked Pheasant
+
 name('Ring-necked Pheasant').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(2.75).
-% Height in inches
-height_inches(22).
-has_color('Multiple').
-has_color('Iridescent').
-pattern_type('Patterned').
+animal_scales('Ring-necked Pheasant', false).
+animal_fur('Ring-necked Pheasant', false).
+animal_feathers('Ring-necked Pheasant', true).
+animal_legs('Ring-necked Pheasant', 2).
+animal_teeth('Ring-necked Pheasant', false).
+animal_wings('Ring-necked Pheasant', true).
+animal_weight_lbs('Ring-necked Pheasant', 2.75).
+animal_height_inches('Ring-necked Pheasant', 22).
+animal_has_color('Ring-necked Pheasant', 'Multiple').
+animal_has_color('Ring-necked Pheasant', 'Iridescent').
+animal_pattern_type('Ring-necked Pheasant', 'Patterned').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Small Groups').
-hoarding_behavior(false).
+animal_nocturnal('Ring-necked Pheasant', false).
+animal_hibernates('Ring-necked Pheasant', false).
+animal_lives_in_groups('Ring-necked Pheasant', true).
+animal_social_bonding_level('Ring-necked Pheasant', 'Small Groups').
+animal_hoarding_behavior('Ring-necked Pheasant', false).
 
 % Habitat and Environment
-habitat('Grassland').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(1).
+animal_habitat('Ring-necked Pheasant', 'Grassland').
+animal_preferred_environment_temperature('Ring-necked Pheasant', 70).
+animal_territory_size_sq_miles('Ring-necked Pheasant', 1).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Ring-necked Pheasant', true).
+animal_changes_color('Ring-necked Pheasant', false).
+animal_tree_climbing('Ring-necked Pheasant', 'Poor').
+animal_fishing_ability('Ring-necked Pheasant', 'Poor').
+animal_speech_capability('Ring-necked Pheasant', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(12).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Ring-necked Pheasant', 12).
+animal_clutches_per_year('Ring-necked Pheasant', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Seeds').
-diet_preference('Insects').
+animal_diet('Ring-necked Pheasant', 'Omnivore').
+animal_diet_preference('Ring-necked Pheasant', 'Seeds').
+animal_diet_preference('Ring-necked Pheasant', 'Insects').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(35).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(3).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Sport').
-human_usage('Feathers').
-% Number of individuals in a typical group
-group_size(10).
-nest_location('Ground Cover').
-migration(false).
-hunting_technique('Ground Feeding').
-hunting_technique('Scratching').
-burrowing_behavior('Non-Burrowing').
+animal_category('Ring-necked Pheasant', 'Bird').
+animal_lays_eggs('Ring-necked Pheasant', true).
+animal_speed_mph('Ring-necked Pheasant', 35).
+animal_has_a_pouch('Ring-necked Pheasant', false).
+animal_domesticated('Ring-necked Pheasant', true).
+animal_poisonous_or_venomous('Ring-necked Pheasant', false).
+animal_breathes_under_water('Ring-necked Pheasant', false).
+animal_metamorphosis('Ring-necked Pheasant', false).
+animal_average_lifespan('Ring-necked Pheasant', 3).
+animal_temperature('Ring-necked Pheasant', 'Warm').
+animal_common_pet('Ring-necked Pheasant', true).
+animal_endangered('Ring-necked Pheasant', false).
+animal_has_tail('Ring-necked Pheasant', true).
+animal_has_dorsal_fin('Ring-necked Pheasant', false).
+animal_human_interaction('Ring-necked Pheasant', 'Cautious').
+animal_intelligence_level('Ring-necked Pheasant', 'Learning').
+animal_cheek_pouches('Ring-necked Pheasant', false).
+animal_human_usage('Ring-necked Pheasant', 'Meat').
+animal_human_usage('Ring-necked Pheasant', 'Sport').
+animal_human_usage('Ring-necked Pheasant', 'Feathers').
+animal_group_size('Ring-necked Pheasant', 10).
+animal_nest_location('Ring-necked Pheasant', 'Ground Cover').
+animal_migration('Ring-necked Pheasant', false).
+animal_hunting_technique('Ring-necked Pheasant', 'Ground Feeding').
+animal_hunting_technique('Ring-necked Pheasant', 'Scratching').
+animal_burrowing_behavior('Ring-necked Pheasant', 'Non-Burrowing').

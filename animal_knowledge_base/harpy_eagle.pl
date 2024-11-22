@@ -1,79 +1,72 @@
+% Facts about Harpy Eagle
+
 name('Harpy Eagle').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(20).
-% Height in inches
-height_inches(40).
-has_color('Black').
-has_color('White').
-has_color('Gray').
-pattern_type('Two-toned').
+animal_scales('Harpy Eagle', false).
+animal_fur('Harpy Eagle', false).
+animal_feathers('Harpy Eagle', true).
+animal_legs('Harpy Eagle', 2).
+animal_teeth('Harpy Eagle', false).
+animal_wings('Harpy Eagle', true).
+animal_weight_lbs('Harpy Eagle', 20).
+animal_height_inches('Harpy Eagle', 40).
+animal_has_color('Harpy Eagle', 'Black').
+animal_has_color('Harpy Eagle', 'White').
+animal_has_color('Harpy Eagle', 'Gray').
+animal_pattern_type('Harpy Eagle', 'Two-toned').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Pairs').
-hoarding_behavior(false).
+animal_nocturnal('Harpy Eagle', false).
+animal_hibernates('Harpy Eagle', false).
+animal_lives_in_groups('Harpy Eagle', false).
+animal_social_bonding_level('Harpy Eagle', 'Pairs').
+animal_hoarding_behavior('Harpy Eagle', false).
 
 % Habitat and Environment
-habitat('Rainforest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(25).
+animal_habitat('Harpy Eagle', 'Rainforest').
+animal_preferred_environment_temperature('Harpy Eagle', 75).
+animal_territory_size_sq_miles('Harpy Eagle', 25).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Excellent').
-speech_capability('Basic').
+animal_flies('Harpy Eagle', true).
+animal_changes_color('Harpy Eagle', false).
+animal_tree_climbing('Harpy Eagle', 'Professional').
+animal_fishing_ability('Harpy Eagle', 'Excellent').
+animal_speech_capability('Harpy Eagle', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(2).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Harpy Eagle', 2).
+animal_clutches_per_year('Harpy Eagle', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Monkeys').
-diet_preference('Sloths').
+animal_diet('Harpy Eagle', 'Carnivore').
+animal_diet_preference('Harpy Eagle', 'Monkeys').
+animal_diet_preference('Harpy Eagle', 'Sloths').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(50).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(35).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Tourism').
-human_usage('Conservation').
-% Number of individuals in a typical group
-group_size(2).
-nest_location('Emergent Trees').
-migration(false).
-hunting_technique('Aerial Attack').
-hunting_technique('Ambush').
-burrowing_behavior('Non-Burrowing').
+animal_category('Harpy Eagle', 'Bird').
+animal_lays_eggs('Harpy Eagle', true).
+animal_speed_mph('Harpy Eagle', 50).
+animal_has_a_pouch('Harpy Eagle', false).
+animal_domesticated('Harpy Eagle', false).
+animal_poisonous_or_venomous('Harpy Eagle', false).
+animal_breathes_under_water('Harpy Eagle', false).
+animal_metamorphosis('Harpy Eagle', false).
+animal_average_lifespan('Harpy Eagle', 35).
+animal_temperature('Harpy Eagle', 'Warm').
+animal_common_pet('Harpy Eagle', false).
+animal_endangered('Harpy Eagle', true).
+animal_has_tail('Harpy Eagle', true).
+animal_has_dorsal_fin('Harpy Eagle', false).
+animal_human_interaction('Harpy Eagle', 'Fearful').
+animal_intelligence_level('Harpy Eagle', 'Complex Learner').
+animal_cheek_pouches('Harpy Eagle', false).
+animal_human_usage('Harpy Eagle', 'Tourism').
+animal_human_usage('Harpy Eagle', 'Conservation').
+animal_group_size('Harpy Eagle', 2).
+animal_nest_location('Harpy Eagle', 'Emergent Trees').
+animal_migration('Harpy Eagle', false).
+animal_hunting_technique('Harpy Eagle', 'Aerial Attack').
+animal_hunting_technique('Harpy Eagle', 'Ambush').
+animal_burrowing_behavior('Harpy Eagle', 'Non-Burrowing').

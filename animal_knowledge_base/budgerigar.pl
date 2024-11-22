@@ -1,78 +1,71 @@
+% Facts about Budgerigar
+
 name('Budgerigar').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(0.1).
-% Height in inches
-height_inches(7).
-has_color('Green').
-has_color('Yellow').
-has_color('Blue').
-has_color('White').
-pattern_type('Various').
+animal_scales('Budgerigar', false).
+animal_fur('Budgerigar', false).
+animal_feathers('Budgerigar', true).
+animal_legs('Budgerigar', 2).
+animal_teeth('Budgerigar', false).
+animal_wings('Budgerigar', true).
+animal_weight_lbs('Budgerigar', 0.1).
+animal_height_inches('Budgerigar', 7).
+animal_has_color('Budgerigar', 'Green').
+animal_has_color('Budgerigar', 'Yellow').
+animal_has_color('Budgerigar', 'Blue').
+animal_has_color('Budgerigar', 'White').
+animal_pattern_type('Budgerigar', 'Various').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Pairs').
-hoarding_behavior(false).
+animal_nocturnal('Budgerigar', false).
+animal_hibernates('Budgerigar', false).
+animal_lives_in_groups('Budgerigar', true).
+animal_social_bonding_level('Budgerigar', 'Pairs').
+animal_hoarding_behavior('Budgerigar', false).
 
 % Habitat and Environment
-habitat('Domestic').
-% Temperature in Fahrenheit
-preferred_environment_temperature(72).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Budgerigar', 'Domestic').
+animal_preferred_environment_temperature('Budgerigar', 72).
+animal_territory_size_sq_miles('Budgerigar', 0).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Basic Speech').
+animal_flies('Budgerigar', true).
+animal_changes_color('Budgerigar', false).
+animal_tree_climbing('Budgerigar', 'Professional').
+animal_fishing_ability('Budgerigar', 'Poor').
+animal_speech_capability('Budgerigar', 'Basic Speech').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(6).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Budgerigar', 6).
+animal_clutches_per_year('Budgerigar', 2).
 
 % Diet
-diet('Omnivore').
-diet_preference('Seeds').
-diet_preference('Vegetables').
+animal_diet('Budgerigar', 'Omnivore').
+animal_diet_preference('Budgerigar', 'Seeds').
+animal_diet_preference('Budgerigar', 'Vegetables').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(12).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(10).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(2).
-nest_location('Nest Box').
-migration(false).
-hunting_technique('Foraging').
-burrowing_behavior('Non-Burrowing').
+animal_category('Budgerigar', 'Bird').
+animal_lays_eggs('Budgerigar', true).
+animal_speed_mph('Budgerigar', 12).
+animal_has_a_pouch('Budgerigar', false).
+animal_domesticated('Budgerigar', true).
+animal_poisonous_or_venomous('Budgerigar', false).
+animal_breathes_under_water('Budgerigar', false).
+animal_metamorphosis('Budgerigar', false).
+animal_average_lifespan('Budgerigar', 10).
+animal_temperature('Budgerigar', 'Warm').
+animal_common_pet('Budgerigar', true).
+animal_endangered('Budgerigar', false).
+animal_has_tail('Budgerigar', true).
+animal_has_dorsal_fin('Budgerigar', false).
+animal_human_interaction('Budgerigar', 'Dependent').
+animal_intelligence_level('Budgerigar', 'Complex Learner').
+animal_cheek_pouches('Budgerigar', false).
+animal_human_usage('Budgerigar', 'Pets').
+animal_group_size('Budgerigar', 2).
+animal_nest_location('Budgerigar', 'Nest Box').
+animal_migration('Budgerigar', false).
+animal_hunting_technique('Budgerigar', 'Foraging').
+animal_burrowing_behavior('Budgerigar', 'Non-Burrowing').

@@ -1,79 +1,72 @@
+% Facts about Cobra
+
 name('Cobra').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(15).
-% Height in inches
-height_inches(72).
-has_color('Black').
-has_color('Brown').
-has_color('Yellow').
-pattern_type('Solid').
+animal_scales('Cobra', true).
+animal_fur('Cobra', false).
+animal_feathers('Cobra', false).
+animal_legs('Cobra', 0).
+animal_teeth('Cobra', true).
+animal_wings('Cobra', false).
+animal_weight_lbs('Cobra', 15).
+animal_height_inches('Cobra', 72).
+animal_has_color('Cobra', 'Black').
+animal_has_color('Cobra', 'Brown').
+animal_has_color('Cobra', 'Yellow').
+animal_pattern_type('Cobra', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Cobra', true).
+animal_hibernates('Cobra', false).
+animal_lives_in_groups('Cobra', true).
+animal_social_bonding_level('Cobra', 'Solitary').
+animal_hoarding_behavior('Cobra', false).
 
 % Habitat and Environment
-habitat('Forests').
-habitat('Grasslands').
-% Temperature in Fahrenheit
-preferred_environment_temperature(85).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Cobra', 'Forests').
+animal_habitat('Cobra', 'Grasslands').
+animal_preferred_environment_temperature('Cobra', 85).
+animal_territory_size_sq_miles('Cobra', 0.1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Cobra', false).
+animal_changes_color('Cobra', false).
+animal_tree_climbing('Cobra', 'Poor').
+animal_fishing_ability('Cobra', 'Poor').
+animal_speech_capability('Cobra', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(20).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Cobra', 20).
+animal_clutches_per_year('Cobra', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Small Mammals').
-diet_preference('Birds').
+animal_diet('Cobra', 'Carnivore').
+animal_diet_preference('Cobra', 'Small Mammals').
+animal_diet_preference('Cobra', 'Birds').
 
 % Other Characteristics
-category('Reptile').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(12).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous('Venomous').
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(18).
-temperature('Cold').
-common_pet(false).
-endangered(true).
-has_tail(false).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Underground').
-migration(false).
-hunting_technique('Ambush').
-hunting_technique('Venom').
-burrowing_behavior('Burrow User').
+animal_category('Cobra', 'Reptile').
+animal_lays_eggs('Cobra', true).
+animal_speed_mph('Cobra', 12).
+animal_has_a_pouch('Cobra', false).
+animal_domesticated('Cobra', false).
+animal_poisonous_or_venomous('Cobra', 'Venomous').
+animal_breathes_under_water('Cobra', false).
+animal_metamorphosis('Cobra', false).
+animal_average_lifespan('Cobra', 18).
+animal_temperature('Cobra', 'Cold').
+animal_common_pet('Cobra', false).
+animal_endangered('Cobra', true).
+animal_has_tail('Cobra', false).
+animal_has_dorsal_fin('Cobra', false).
+animal_human_interaction('Cobra', 'Fearful').
+animal_intelligence_level('Cobra', 'Learning').
+animal_cheek_pouches('Cobra', false).
+animal_human_usage('Cobra', 'Pets').
+animal_group_size('Cobra', 1).
+animal_nest_location('Cobra', 'Underground').
+animal_migration('Cobra', false).
+animal_hunting_technique('Cobra', 'Ambush').
+animal_hunting_technique('Cobra', 'Venom').
+animal_burrowing_behavior('Cobra', 'Burrow User').

@@ -1,76 +1,69 @@
+% Facts about Sea Lion
+
 name('Sea Lion').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(700).
-% Height in inches
-height_inches(84).
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Sea Lion', false).
+animal_fur('Sea Lion', 'Fur').
+animal_feathers('Sea Lion', false).
+animal_legs('Sea Lion', 4).
+animal_teeth('Sea Lion', true).
+animal_wings('Sea Lion', false).
+animal_weight_lbs('Sea Lion', 700).
+animal_height_inches('Sea Lion', 84).
+animal_has_color('Sea Lion', 'Brown').
+animal_pattern_type('Sea Lion', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Sea Lion', false).
+animal_hibernates('Sea Lion', false).
+animal_lives_in_groups('Sea Lion', true).
+animal_social_bonding_level('Sea Lion', 'Colonial').
+animal_hoarding_behavior('Sea Lion', false).
 
 % Habitat and Environment
-habitat('Coastal').
-% Temperature in Fahrenheit
-preferred_environment_temperature(60).
-% Territory size in square miles
-territory_size_sq_miles(5).
+animal_habitat('Sea Lion', 'Coastal').
+animal_preferred_environment_temperature('Sea Lion', 60).
+animal_territory_size_sq_miles('Sea Lion', 5).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('Basic').
+animal_flies('Sea Lion', false).
+animal_changes_color('Sea Lion', false).
+animal_tree_climbing('Sea Lion', 'Poor').
+animal_fishing_ability('Sea Lion', 'Professional').
+animal_speech_capability('Sea Lion', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Sea Lion', 0).
+animal_clutches_per_year('Sea Lion', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Fish').
-diet_preference('Squid').
+animal_diet('Sea Lion', 'Carnivore').
+animal_diet_preference('Sea Lion', 'Fish').
+animal_diet_preference('Sea Lion', 'Squid').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(25).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Cold').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Social').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(100).
-nest_location('Beach').
-migration('Seasonal').
-hunting_technique('Pursuit Swimming').
-hunting_technique('Ambush').
-burrowing_behavior('Non-Burrowing').
+animal_category('Sea Lion', 'Mammal').
+animal_lays_eggs('Sea Lion', false).
+animal_speed_mph('Sea Lion', 25).
+animal_has_a_pouch('Sea Lion', false).
+animal_domesticated('Sea Lion', false).
+animal_poisonous_or_venomous('Sea Lion', false).
+animal_breathes_under_water('Sea Lion', true).
+animal_metamorphosis('Sea Lion', false).
+animal_average_lifespan('Sea Lion', 20).
+animal_temperature('Sea Lion', 'Cold').
+animal_common_pet('Sea Lion', false).
+animal_endangered('Sea Lion', false).
+animal_has_tail('Sea Lion', true).
+animal_has_dorsal_fin('Sea Lion', true).
+animal_human_interaction('Sea Lion', 'Social').
+animal_intelligence_level('Sea Lion', 'Complex Learner').
+animal_cheek_pouches('Sea Lion', false).
+animal_human_usage('Sea Lion', 'Tourism').
+animal_group_size('Sea Lion', 100).
+animal_nest_location('Sea Lion', 'Beach').
+animal_migration('Sea Lion', 'Seasonal').
+animal_hunting_technique('Sea Lion', 'Pursuit Swimming').
+animal_hunting_technique('Sea Lion', 'Ambush').
+animal_burrowing_behavior('Sea Lion', 'Non-Burrowing').

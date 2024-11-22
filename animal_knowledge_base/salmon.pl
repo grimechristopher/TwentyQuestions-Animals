@@ -1,77 +1,70 @@
+% Facts about Salmon
+
 name('Salmon').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(30).
-% Height in inches
-height_inches(36).
-has_color('Silver').
-has_color('Pink').
-pattern_type('Solid').
+animal_scales('Salmon', true).
+animal_fur('Salmon', false).
+animal_feathers('Salmon', false).
+animal_legs('Salmon', 0).
+animal_teeth('Salmon', true).
+animal_wings('Salmon', false).
+animal_weight_lbs('Salmon', 30).
+animal_height_inches('Salmon', 36).
+animal_has_color('Salmon', 'Silver').
+animal_has_color('Salmon', 'Pink').
+animal_pattern_type('Salmon', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('School').
-hoarding_behavior(false).
+animal_nocturnal('Salmon', false).
+animal_hibernates('Salmon', false).
+animal_lives_in_groups('Salmon', true).
+animal_social_bonding_level('Salmon', 'School').
+animal_hoarding_behavior('Salmon', false).
 
 % Habitat and Environment
-habitat('Marine').
-habitat('River').
-% Temperature in Fahrenheit
-preferred_environment_temperature(50).
-% Territory size in square miles
-territory_size_sq_miles(1000).
+animal_habitat('Salmon', 'Marine').
+animal_habitat('Salmon', 'River').
+animal_preferred_environment_temperature('Salmon', 50).
+animal_territory_size_sq_miles('Salmon', 1000).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('None').
+animal_flies('Salmon', false).
+animal_changes_color('Salmon', false).
+animal_tree_climbing('Salmon', 'Poor').
+animal_fishing_ability('Salmon', 'Professional').
+animal_speech_capability('Salmon', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(5000).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Salmon', 5000).
+animal_clutches_per_year('Salmon', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Fish').
-diet_preference('Krill').
+animal_diet('Salmon', 'Carnivore').
+animal_diet_preference('Salmon', 'Fish').
+animal_diet_preference('Salmon', 'Krill').
 
 % Other Characteristics
-category('Fish').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(20).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(8).
-temperature('Cold').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Neutral').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Food').
-% Number of individuals in a typical group
-group_size(1000).
-nest_location('Gravel Bed').
-migration(true).
-hunting_technique('Filter Feeding').
-burrowing_behavior('Non-Burrowing').
+animal_category('Salmon', 'Fish').
+animal_lays_eggs('Salmon', true).
+animal_speed_mph('Salmon', 20).
+animal_has_a_pouch('Salmon', false).
+animal_domesticated('Salmon', false).
+animal_poisonous_or_venomous('Salmon', false).
+animal_breathes_under_water('Salmon', true).
+animal_metamorphosis('Salmon', false).
+animal_average_lifespan('Salmon', 8).
+animal_temperature('Salmon', 'Cold').
+animal_common_pet('Salmon', false).
+animal_endangered('Salmon', true).
+animal_has_tail('Salmon', true).
+animal_has_dorsal_fin('Salmon', true).
+animal_human_interaction('Salmon', 'Neutral').
+animal_intelligence_level('Salmon', 'Learning').
+animal_cheek_pouches('Salmon', false).
+animal_human_usage('Salmon', 'Food').
+animal_group_size('Salmon', 1000).
+animal_nest_location('Salmon', 'Gravel Bed').
+animal_migration('Salmon', true).
+animal_hunting_technique('Salmon', 'Filter Feeding').
+animal_burrowing_behavior('Salmon', 'Non-Burrowing').

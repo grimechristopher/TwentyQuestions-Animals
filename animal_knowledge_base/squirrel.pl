@@ -1,78 +1,71 @@
+% Facts about Squirrel
+
 name('Squirrel').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(1.5).
-% Height in inches
-height_inches(8).
-has_color('Gray').
-has_color('Red').
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Squirrel', false).
+animal_fur('Squirrel', false).
+animal_feathers('Squirrel', false).
+animal_legs('Squirrel', 4).
+animal_teeth('Squirrel', true).
+animal_wings('Squirrel', false).
+animal_weight_lbs('Squirrel', 1.5).
+animal_height_inches('Squirrel', 8).
+animal_has_color('Squirrel', 'Gray').
+animal_has_color('Squirrel', 'Red').
+animal_has_color('Squirrel', 'Brown').
+animal_pattern_type('Squirrel', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(true).
-lives_in_groups(false).
-social_bonding_level('Colonial').
-hoarding_behavior('Complex').
+animal_nocturnal('Squirrel', false).
+animal_hibernates('Squirrel', true).
+animal_lives_in_groups('Squirrel', false).
+animal_social_bonding_level('Squirrel', 'Colonial').
+animal_hoarding_behavior('Squirrel', 'Complex').
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Squirrel', 'Various').
+animal_preferred_environment_temperature('Squirrel', 70).
+animal_territory_size_sq_miles('Squirrel', 0.1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Squirrel', false).
+animal_changes_color('Squirrel', false).
+animal_tree_climbing('Squirrel', 'Professional').
+animal_fishing_ability('Squirrel', 'Poor').
+animal_speech_capability('Squirrel', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Squirrel', 0).
+animal_clutches_per_year('Squirrel', 0).
 
 % Diet
-diet('Omnivore').
-diet_preference('Nuts').
-diet_preference('Seeds').
-diet_preference('Fruits').
+animal_diet('Squirrel', 'Omnivore').
+animal_diet_preference('Squirrel', 'Nuts').
+animal_diet_preference('Squirrel', 'Seeds').
+animal_diet_preference('Squirrel', 'Fruits').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(20).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(6).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Tolerant').
-intelligence_level('Complex Learner').
-cheek_pouches(true).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(10).
-nest_location('Tree Cavity').
-migration(false).
-hunting_technique('Foraging').
-burrowing_behavior('Non-Burrowing').
+animal_category('Squirrel', 'Mammal').
+animal_lays_eggs('Squirrel', false).
+animal_speed_mph('Squirrel', 20).
+animal_has_a_pouch('Squirrel', false).
+animal_domesticated('Squirrel', false).
+animal_poisonous_or_venomous('Squirrel', false).
+animal_breathes_under_water('Squirrel', false).
+animal_metamorphosis('Squirrel', false).
+animal_average_lifespan('Squirrel', 6).
+animal_temperature('Squirrel', 'Warm').
+animal_common_pet('Squirrel', false).
+animal_endangered('Squirrel', false).
+animal_has_tail('Squirrel', true).
+animal_has_dorsal_fin('Squirrel', false).
+animal_human_interaction('Squirrel', 'Tolerant').
+animal_intelligence_level('Squirrel', 'Complex Learner').
+animal_cheek_pouches('Squirrel', true).
+animal_human_usage('Squirrel', 'Tourism').
+animal_group_size('Squirrel', 10).
+animal_nest_location('Squirrel', 'Tree Cavity').
+animal_migration('Squirrel', false).
+animal_hunting_technique('Squirrel', 'Foraging').
+animal_burrowing_behavior('Squirrel', 'Non-Burrowing').

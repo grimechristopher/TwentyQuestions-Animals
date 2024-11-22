@@ -1,78 +1,71 @@
+% Facts about Sea Turtle
+
 name('Sea Turtle').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(4).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(350).
-% Height in inches
-height_inches(48).
-has_color('Green').
-has_color('Brown').
-pattern_type('Shell Pattern').
+animal_scales('Sea Turtle', true).
+animal_fur('Sea Turtle', false).
+animal_feathers('Sea Turtle', false).
+animal_legs('Sea Turtle', 4).
+animal_teeth('Sea Turtle', false).
+animal_wings('Sea Turtle', false).
+animal_weight_lbs('Sea Turtle', 350).
+animal_height_inches('Sea Turtle', 48).
+animal_has_color('Sea Turtle', 'Green').
+animal_has_color('Sea Turtle', 'Brown').
+animal_pattern_type('Sea Turtle', 'Shell Pattern').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Sea Turtle', false).
+animal_hibernates('Sea Turtle', false).
+animal_lives_in_groups('Sea Turtle', false).
+animal_social_bonding_level('Sea Turtle', 'Solitary').
+animal_hoarding_behavior('Sea Turtle', false).
 
 % Habitat and Environment
-habitat('Marine').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(1000).
+animal_habitat('Sea Turtle', 'Marine').
+animal_preferred_environment_temperature('Sea Turtle', 75).
+animal_territory_size_sq_miles('Sea Turtle', 1000).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('Basic').
+animal_flies('Sea Turtle', false).
+animal_changes_color('Sea Turtle', false).
+animal_tree_climbing('Sea Turtle', 'Poor').
+animal_fishing_ability('Sea Turtle', 'Professional').
+animal_speech_capability('Sea Turtle', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(100).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Sea Turtle', 100).
+animal_clutches_per_year('Sea Turtle', 2).
 
 % Diet
-diet('Omnivore').
-diet_preference('Jellyfish').
-diet_preference('Seagrass').
+animal_diet('Sea Turtle', 'Omnivore').
+animal_diet_preference('Sea Turtle', 'Jellyfish').
+animal_diet_preference('Sea Turtle', 'Seagrass').
 
 % Other Characteristics
-category('Reptile').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(22).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(80).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-human_usage('Conservation').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Beach').
-migration(true).
-hunting_technique('Active Swimming').
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Sea Turtle', 'Reptile').
+animal_lays_eggs('Sea Turtle', true).
+animal_speed_mph('Sea Turtle', 22).
+animal_has_a_pouch('Sea Turtle', false).
+animal_domesticated('Sea Turtle', false).
+animal_poisonous_or_venomous('Sea Turtle', false).
+animal_breathes_under_water('Sea Turtle', true).
+animal_metamorphosis('Sea Turtle', false).
+animal_average_lifespan('Sea Turtle', 80).
+animal_temperature('Sea Turtle', 'Warm').
+animal_common_pet('Sea Turtle', false).
+animal_endangered('Sea Turtle', true).
+animal_has_tail('Sea Turtle', true).
+animal_has_dorsal_fin('Sea Turtle', false).
+animal_human_interaction('Sea Turtle', 'Cautious').
+animal_intelligence_level('Sea Turtle', 'Learning').
+animal_cheek_pouches('Sea Turtle', false).
+animal_human_usage('Sea Turtle', 'Tourism').
+animal_human_usage('Sea Turtle', 'Conservation').
+animal_group_size('Sea Turtle', 1).
+animal_nest_location('Sea Turtle', 'Beach').
+animal_migration('Sea Turtle', true).
+animal_hunting_technique('Sea Turtle', 'Active Swimming').
+animal_hunting_technique('Sea Turtle', 'Grazing').
+animal_burrowing_behavior('Sea Turtle', 'Non-Burrowing').

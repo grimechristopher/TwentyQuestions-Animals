@@ -1,78 +1,71 @@
+% Facts about Hippopotamus
+
 name('Hippopotamus').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(3300).
-% Height in inches
-height_inches(60).
-has_color('Gray').
-has_color('Pink').
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Hippopotamus', false).
+animal_fur('Hippopotamus', 'Fur').
+animal_feathers('Hippopotamus', false).
+animal_legs('Hippopotamus', 4).
+animal_teeth('Hippopotamus', true).
+animal_wings('Hippopotamus', false).
+animal_weight_lbs('Hippopotamus', 3300).
+animal_height_inches('Hippopotamus', 60).
+animal_has_color('Hippopotamus', 'Gray').
+animal_has_color('Hippopotamus', 'Pink').
+animal_has_color('Hippopotamus', 'Brown').
+animal_pattern_type('Hippopotamus', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Hippopotamus', false).
+animal_hibernates('Hippopotamus', false).
+animal_lives_in_groups('Hippopotamus', true).
+animal_social_bonding_level('Hippopotamus', 'Colonial').
+animal_hoarding_behavior('Hippopotamus', false).
 
 % Habitat and Environment
-habitat('River').
-% Temperature in Fahrenheit
-preferred_environment_temperature(85).
-% Territory size in square miles
-territory_size_sq_miles(1).
+animal_habitat('Hippopotamus', 'River').
+animal_preferred_environment_temperature('Hippopotamus', 85).
+animal_territory_size_sq_miles('Hippopotamus', 1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Hippopotamus', false).
+animal_changes_color('Hippopotamus', false).
+animal_tree_climbing('Hippopotamus', 'Poor').
+animal_fishing_ability('Hippopotamus', 'Good').
+animal_speech_capability('Hippopotamus', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Hippopotamus', 0).
+animal_clutches_per_year('Hippopotamus', 0).
 
 % Diet
-diet('Herbivore').
-diet_preference('Grass').
-diet_preference('Aquatic Plants').
+animal_diet('Hippopotamus', 'Herbivore').
+animal_diet_preference('Hippopotamus', 'Grass').
+animal_diet_preference('Hippopotamus', 'Aquatic Plants').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(19).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(45).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Aggressive').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Hide').
-% Number of individuals in a typical group
-group_size(20).
-nest_location('Water's Edge').
-migration(false).
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Hippopotamus', 'Mammal').
+animal_lays_eggs('Hippopotamus', false).
+animal_speed_mph('Hippopotamus', 19).
+animal_has_a_pouch('Hippopotamus', false).
+animal_domesticated('Hippopotamus', false).
+animal_poisonous_or_venomous('Hippopotamus', false).
+animal_breathes_under_water('Hippopotamus', true).
+animal_metamorphosis('Hippopotamus', false).
+animal_average_lifespan('Hippopotamus', 45).
+animal_temperature('Hippopotamus', 'Warm').
+animal_common_pet('Hippopotamus', false).
+animal_endangered('Hippopotamus', false).
+animal_has_tail('Hippopotamus', true).
+animal_has_dorsal_fin('Hippopotamus', false).
+animal_human_interaction('Hippopotamus', 'Aggressive').
+animal_intelligence_level('Hippopotamus', 'Complex Learner').
+animal_cheek_pouches('Hippopotamus', false).
+animal_human_usage('Hippopotamus', 'Meat').
+animal_human_usage('Hippopotamus', 'Hide').
+animal_group_size('Hippopotamus', 20).
+animal_nest_location('Hippopotamus', 'Water''s Edge').
+animal_migration('Hippopotamus', false).
+animal_hunting_technique('Hippopotamus', 'Grazing').
+animal_burrowing_behavior('Hippopotamus', 'Non-Burrowing').

@@ -1,77 +1,70 @@
+% Facts about Cockatiel
+
 name('Cockatiel').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(0.25).
-% Height in inches
-height_inches(11).
-has_color('Gray').
-has_color('White').
-has_color('Yellow').
-pattern_type('Various').
+animal_scales('Cockatiel', false).
+animal_fur('Cockatiel', false).
+animal_feathers('Cockatiel', true).
+animal_legs('Cockatiel', 2).
+animal_teeth('Cockatiel', false).
+animal_wings('Cockatiel', true).
+animal_weight_lbs('Cockatiel', 0.25).
+animal_height_inches('Cockatiel', 11).
+animal_has_color('Cockatiel', 'Gray').
+animal_has_color('Cockatiel', 'White').
+animal_has_color('Cockatiel', 'Yellow').
+animal_pattern_type('Cockatiel', 'Various').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Pairs').
-hoarding_behavior(false).
+animal_nocturnal('Cockatiel', false).
+animal_hibernates('Cockatiel', false).
+animal_lives_in_groups('Cockatiel', true).
+animal_social_bonding_level('Cockatiel', 'Pairs').
+animal_hoarding_behavior('Cockatiel', false).
 
 % Habitat and Environment
-habitat('Domestic').
-% Temperature in Fahrenheit
-preferred_environment_temperature(72).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Cockatiel', 'Domestic').
+animal_preferred_environment_temperature('Cockatiel', 72).
+animal_territory_size_sq_miles('Cockatiel', 0).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Basic Speech').
+animal_flies('Cockatiel', true).
+animal_changes_color('Cockatiel', false).
+animal_tree_climbing('Cockatiel', 'Professional').
+animal_fishing_ability('Cockatiel', 'Poor').
+animal_speech_capability('Cockatiel', 'Basic Speech').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(4).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Cockatiel', 4).
+animal_clutches_per_year('Cockatiel', 2).
 
 % Diet
-diet('Omnivore').
-diet_preference('Seeds').
-diet_preference('Vegetables').
+animal_diet('Cockatiel', 'Omnivore').
+animal_diet_preference('Cockatiel', 'Seeds').
+animal_diet_preference('Cockatiel', 'Vegetables').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(15).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(15).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(2).
-nest_location('Nest Box').
-migration(false).
-hunting_technique('Foraging').
-burrowing_behavior('Non-Burrowing').
+animal_category('Cockatiel', 'Bird').
+animal_lays_eggs('Cockatiel', true).
+animal_speed_mph('Cockatiel', 15).
+animal_has_a_pouch('Cockatiel', false).
+animal_domesticated('Cockatiel', true).
+animal_poisonous_or_venomous('Cockatiel', false).
+animal_breathes_under_water('Cockatiel', false).
+animal_metamorphosis('Cockatiel', false).
+animal_average_lifespan('Cockatiel', 15).
+animal_temperature('Cockatiel', 'Warm').
+animal_common_pet('Cockatiel', true).
+animal_endangered('Cockatiel', false).
+animal_has_tail('Cockatiel', true).
+animal_has_dorsal_fin('Cockatiel', false).
+animal_human_interaction('Cockatiel', 'Dependent').
+animal_intelligence_level('Cockatiel', 'Complex Learner').
+animal_cheek_pouches('Cockatiel', false).
+animal_human_usage('Cockatiel', 'Pets').
+animal_group_size('Cockatiel', 2).
+animal_nest_location('Cockatiel', 'Nest Box').
+animal_migration('Cockatiel', false).
+animal_hunting_technique('Cockatiel', 'Foraging').
+animal_burrowing_behavior('Cockatiel', 'Non-Burrowing').

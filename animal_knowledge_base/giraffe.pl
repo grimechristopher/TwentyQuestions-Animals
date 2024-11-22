@@ -1,77 +1,70 @@
+% Facts about Giraffe
+
 name('Giraffe').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(2200).
-% Height in inches
-height_inches(216).
-has_color('Tan').
-has_color('Brown').
-has_color('White Patches').
-pattern_type('Patched').
+animal_scales('Giraffe', false).
+animal_fur('Giraffe', 'Fur').
+animal_feathers('Giraffe', false).
+animal_legs('Giraffe', 4).
+animal_teeth('Giraffe', true).
+animal_wings('Giraffe', false).
+animal_weight_lbs('Giraffe', 2200).
+animal_height_inches('Giraffe', 216).
+animal_has_color('Giraffe', 'Tan').
+animal_has_color('Giraffe', 'Brown').
+animal_has_color('Giraffe', 'White Patches').
+animal_pattern_type('Giraffe', 'Patched').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Giraffe', false).
+animal_hibernates('Giraffe', false).
+animal_lives_in_groups('Giraffe', true).
+animal_social_bonding_level('Giraffe', 'Colonial').
+animal_hoarding_behavior('Giraffe', false).
 
 % Habitat and Environment
-habitat('Grassland').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(10).
+animal_habitat('Giraffe', 'Grassland').
+animal_preferred_environment_temperature('Giraffe', 80).
+animal_territory_size_sq_miles('Giraffe', 10).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Giraffe', false).
+animal_changes_color('Giraffe', false).
+animal_tree_climbing('Giraffe', 'Poor').
+animal_fishing_ability('Giraffe', 'Poor').
+animal_speech_capability('Giraffe', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Giraffe', 0).
+animal_clutches_per_year('Giraffe', 0).
 
 % Diet
-diet('Herbivore').
-diet_preference('Leaves').
-diet_preference('Fruits').
+animal_diet('Giraffe', 'Herbivore').
+animal_diet_preference('Giraffe', 'Leaves').
+animal_diet_preference('Giraffe', 'Fruits').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(35).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(true).
-% Lifespan in years
-average_lifespan(25).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(15).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Giraffe', 'Mammal').
+animal_lays_eggs('Giraffe', false).
+animal_speed_mph('Giraffe', 35).
+animal_has_a_pouch('Giraffe', false).
+animal_domesticated('Giraffe', false).
+animal_poisonous_or_venomous('Giraffe', false).
+animal_breathes_under_water('Giraffe', false).
+animal_metamorphosis('Giraffe', true).
+animal_average_lifespan('Giraffe', 25).
+animal_temperature('Giraffe', 'Warm').
+animal_common_pet('Giraffe', false).
+animal_endangered('Giraffe', true).
+animal_has_tail('Giraffe', true).
+animal_has_dorsal_fin('Giraffe', false).
+animal_human_interaction('Giraffe', 'Cautious').
+animal_intelligence_level('Giraffe', 'Learning').
+animal_cheek_pouches('Giraffe', false).
+animal_human_usage('Giraffe', 'Tourism').
+animal_group_size('Giraffe', 15).
+animal_nest_location('Giraffe', 'Ground Level').
+animal_migration('Giraffe', false).
+animal_hunting_technique('Giraffe', 'Grazing').
+animal_burrowing_behavior('Giraffe', 'Non-Burrowing').

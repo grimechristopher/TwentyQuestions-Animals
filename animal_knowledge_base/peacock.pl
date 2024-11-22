@@ -1,81 +1,72 @@
-:- module(animal_kb).
+% Facts about Peacock
 
 name('Peacock').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(13).
-% Height in inches
-height_inches(45).
-has_color('Blue').
-has_color('Green').
-has_color('Multiple').
-pattern_type('Iridescent').
+animal_scales('Peacock', false).
+animal_fur('Peacock', false).
+animal_feathers('Peacock', true).
+animal_legs('Peacock', 2).
+animal_teeth('Peacock', false).
+animal_wings('Peacock', true).
+animal_weight_lbs('Peacock', 13).
+animal_height_inches('Peacock', 45).
+animal_has_color('Peacock', 'Blue').
+animal_has_color('Peacock', 'Green').
+animal_has_color('Peacock', 'Multiple').
+animal_pattern_type('Peacock', 'Iridescent').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Peacock', false).
+animal_hibernates('Peacock', false).
+animal_lives_in_groups('Peacock', true).
+animal_social_bonding_level('Peacock', 'Colonial').
+animal_hoarding_behavior('Peacock', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Peacock', 'Various').
+animal_preferred_environment_temperature('Peacock', 75).
+animal_territory_size_sq_miles('Peacock', 0).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Peacock', true).
+animal_changes_color('Peacock', false).
+animal_tree_climbing('Peacock', 'Poor').
+animal_fishing_ability('Peacock', 'Good').
+animal_speech_capability('Peacock', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(5).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Peacock', 5).
+animal_clutches_per_year('Peacock', 2).
 
 % Diet
-diet('Omnivore').
-diet_preference('Seeds').
-diet_preference('Insects').
-diet_preference('Plants').
+animal_diet('Peacock', 'Omnivore').
+animal_diet_preference('Peacock', 'Seeds').
+animal_diet_preference('Peacock', 'Insects').
+animal_diet_preference('Peacock', 'Plants').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(10).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Tolerant').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Feathers').
-human_usage('Ornamental').
-% Number of individuals in a typical group
-group_size(15).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Foraging').
-burrowing_behavior('Non-Burrowing').
+animal_category('Peacock', 'Bird').
+animal_lays_eggs('Peacock', true).
+animal_speed_mph('Peacock', 10).
+animal_has_a_pouch('Peacock', false).
+animal_domesticated('Peacock', true).
+animal_poisonous_or_venomous('Peacock', false).
+animal_breathes_under_water('Peacock', false).
+animal_metamorphosis('Peacock', false).
+animal_average_lifespan('Peacock', 20).
+animal_temperature('Peacock', 'Warm').
+animal_common_pet('Peacock', false).
+animal_endangered('Peacock', false).
+animal_has_tail('Peacock', true).
+animal_has_dorsal_fin('Peacock', false).
+animal_human_interaction('Peacock', 'Tolerant').
+animal_intelligence_level('Peacock', 'Learning').
+animal_cheek_pouches('Peacock', false).
+animal_human_usage('Peacock', 'Feathers').
+animal_human_usage('Peacock', 'Ornamental').
+animal_group_size('Peacock', 15).
+animal_nest_location('Peacock', 'Ground Level').
+animal_migration('Peacock', false).
+animal_hunting_technique('Peacock', 'Foraging').
+animal_burrowing_behavior('Peacock', 'Non-Burrowing').

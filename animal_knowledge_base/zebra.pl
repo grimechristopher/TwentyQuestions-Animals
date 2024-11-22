@@ -1,77 +1,70 @@
+% Facts about Zebra
+
 name('Zebra').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(770).
-% Height in inches
-height_inches(60).
-has_color('Black').
-has_color('White').
-pattern_type('Striped').
+animal_scales('Zebra', false).
+animal_fur('Zebra', 'Fur').
+animal_feathers('Zebra', false).
+animal_legs('Zebra', 4).
+animal_teeth('Zebra', true).
+animal_wings('Zebra', false).
+animal_weight_lbs('Zebra', 770).
+animal_height_inches('Zebra', 60).
+animal_has_color('Zebra', 'Black').
+animal_has_color('Zebra', 'White').
+animal_pattern_type('Zebra', 'Striped').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Zebra', false).
+animal_hibernates('Zebra', false).
+animal_lives_in_groups('Zebra', true).
+animal_social_bonding_level('Zebra', 'Colonial').
+animal_hoarding_behavior('Zebra', false).
 
 % Habitat and Environment
-habitat('Grassland').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(1).
+animal_habitat('Zebra', 'Grassland').
+animal_preferred_environment_temperature('Zebra', 80).
+animal_territory_size_sq_miles('Zebra', 1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Zebra', false).
+animal_changes_color('Zebra', false).
+animal_tree_climbing('Zebra', 'Poor').
+animal_fishing_ability('Zebra', 'Poor').
+animal_speech_capability('Zebra', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Zebra', 0).
+animal_clutches_per_year('Zebra', 1).
 
 % Diet
-diet('Herbivore').
-diet_preference('Grass').
-diet_preference('Leaves').
+animal_diet('Zebra', 'Herbivore').
+animal_diet_preference('Zebra', 'Grass').
+animal_diet_preference('Zebra', 'Leaves').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(40).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(25).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(50).
-nest_location('Ground Level').
-migration('Seasonal').
-hunting_technique('Grazing').
-hunting_technique('Social Feeding').
-burrowing_behavior('Non-Burrowing').
+animal_category('Zebra', 'Mammal').
+animal_lays_eggs('Zebra', false).
+animal_speed_mph('Zebra', 40).
+animal_has_a_pouch('Zebra', false).
+animal_domesticated('Zebra', false).
+animal_poisonous_or_venomous('Zebra', false).
+animal_breathes_under_water('Zebra', false).
+animal_metamorphosis('Zebra', false).
+animal_average_lifespan('Zebra', 25).
+animal_temperature('Zebra', 'Warm').
+animal_common_pet('Zebra', false).
+animal_endangered('Zebra', true).
+animal_has_tail('Zebra', true).
+animal_has_dorsal_fin('Zebra', false).
+animal_human_interaction('Zebra', 'Cautious').
+animal_intelligence_level('Zebra', 'Learning').
+animal_cheek_pouches('Zebra', false).
+animal_human_usage('Zebra', 'Tourism').
+animal_group_size('Zebra', 50).
+animal_nest_location('Zebra', 'Ground Level').
+animal_migration('Zebra', 'Seasonal').
+animal_hunting_technique('Zebra', 'Grazing').
+animal_hunting_technique('Zebra', 'Social Feeding').
+animal_burrowing_behavior('Zebra', 'Non-Burrowing').

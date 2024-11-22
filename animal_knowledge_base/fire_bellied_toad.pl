@@ -1,78 +1,71 @@
+% Facts about Fire-Bellied Toad
+
 name('Fire-Bellied Toad').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(4).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.1).
-% Height in inches
-height_inches(2).
-has_color('Green').
-has_color('Red').
-pattern_type('Mottled').
+animal_scales('Fire-Bellied Toad', false).
+animal_fur('Fire-Bellied Toad', false).
+animal_feathers('Fire-Bellied Toad', false).
+animal_legs('Fire-Bellied Toad', 4).
+animal_teeth('Fire-Bellied Toad', false).
+animal_wings('Fire-Bellied Toad', false).
+animal_weight_lbs('Fire-Bellied Toad', 0.1).
+animal_height_inches('Fire-Bellied Toad', 2).
+animal_has_color('Fire-Bellied Toad', 'Green').
+animal_has_color('Fire-Bellied Toad', 'Red').
+animal_pattern_type('Fire-Bellied Toad', 'Mottled').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Social').
-hoarding_behavior(false).
+animal_nocturnal('Fire-Bellied Toad', false).
+animal_hibernates('Fire-Bellied Toad', false).
+animal_lives_in_groups('Fire-Bellied Toad', true).
+animal_social_bonding_level('Fire-Bellied Toad', 'Social').
+animal_hoarding_behavior('Fire-Bellied Toad', false).
 
 % Habitat and Environment
-habitat('Semi-aquatic').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Fire-Bellied Toad', 'Semi-aquatic').
+animal_preferred_environment_temperature('Fire-Bellied Toad', 70).
+animal_territory_size_sq_miles('Fire-Bellied Toad', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Fire-Bellied Toad', false).
+animal_changes_color('Fire-Bellied Toad', false).
+animal_tree_climbing('Fire-Bellied Toad', 'Poor').
+animal_fishing_ability('Fire-Bellied Toad', 'Poor').
+animal_speech_capability('Fire-Bellied Toad', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(40).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Fire-Bellied Toad', 40).
+animal_clutches_per_year('Fire-Bellied Toad', 2).
 
 % Diet
-diet('Carnivore').
-diet_preference('Insects').
-diet_preference('Worms').
+animal_diet('Fire-Bellied Toad', 'Carnivore').
+animal_diet_preference('Fire-Bellied Toad', 'Insects').
+animal_diet_preference('Fire-Bellied Toad', 'Worms').
 
 % Other Characteristics
-category('Amphibian').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(3).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous('Poisonous').
-breathes_under_water(false).
-metamorphosis(true).
-% Lifespan in years
-average_lifespan(12).
-temperature('Cold').
-common_pet(true).
-endangered(false).
-has_tail(false).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(5).
-nest_location('Water Edge').
-migration(false).
-hunting_technique('Ambush').
-hunting_technique('Tongue Strike').
-burrowing_behavior('Non-Burrowing').
+animal_category('Fire-Bellied Toad', 'Amphibian').
+animal_lays_eggs('Fire-Bellied Toad', true).
+animal_speed_mph('Fire-Bellied Toad', 3).
+animal_has_a_pouch('Fire-Bellied Toad', false).
+animal_domesticated('Fire-Bellied Toad', true).
+animal_poisonous_or_venomous('Fire-Bellied Toad', 'Poisonous').
+animal_breathes_under_water('Fire-Bellied Toad', false).
+animal_metamorphosis('Fire-Bellied Toad', true).
+animal_average_lifespan('Fire-Bellied Toad', 12).
+animal_temperature('Fire-Bellied Toad', 'Cold').
+animal_common_pet('Fire-Bellied Toad', true).
+animal_endangered('Fire-Bellied Toad', false).
+animal_has_tail('Fire-Bellied Toad', false).
+animal_has_dorsal_fin('Fire-Bellied Toad', false).
+animal_human_interaction('Fire-Bellied Toad', 'Dependent').
+animal_intelligence_level('Fire-Bellied Toad', 'Learning').
+animal_cheek_pouches('Fire-Bellied Toad', false).
+animal_human_usage('Fire-Bellied Toad', 'Pets').
+animal_human_usage('Fire-Bellied Toad', 'Research').
+animal_group_size('Fire-Bellied Toad', 5).
+animal_nest_location('Fire-Bellied Toad', 'Water Edge').
+animal_migration('Fire-Bellied Toad', false).
+animal_hunting_technique('Fire-Bellied Toad', 'Ambush').
+animal_hunting_technique('Fire-Bellied Toad', 'Tongue Strike').
+animal_burrowing_behavior('Fire-Bellied Toad', 'Non-Burrowing').

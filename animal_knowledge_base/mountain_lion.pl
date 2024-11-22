@@ -1,77 +1,70 @@
+% Facts about Mountain Lion
+
 name('Mountain Lion').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(220).
-% Height in inches
-height_inches(30).
-has_color('Tan').
-pattern_type('Solid').
+animal_scales('Mountain Lion', false).
+animal_fur('Mountain Lion', 'Fur').
+animal_feathers('Mountain Lion', false).
+animal_legs('Mountain Lion', 4).
+animal_teeth('Mountain Lion', true).
+animal_wings('Mountain Lion', false).
+animal_weight_lbs('Mountain Lion', 220).
+animal_height_inches('Mountain Lion', 30).
+animal_has_color('Mountain Lion', 'Tan').
+animal_pattern_type('Mountain Lion', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior('Simple').
+animal_nocturnal('Mountain Lion', true).
+animal_hibernates('Mountain Lion', false).
+animal_lives_in_groups('Mountain Lion', false).
+animal_social_bonding_level('Mountain Lion', 'Solitary').
+animal_hoarding_behavior('Mountain Lion', 'Simple').
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(150).
+animal_habitat('Mountain Lion', 'Various').
+animal_preferred_environment_temperature('Mountain Lion', 65).
+animal_territory_size_sq_miles('Mountain Lion', 150).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Mountain Lion', false).
+animal_changes_color('Mountain Lion', false).
+animal_tree_climbing('Mountain Lion', 'Professional').
+animal_fishing_ability('Mountain Lion', 'Poor').
+animal_speech_capability('Mountain Lion', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Mountain Lion', 0).
+animal_clutches_per_year('Mountain Lion', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Large Mammals').
-diet_preference('Deer').
+animal_diet('Mountain Lion', 'Carnivore').
+animal_diet_preference('Mountain Lion', 'Large Mammals').
+animal_diet_preference('Mountain Lion', 'Deer').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(50).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Tourism').
-human_usage('Fur').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Cave;Rock Shelter').
-migration(false).
-hunting_technique('Stalking').
-hunting_technique('Ambush').
-burrowing_behavior('Burrow User').
+animal_category('Mountain Lion', 'Mammal').
+animal_lays_eggs('Mountain Lion', false).
+animal_speed_mph('Mountain Lion', 50).
+animal_has_a_pouch('Mountain Lion', false).
+animal_domesticated('Mountain Lion', false).
+animal_poisonous_or_venomous('Mountain Lion', false).
+animal_breathes_under_water('Mountain Lion', false).
+animal_metamorphosis('Mountain Lion', false).
+animal_average_lifespan('Mountain Lion', 20).
+animal_temperature('Mountain Lion', 'Warm').
+animal_common_pet('Mountain Lion', false).
+animal_endangered('Mountain Lion', false).
+animal_has_tail('Mountain Lion', true).
+animal_has_dorsal_fin('Mountain Lion', false).
+animal_human_interaction('Mountain Lion', 'Fearful').
+animal_intelligence_level('Mountain Lion', 'Complex Learner').
+animal_cheek_pouches('Mountain Lion', false).
+animal_human_usage('Mountain Lion', 'Tourism').
+animal_human_usage('Mountain Lion', 'Fur').
+animal_group_size('Mountain Lion', 1).
+animal_nest_location('Mountain Lion', 'Cave;Rock Shelter').
+animal_migration('Mountain Lion', false).
+animal_hunting_technique('Mountain Lion', 'Stalking').
+animal_hunting_technique('Mountain Lion', 'Ambush').
+animal_burrowing_behavior('Mountain Lion', 'Burrow User').

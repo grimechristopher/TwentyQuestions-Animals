@@ -1,77 +1,70 @@
+% Facts about Toad
+
 name('Toad').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(4).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.5).
-% Height in inches
-height_inches(4).
-has_color('Brown').
-has_color('Green').
-pattern_type('Mottled').
+animal_scales('Toad', false).
+animal_fur('Toad', false).
+animal_feathers('Toad', false).
+animal_legs('Toad', 4).
+animal_teeth('Toad', false).
+animal_wings('Toad', false).
+animal_weight_lbs('Toad', 0.5).
+animal_height_inches('Toad', 4).
+animal_has_color('Toad', 'Brown').
+animal_has_color('Toad', 'Green').
+animal_pattern_type('Toad', 'Mottled').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Toad', true).
+animal_hibernates('Toad', false).
+animal_lives_in_groups('Toad', false).
+animal_social_bonding_level('Toad', 'Solitary').
+animal_hoarding_behavior('Toad', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(0.01).
+animal_habitat('Toad', 'Various').
+animal_preferred_environment_temperature('Toad', 65).
+animal_territory_size_sq_miles('Toad', 0.01).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Toad', false).
+animal_changes_color('Toad', false).
+animal_tree_climbing('Toad', 'Poor').
+animal_fishing_ability('Toad', 'Poor').
+animal_speech_capability('Toad', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(1000).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Toad', 1000).
+animal_clutches_per_year('Toad', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Insects').
-diet_preference('Small Animals').
+animal_diet('Toad', 'Carnivore').
+animal_diet_preference('Toad', 'Insects').
+animal_diet_preference('Toad', 'Small Animals').
 
 % Other Characteristics
-category('Amphibian').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(5).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous('Poisonous').
-breathes_under_water(true).
-metamorphosis(true).
-% Lifespan in years
-average_lifespan(10).
-temperature('Cold').
-common_pet(false).
-endangered(false).
-has_tail(false).
-has_dorsal_fin(false).
-human_interaction('Neutral').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Tongue Catching').
-burrowing_behavior('Non-Burrowing').
+animal_category('Toad', 'Amphibian').
+animal_lays_eggs('Toad', true).
+animal_speed_mph('Toad', 5).
+animal_has_a_pouch('Toad', false).
+animal_domesticated('Toad', false).
+animal_poisonous_or_venomous('Toad', 'Poisonous').
+animal_breathes_under_water('Toad', true).
+animal_metamorphosis('Toad', true).
+animal_average_lifespan('Toad', 10).
+animal_temperature('Toad', 'Cold').
+animal_common_pet('Toad', false).
+animal_endangered('Toad', false).
+animal_has_tail('Toad', false).
+animal_has_dorsal_fin('Toad', false).
+animal_human_interaction('Toad', 'Neutral').
+animal_intelligence_level('Toad', 'Learning').
+animal_cheek_pouches('Toad', false).
+animal_human_usage('Toad', 'Pets').
+animal_human_usage('Toad', 'Research').
+animal_group_size('Toad', 1).
+animal_nest_location('Toad', 'Ground Level').
+animal_migration('Toad', false).
+animal_hunting_technique('Toad', 'Tongue Catching').
+animal_burrowing_behavior('Toad', 'Non-Burrowing').

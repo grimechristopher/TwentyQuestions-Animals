@@ -1,78 +1,71 @@
+% Facts about Common Crab
+
 name('Common Crab').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(8).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(1).
-% Height in inches
-height_inches(4).
-has_color('Red').
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Common Crab', false).
+animal_fur('Common Crab', false).
+animal_feathers('Common Crab', false).
+animal_legs('Common Crab', 8).
+animal_teeth('Common Crab', false).
+animal_wings('Common Crab', false).
+animal_weight_lbs('Common Crab', 1).
+animal_height_inches('Common Crab', 4).
+animal_has_color('Common Crab', 'Red').
+animal_has_color('Common Crab', 'Brown').
+animal_pattern_type('Common Crab', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Common Crab', true).
+animal_hibernates('Common Crab', false).
+animal_lives_in_groups('Common Crab', false).
+animal_social_bonding_level('Common Crab', 'Solitary').
+animal_hoarding_behavior('Common Crab', false).
 
 % Habitat and Environment
-habitat('Coastal').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Common Crab', 'Coastal').
+animal_preferred_environment_temperature('Common Crab', 65).
+animal_territory_size_sq_miles('Common Crab', 0.1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('None').
+animal_flies('Common Crab', false).
+animal_changes_color('Common Crab', false).
+animal_tree_climbing('Common Crab', 'Poor').
+animal_fishing_ability('Common Crab', 'Poor').
+animal_speech_capability('Common Crab', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(2000).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Common Crab', 2000).
+animal_clutches_per_year('Common Crab', 2).
 
 % Diet
-diet('Omnivore').
-diet_preference('Small Animals').
-diet_preference('Algae').
+animal_diet('Common Crab', 'Omnivore').
+animal_diet_preference('Common Crab', 'Small Animals').
+animal_diet_preference('Common Crab', 'Algae').
 
 % Other Characteristics
-category('Crustacean').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(3).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(3).
-temperature('Cold').
-common_pet(false).
-endangered(false).
-has_tail(false).
-has_dorsal_fin(false).
-human_interaction('Neutral').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Food').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Sandy Burrow').
-migration(false).
-hunting_technique('Scavenging').
-hunting_technique('Ambush').
-burrowing_behavior('Simple Burrower').
+animal_category('Common Crab', 'Crustacean').
+animal_lays_eggs('Common Crab', true).
+animal_speed_mph('Common Crab', 3).
+animal_has_a_pouch('Common Crab', false).
+animal_domesticated('Common Crab', false).
+animal_poisonous_or_venomous('Common Crab', false).
+animal_breathes_under_water('Common Crab', false).
+animal_metamorphosis('Common Crab', false).
+animal_average_lifespan('Common Crab', 3).
+animal_temperature('Common Crab', 'Cold').
+animal_common_pet('Common Crab', false).
+animal_endangered('Common Crab', false).
+animal_has_tail('Common Crab', false).
+animal_has_dorsal_fin('Common Crab', false).
+animal_human_interaction('Common Crab', 'Neutral').
+animal_intelligence_level('Common Crab', 'Learning').
+animal_cheek_pouches('Common Crab', false).
+animal_human_usage('Common Crab', 'Food').
+animal_human_usage('Common Crab', 'Research').
+animal_group_size('Common Crab', 1).
+animal_nest_location('Common Crab', 'Sandy Burrow').
+animal_migration('Common Crab', false).
+animal_hunting_technique('Common Crab', 'Scavenging').
+animal_hunting_technique('Common Crab', 'Ambush').
+animal_burrowing_behavior('Common Crab', 'Simple Burrower').

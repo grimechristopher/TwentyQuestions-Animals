@@ -1,78 +1,71 @@
+% Facts about Moose
+
 name('Moose').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(1500).
-% Height in inches
-height_inches(108).
-has_color('Brown').
-has_color('Black').
-pattern_type('Solid').
+animal_scales('Moose', false).
+animal_fur('Moose', 'Fur').
+animal_feathers('Moose', false).
+animal_legs('Moose', 4).
+animal_teeth('Moose', true).
+animal_wings('Moose', false).
+animal_weight_lbs('Moose', 1500).
+animal_height_inches('Moose', 108).
+animal_has_color('Moose', 'Brown').
+animal_has_color('Moose', 'Black').
+animal_pattern_type('Moose', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Moose', false).
+animal_hibernates('Moose', false).
+animal_lives_in_groups('Moose', false).
+animal_social_bonding_level('Moose', 'Solitary').
+animal_hoarding_behavior('Moose', false).
 
 % Habitat and Environment
-habitat('Forest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(45).
-% Territory size in square miles
-territory_size_sq_miles(10).
+animal_habitat('Moose', 'Forest').
+animal_preferred_environment_temperature('Moose', 45).
+animal_territory_size_sq_miles('Moose', 10).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Moose', false).
+animal_changes_color('Moose', false).
+animal_tree_climbing('Moose', 'Poor').
+animal_fishing_ability('Moose', 'Poor').
+animal_speech_capability('Moose', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Moose', 0).
+animal_clutches_per_year('Moose', 0).
 
 % Diet
-diet('Herbivore').
-diet_preference('Leaves').
-diet_preference('Bark').
-diet_preference('Aquatic Plants').
+animal_diet('Moose', 'Herbivore').
+animal_diet_preference('Moose', 'Leaves').
+animal_diet_preference('Moose', 'Bark').
+animal_diet_preference('Moose', 'Aquatic Plants').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(35).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Cold').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Hide').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Forest Floor').
-migration('Seasonal').
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Moose', 'Mammal').
+animal_lays_eggs('Moose', false).
+animal_speed_mph('Moose', 35).
+animal_has_a_pouch('Moose', false).
+animal_domesticated('Moose', false).
+animal_poisonous_or_venomous('Moose', false).
+animal_breathes_under_water('Moose', false).
+animal_metamorphosis('Moose', false).
+animal_average_lifespan('Moose', 20).
+animal_temperature('Moose', 'Cold').
+animal_common_pet('Moose', false).
+animal_endangered('Moose', false).
+animal_has_tail('Moose', true).
+animal_has_dorsal_fin('Moose', false).
+animal_human_interaction('Moose', 'Cautious').
+animal_intelligence_level('Moose', 'Learning').
+animal_cheek_pouches('Moose', false).
+animal_human_usage('Moose', 'Meat').
+animal_human_usage('Moose', 'Hide').
+animal_group_size('Moose', 1).
+animal_nest_location('Moose', 'Forest Floor').
+animal_migration('Moose', 'Seasonal').
+animal_hunting_technique('Moose', 'Grazing').
+animal_burrowing_behavior('Moose', 'Non-Burrowing').

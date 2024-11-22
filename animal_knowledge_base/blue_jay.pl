@@ -1,79 +1,72 @@
+% Facts about Blue Jay
+
 name('Blue Jay').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(0.3).
-% Height in inches
-height_inches(12).
-has_color('Blue').
-has_color('White').
-pattern_type('Patterned').
+animal_scales('Blue Jay', false).
+animal_fur('Blue Jay', false).
+animal_feathers('Blue Jay', true).
+animal_legs('Blue Jay', 2).
+animal_teeth('Blue Jay', false).
+animal_wings('Blue Jay', true).
+animal_weight_lbs('Blue Jay', 0.3).
+animal_height_inches('Blue Jay', 12).
+animal_has_color('Blue Jay', 'Blue').
+animal_has_color('Blue Jay', 'White').
+animal_pattern_type('Blue Jay', 'Patterned').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Family').
-hoarding_behavior('Simple').
+animal_nocturnal('Blue Jay', false).
+animal_hibernates('Blue Jay', false).
+animal_lives_in_groups('Blue Jay', true).
+animal_social_bonding_level('Blue Jay', 'Family').
+animal_hoarding_behavior('Blue Jay', 'Simple').
 
 % Habitat and Environment
-habitat('Woodland').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0.2).
+animal_habitat('Blue Jay', 'Woodland').
+animal_preferred_environment_temperature('Blue Jay', 70).
+animal_territory_size_sq_miles('Blue Jay', 0.2).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Blue Jay', true).
+animal_changes_color('Blue Jay', false).
+animal_tree_climbing('Blue Jay', 'Poor').
+animal_fishing_ability('Blue Jay', 'Poor').
+animal_speech_capability('Blue Jay', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(5).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Blue Jay', 5).
+animal_clutches_per_year('Blue Jay', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Seeds').
-diet_preference('Nuts').
-diet_preference('Insects').
+animal_diet('Blue Jay', 'Omnivore').
+animal_diet_preference('Blue Jay', 'Seeds').
+animal_diet_preference('Blue Jay', 'Nuts').
+animal_diet_preference('Blue Jay', 'Insects').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(25).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(7).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Tolerant').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Tourism').
-human_usage('Education').
-% Number of individuals in a typical group
-group_size(6).
-nest_location('Tree Branch').
-migration('Some').
-hunting_technique('Foraging').
-hunting_technique('Caching').
-burrowing_behavior('Non-Burrowing').
+animal_category('Blue Jay', 'Bird').
+animal_lays_eggs('Blue Jay', true).
+animal_speed_mph('Blue Jay', 25).
+animal_has_a_pouch('Blue Jay', false).
+animal_domesticated('Blue Jay', false).
+animal_poisonous_or_venomous('Blue Jay', false).
+animal_breathes_under_water('Blue Jay', false).
+animal_metamorphosis('Blue Jay', false).
+animal_average_lifespan('Blue Jay', 7).
+animal_temperature('Blue Jay', 'Warm').
+animal_common_pet('Blue Jay', false).
+animal_endangered('Blue Jay', false).
+animal_has_tail('Blue Jay', true).
+animal_has_dorsal_fin('Blue Jay', false).
+animal_human_interaction('Blue Jay', 'Tolerant').
+animal_intelligence_level('Blue Jay', 'Complex Learner').
+animal_cheek_pouches('Blue Jay', false).
+animal_human_usage('Blue Jay', 'Tourism').
+animal_human_usage('Blue Jay', 'Education').
+animal_group_size('Blue Jay', 6).
+animal_nest_location('Blue Jay', 'Tree Branch').
+animal_migration('Blue Jay', 'Some').
+animal_hunting_technique('Blue Jay', 'Foraging').
+animal_hunting_technique('Blue Jay', 'Caching').
+animal_burrowing_behavior('Blue Jay', 'Non-Burrowing').

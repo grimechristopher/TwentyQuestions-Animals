@@ -1,76 +1,69 @@
+% Facts about Wombat
+
 name('Wombat').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(60).
-% Height in inches
-height_inches(24).
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Wombat', false).
+animal_fur('Wombat', 'Fur').
+animal_feathers('Wombat', false).
+animal_legs('Wombat', 4).
+animal_teeth('Wombat', true).
+animal_wings('Wombat', false).
+animal_weight_lbs('Wombat', 60).
+animal_height_inches('Wombat', 24).
+animal_has_color('Wombat', 'Brown').
+animal_pattern_type('Wombat', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Wombat', true).
+animal_hibernates('Wombat', false).
+animal_lives_in_groups('Wombat', false).
+animal_social_bonding_level('Wombat', 'Solitary').
+animal_hoarding_behavior('Wombat', false).
 
 % Habitat and Environment
-habitat('Grassland').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Wombat', 'Grassland').
+animal_preferred_environment_temperature('Wombat', 70).
+animal_territory_size_sq_miles('Wombat', 0.1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Wombat', false).
+animal_changes_color('Wombat', false).
+animal_tree_climbing('Wombat', 'Poor').
+animal_fishing_ability('Wombat', 'Poor').
+animal_speech_capability('Wombat', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Wombat', 0).
+animal_clutches_per_year('Wombat', 0).
 
 % Diet
-diet('Herbivore').
-diet_preference('Grass').
-diet_preference('Roots').
-diet_preference('Bark').
+animal_diet('Wombat', 'Herbivore').
+animal_diet_preference('Wombat', 'Grass').
+animal_diet_preference('Wombat', 'Roots').
+animal_diet_preference('Wombat', 'Bark').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(25).
-has_a_pouch(true).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(15).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Underground').
-migration(false).
-hunting_technique('Grazing').
-burrowing_behavior('Tunneling').
+animal_category('Wombat', 'Mammal').
+animal_lays_eggs('Wombat', false).
+animal_speed_mph('Wombat', 25).
+animal_has_a_pouch('Wombat', true).
+animal_domesticated('Wombat', false).
+animal_poisonous_or_venomous('Wombat', false).
+animal_breathes_under_water('Wombat', false).
+animal_metamorphosis('Wombat', false).
+animal_average_lifespan('Wombat', 15).
+animal_temperature('Wombat', 'Warm').
+animal_common_pet('Wombat', false).
+animal_endangered('Wombat', false).
+animal_has_tail('Wombat', true).
+animal_has_dorsal_fin('Wombat', false).
+animal_human_interaction('Wombat', 'Cautious').
+animal_intelligence_level('Wombat', 'Learning').
+animal_cheek_pouches('Wombat', false).
+animal_human_usage('Wombat', 'Tourism').
+animal_group_size('Wombat', 1).
+animal_nest_location('Wombat', 'Underground').
+animal_migration('Wombat', false).
+animal_hunting_technique('Wombat', 'Grazing').
+animal_burrowing_behavior('Wombat', 'Tunneling').

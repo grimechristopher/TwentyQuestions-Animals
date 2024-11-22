@@ -1,80 +1,73 @@
+% Facts about Black Bear
+
 name('Black Bear').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(400).
-% Height in inches
-height_inches(40).
-has_color('Black').
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Black Bear', false).
+animal_fur('Black Bear', 'Fur').
+animal_feathers('Black Bear', false).
+animal_legs('Black Bear', 4).
+animal_teeth('Black Bear', true).
+animal_wings('Black Bear', false).
+animal_weight_lbs('Black Bear', 400).
+animal_height_inches('Black Bear', 40).
+animal_has_color('Black Bear', 'Black').
+animal_has_color('Black Bear', 'Brown').
+animal_pattern_type('Black Bear', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(true).
-lives_in_groups(true).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Black Bear', false).
+animal_hibernates('Black Bear', true).
+animal_lives_in_groups('Black Bear', true).
+animal_social_bonding_level('Black Bear', 'Solitary').
+animal_hoarding_behavior('Black Bear', false).
 
 % Habitat and Environment
-habitat('Forest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(55).
-% Territory size in square miles
-territory_size_sq_miles(15).
+animal_habitat('Black Bear', 'Forest').
+animal_preferred_environment_temperature('Black Bear', 55).
+animal_territory_size_sq_miles('Black Bear', 15).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Good').
-fishing_ability('Excellent').
-speech_capability('Basic').
+animal_flies('Black Bear', false).
+animal_changes_color('Black Bear', false).
+animal_tree_climbing('Black Bear', 'Good').
+animal_fishing_ability('Black Bear', 'Excellent').
+animal_speech_capability('Black Bear', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Black Bear', 0).
+animal_clutches_per_year('Black Bear', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Fish').
-diet_preference('Berries').
-diet_preference('Small Mammals').
+animal_diet('Black Bear', 'Omnivore').
+animal_diet_preference('Black Bear', 'Fish').
+animal_diet_preference('Black Bear', 'Berries').
+animal_diet_preference('Black Bear', 'Small Mammals').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(30).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(25).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Problem Solver').
-cheek_pouches(false).
-human_usage('Fur').
-human_usage('Meat').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Cave;Ground Den').
-migration(false).
-hunting_technique('Opportunistic').
-hunting_technique('Fishing').
-hunting_technique('Foraging').
-burrowing_behavior('Burrow User').
+animal_category('Black Bear', 'Mammal').
+animal_lays_eggs('Black Bear', false).
+animal_speed_mph('Black Bear', 30).
+animal_has_a_pouch('Black Bear', false).
+animal_domesticated('Black Bear', false).
+animal_poisonous_or_venomous('Black Bear', false).
+animal_breathes_under_water('Black Bear', false).
+animal_metamorphosis('Black Bear', false).
+animal_average_lifespan('Black Bear', 25).
+animal_temperature('Black Bear', 'Warm').
+animal_common_pet('Black Bear', false).
+animal_endangered('Black Bear', false).
+animal_has_tail('Black Bear', true).
+animal_has_dorsal_fin('Black Bear', false).
+animal_human_interaction('Black Bear', 'Cautious').
+animal_intelligence_level('Black Bear', 'Problem Solver').
+animal_cheek_pouches('Black Bear', false).
+animal_human_usage('Black Bear', 'Fur').
+animal_human_usage('Black Bear', 'Meat').
+animal_group_size('Black Bear', 1).
+animal_nest_location('Black Bear', 'Cave;Ground Den').
+animal_migration('Black Bear', false).
+animal_hunting_technique('Black Bear', 'Opportunistic').
+animal_hunting_technique('Black Bear', 'Fishing').
+animal_hunting_technique('Black Bear', 'Foraging').
+animal_burrowing_behavior('Black Bear', 'Burrow User').

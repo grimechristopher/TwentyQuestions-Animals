@@ -1,76 +1,69 @@
+% Facts about Swordfish
+
 name('Swordfish').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(200).
-% Height in inches
-height_inches(120).
-has_color('Blue').
-has_color('Silver').
-pattern_type('Solid').
+animal_scales('Swordfish', true).
+animal_fur('Swordfish', false).
+animal_feathers('Swordfish', false).
+animal_legs('Swordfish', 0).
+animal_teeth('Swordfish', true).
+animal_wings('Swordfish', false).
+animal_weight_lbs('Swordfish', 200).
+animal_height_inches('Swordfish', 120).
+animal_has_color('Swordfish', 'Blue').
+animal_has_color('Swordfish', 'Silver').
+animal_pattern_type('Swordfish', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Swordfish', false).
+animal_hibernates('Swordfish', false).
+animal_lives_in_groups('Swordfish', false).
+animal_social_bonding_level('Swordfish', 'Solitary').
+animal_hoarding_behavior('Swordfish', false).
 
 % Habitat and Environment
-habitat('Marine').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(1000).
+animal_habitat('Swordfish', 'Marine').
+animal_preferred_environment_temperature('Swordfish', 70).
+animal_territory_size_sq_miles('Swordfish', 1000).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('None').
+animal_flies('Swordfish', false).
+animal_changes_color('Swordfish', false).
+animal_tree_climbing('Swordfish', 'Poor').
+animal_fishing_ability('Swordfish', 'Professional').
+animal_speech_capability('Swordfish', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(4000000).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Swordfish', 4000000).
+animal_clutches_per_year('Swordfish', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Fish').
-diet_preference('Squid').
+animal_diet('Swordfish', 'Carnivore').
+animal_diet_preference('Swordfish', 'Fish').
+animal_diet_preference('Swordfish', 'Squid').
 
 % Other Characteristics
-category('Fish').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(68).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(15).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Fearful').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Food').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Open Ocean').
-migration(true).
-hunting_technique('Spearing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Swordfish', 'Fish').
+animal_lays_eggs('Swordfish', true).
+animal_speed_mph('Swordfish', 68).
+animal_has_a_pouch('Swordfish', false).
+animal_domesticated('Swordfish', false).
+animal_poisonous_or_venomous('Swordfish', false).
+animal_breathes_under_water('Swordfish', true).
+animal_metamorphosis('Swordfish', false).
+animal_average_lifespan('Swordfish', 15).
+animal_temperature('Swordfish', 'Warm').
+animal_common_pet('Swordfish', false).
+animal_endangered('Swordfish', true).
+animal_has_tail('Swordfish', true).
+animal_has_dorsal_fin('Swordfish', true).
+animal_human_interaction('Swordfish', 'Fearful').
+animal_intelligence_level('Swordfish', 'Learning').
+animal_cheek_pouches('Swordfish', false).
+animal_human_usage('Swordfish', 'Food').
+animal_group_size('Swordfish', 1).
+animal_nest_location('Swordfish', 'Open Ocean').
+animal_migration('Swordfish', true).
+animal_hunting_technique('Swordfish', 'Spearing').
+animal_burrowing_behavior('Swordfish', 'Non-Burrowing').

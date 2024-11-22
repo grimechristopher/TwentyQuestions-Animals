@@ -1,78 +1,71 @@
+% Facts about Neon Tetra
+
 name('Neon Tetra').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.003).
-% Height in inches
-height_inches(1.5).
-has_color('Blue').
-has_color('Red').
-has_color('Silver').
-pattern_type('Striped').
+animal_scales('Neon Tetra', true).
+animal_fur('Neon Tetra', false).
+animal_feathers('Neon Tetra', false).
+animal_legs('Neon Tetra', 0).
+animal_teeth('Neon Tetra', true).
+animal_wings('Neon Tetra', false).
+animal_weight_lbs('Neon Tetra', 0.003).
+animal_height_inches('Neon Tetra', 1.5).
+animal_has_color('Neon Tetra', 'Blue').
+animal_has_color('Neon Tetra', 'Red').
+animal_has_color('Neon Tetra', 'Silver').
+animal_pattern_type('Neon Tetra', 'Striped').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Social').
-hoarding_behavior(false).
+animal_nocturnal('Neon Tetra', false).
+animal_hibernates('Neon Tetra', false).
+animal_lives_in_groups('Neon Tetra', true).
+animal_social_bonding_level('Neon Tetra', 'Social').
+animal_hoarding_behavior('Neon Tetra', false).
 
 % Habitat and Environment
-habitat('Freshwater').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Neon Tetra', 'Freshwater').
+animal_preferred_environment_temperature('Neon Tetra', 75).
+animal_territory_size_sq_miles('Neon Tetra', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('None').
+animal_flies('Neon Tetra', false).
+animal_changes_color('Neon Tetra', false).
+animal_tree_climbing('Neon Tetra', 'Poor').
+animal_fishing_ability('Neon Tetra', 'Poor').
+animal_speech_capability('Neon Tetra', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(60).
-% Number of clutches per year
-clutches_per_year(4).
+animal_eggs_per_clutch('Neon Tetra', 60).
+animal_clutches_per_year('Neon Tetra', 4).
 
 % Diet
-diet('Omnivore').
-diet_preference('Fish Food').
-diet_preference('Microorganisms').
+animal_diet('Neon Tetra', 'Omnivore').
+animal_diet_preference('Neon Tetra', 'Fish Food').
+animal_diet_preference('Neon Tetra', 'Microorganisms').
 
 % Other Characteristics
-category('Fish').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(2).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(5).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(20).
-nest_location('Plants').
-migration(false).
-hunting_technique('Picking').
-hunting_technique('Surface Feeding').
-burrowing_behavior('Non-Burrowing').
+animal_category('Neon Tetra', 'Fish').
+animal_lays_eggs('Neon Tetra', true).
+animal_speed_mph('Neon Tetra', 2).
+animal_has_a_pouch('Neon Tetra', false).
+animal_domesticated('Neon Tetra', true).
+animal_poisonous_or_venomous('Neon Tetra', false).
+animal_breathes_under_water('Neon Tetra', true).
+animal_metamorphosis('Neon Tetra', false).
+animal_average_lifespan('Neon Tetra', 5).
+animal_temperature('Neon Tetra', 'Warm').
+animal_common_pet('Neon Tetra', true).
+animal_endangered('Neon Tetra', false).
+animal_has_tail('Neon Tetra', true).
+animal_has_dorsal_fin('Neon Tetra', true).
+animal_human_interaction('Neon Tetra', 'Dependent').
+animal_intelligence_level('Neon Tetra', 'Learning').
+animal_cheek_pouches('Neon Tetra', false).
+animal_human_usage('Neon Tetra', 'Pets').
+animal_group_size('Neon Tetra', 20).
+animal_nest_location('Neon Tetra', 'Plants').
+animal_migration('Neon Tetra', false).
+animal_hunting_technique('Neon Tetra', 'Picking').
+animal_hunting_technique('Neon Tetra', 'Surface Feeding').
+animal_burrowing_behavior('Neon Tetra', 'Non-Burrowing').

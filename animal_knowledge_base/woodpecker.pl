@@ -1,78 +1,71 @@
+% Facts about Woodpecker
+
 name('Woodpecker').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(0.3).
-% Height in inches
-height_inches(10).
-has_color('Black').
-has_color('White').
-has_color('Red').
-pattern_type('Spotted').
+animal_scales('Woodpecker', false).
+animal_fur('Woodpecker', false).
+animal_feathers('Woodpecker', true).
+animal_legs('Woodpecker', 2).
+animal_teeth('Woodpecker', false).
+animal_wings('Woodpecker', true).
+animal_weight_lbs('Woodpecker', 0.3).
+animal_height_inches('Woodpecker', 10).
+animal_has_color('Woodpecker', 'Black').
+animal_has_color('Woodpecker', 'White').
+animal_has_color('Woodpecker', 'Red').
+animal_pattern_type('Woodpecker', 'Spotted').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior('Simple').
+animal_nocturnal('Woodpecker', false).
+animal_hibernates('Woodpecker', false).
+animal_lives_in_groups('Woodpecker', false).
+animal_social_bonding_level('Woodpecker', 'Solitary').
+animal_hoarding_behavior('Woodpecker', 'Simple').
 
 % Habitat and Environment
-habitat('Forest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Woodpecker', 'Forest').
+animal_preferred_environment_temperature('Woodpecker', 65).
+animal_territory_size_sq_miles('Woodpecker', 0.1).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Woodpecker', true).
+animal_changes_color('Woodpecker', false).
+animal_tree_climbing('Woodpecker', 'Professional').
+animal_fishing_ability('Woodpecker', 'Poor').
+animal_speech_capability('Woodpecker', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(4).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Woodpecker', 4).
+animal_clutches_per_year('Woodpecker', 1).
 
 % Diet
-diet('Insectivore').
-diet_preference('Insects').
-diet_preference('Tree Sap').
+animal_diet('Woodpecker', 'Insectivore').
+animal_diet_preference('Woodpecker', 'Insects').
+animal_diet_preference('Woodpecker', 'Tree Sap').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(22).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(10).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Tolerant').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Tree Cavity').
-migration('Some').
-hunting_technique('Drilling').
-hunting_technique('Probing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Woodpecker', 'Bird').
+animal_lays_eggs('Woodpecker', true).
+animal_speed_mph('Woodpecker', 22).
+animal_has_a_pouch('Woodpecker', false).
+animal_domesticated('Woodpecker', false).
+animal_poisonous_or_venomous('Woodpecker', false).
+animal_breathes_under_water('Woodpecker', false).
+animal_metamorphosis('Woodpecker', false).
+animal_average_lifespan('Woodpecker', 10).
+animal_temperature('Woodpecker', 'Warm').
+animal_common_pet('Woodpecker', false).
+animal_endangered('Woodpecker', false).
+animal_has_tail('Woodpecker', true).
+animal_has_dorsal_fin('Woodpecker', false).
+animal_human_interaction('Woodpecker', 'Tolerant').
+animal_intelligence_level('Woodpecker', 'Complex Learner').
+animal_cheek_pouches('Woodpecker', false).
+animal_human_usage('Woodpecker', 'Pets').
+animal_group_size('Woodpecker', 1).
+animal_nest_location('Woodpecker', 'Tree Cavity').
+animal_migration('Woodpecker', 'Some').
+animal_hunting_technique('Woodpecker', 'Drilling').
+animal_hunting_technique('Woodpecker', 'Probing').
+animal_burrowing_behavior('Woodpecker', 'Non-Burrowing').

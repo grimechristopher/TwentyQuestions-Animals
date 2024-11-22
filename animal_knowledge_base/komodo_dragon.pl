@@ -1,78 +1,71 @@
+% Facts about Komodo Dragon
+
 name('Komodo Dragon').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(150).
-% Height in inches
-height_inches(36).
-has_color('Gray').
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Komodo Dragon', true).
+animal_fur('Komodo Dragon', false).
+animal_feathers('Komodo Dragon', false).
+animal_legs('Komodo Dragon', 4).
+animal_teeth('Komodo Dragon', true).
+animal_wings('Komodo Dragon', false).
+animal_weight_lbs('Komodo Dragon', 150).
+animal_height_inches('Komodo Dragon', 36).
+animal_has_color('Komodo Dragon', 'Gray').
+animal_has_color('Komodo Dragon', 'Brown').
+animal_pattern_type('Komodo Dragon', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Komodo Dragon', false).
+animal_hibernates('Komodo Dragon', false).
+animal_lives_in_groups('Komodo Dragon', false).
+animal_social_bonding_level('Komodo Dragon', 'Solitary').
+animal_hoarding_behavior('Komodo Dragon', false).
 
 % Habitat and Environment
-habitat('Islands').
-habitat('Tropical').
-% Temperature in Fahrenheit
-preferred_environment_temperature(85).
-% Territory size in square miles
-territory_size_sq_miles(5).
+animal_habitat('Komodo Dragon', 'Islands').
+animal_habitat('Komodo Dragon', 'Tropical').
+animal_preferred_environment_temperature('Komodo Dragon', 85).
+animal_territory_size_sq_miles('Komodo Dragon', 5).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Good').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Komodo Dragon', false).
+animal_changes_color('Komodo Dragon', false).
+animal_tree_climbing('Komodo Dragon', 'Good').
+animal_fishing_ability('Komodo Dragon', 'Poor').
+animal_speech_capability('Komodo Dragon', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(20).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Komodo Dragon', 20).
+animal_clutches_per_year('Komodo Dragon', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Large Mammals').
-diet_preference('Carrion').
+animal_diet('Komodo Dragon', 'Carnivore').
+animal_diet_preference('Komodo Dragon', 'Large Mammals').
+animal_diet_preference('Komodo Dragon', 'Carrion').
 
 % Other Characteristics
-category('Reptile').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(13).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous('Venomous').
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(30).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Aggressive').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Ground Nest').
-migration(false).
-hunting_technique('Stalking').
-hunting_technique('Venomous Bite').
-burrowing_behavior('Non-Burrowing').
+animal_category('Komodo Dragon', 'Reptile').
+animal_lays_eggs('Komodo Dragon', true).
+animal_speed_mph('Komodo Dragon', 13).
+animal_has_a_pouch('Komodo Dragon', false).
+animal_domesticated('Komodo Dragon', false).
+animal_poisonous_or_venomous('Komodo Dragon', 'Venomous').
+animal_breathes_under_water('Komodo Dragon', false).
+animal_metamorphosis('Komodo Dragon', false).
+animal_average_lifespan('Komodo Dragon', 30).
+animal_temperature('Komodo Dragon', 'Warm').
+animal_common_pet('Komodo Dragon', false).
+animal_endangered('Komodo Dragon', true).
+animal_has_tail('Komodo Dragon', true).
+animal_has_dorsal_fin('Komodo Dragon', false).
+animal_human_interaction('Komodo Dragon', 'Aggressive').
+animal_intelligence_level('Komodo Dragon', 'Complex Learner').
+animal_cheek_pouches('Komodo Dragon', false).
+animal_human_usage('Komodo Dragon', 'Tourism').
+animal_group_size('Komodo Dragon', 1).
+animal_nest_location('Komodo Dragon', 'Ground Nest').
+animal_migration('Komodo Dragon', false).
+animal_hunting_technique('Komodo Dragon', 'Stalking').
+animal_hunting_technique('Komodo Dragon', 'Venomous Bite').
+animal_burrowing_behavior('Komodo Dragon', 'Non-Burrowing').

@@ -1,77 +1,70 @@
+% Facts about Jaguar
+
 name('Jaguar').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(200).
-% Height in inches
-height_inches(30).
-has_color('Yellow').
-has_color('Black').
-pattern_type('Spotted').
+animal_scales('Jaguar', false).
+animal_fur('Jaguar', 'Fur').
+animal_feathers('Jaguar', false).
+animal_legs('Jaguar', 4).
+animal_teeth('Jaguar', true).
+animal_wings('Jaguar', false).
+animal_weight_lbs('Jaguar', 200).
+animal_height_inches('Jaguar', 30).
+animal_has_color('Jaguar', 'Yellow').
+animal_has_color('Jaguar', 'Black').
+animal_pattern_type('Jaguar', 'Spotted').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Jaguar', true).
+animal_hibernates('Jaguar', false).
+animal_lives_in_groups('Jaguar', false).
+animal_social_bonding_level('Jaguar', 'Solitary').
+animal_hoarding_behavior('Jaguar', false).
 
 % Habitat and Environment
-habitat('Forest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(25).
+animal_habitat('Jaguar', 'Forest').
+animal_preferred_environment_temperature('Jaguar', 80).
+animal_territory_size_sq_miles('Jaguar', 25).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Jaguar', false).
+animal_changes_color('Jaguar', false).
+animal_tree_climbing('Jaguar', 'Professional').
+animal_fishing_ability('Jaguar', 'Good').
+animal_speech_capability('Jaguar', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Jaguar', 0).
+animal_clutches_per_year('Jaguar', 0).
 
 % Diet
-diet('Carnivore').
-diet_preference('Large Mammals').
-diet_preference('Fish').
+animal_diet('Jaguar', 'Carnivore').
+animal_diet_preference('Jaguar', 'Large Mammals').
+animal_diet_preference('Jaguar', 'Fish').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(50).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(15).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Tree Branch').
-migration(false).
-hunting_technique('Stalking').
-hunting_technique('Ambush').
-burrowing_behavior('Burrow User').
+animal_category('Jaguar', 'Mammal').
+animal_lays_eggs('Jaguar', false).
+animal_speed_mph('Jaguar', 50).
+animal_has_a_pouch('Jaguar', false).
+animal_domesticated('Jaguar', false).
+animal_poisonous_or_venomous('Jaguar', false).
+animal_breathes_under_water('Jaguar', false).
+animal_metamorphosis('Jaguar', false).
+animal_average_lifespan('Jaguar', 15).
+animal_temperature('Jaguar', 'Warm').
+animal_common_pet('Jaguar', false).
+animal_endangered('Jaguar', true).
+animal_has_tail('Jaguar', true).
+animal_has_dorsal_fin('Jaguar', false).
+animal_human_interaction('Jaguar', 'Fearful').
+animal_intelligence_level('Jaguar', 'Complex Learner').
+animal_cheek_pouches('Jaguar', false).
+animal_human_usage('Jaguar', 'Tourism').
+animal_group_size('Jaguar', 1).
+animal_nest_location('Jaguar', 'Tree Branch').
+animal_migration('Jaguar', false).
+animal_hunting_technique('Jaguar', 'Stalking').
+animal_hunting_technique('Jaguar', 'Ambush').
+animal_burrowing_behavior('Jaguar', 'Burrow User').

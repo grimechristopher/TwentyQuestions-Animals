@@ -1,78 +1,71 @@
+% Facts about Octopus
+
 name('Octopus').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(8).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(110).
-% Height in inches
-height_inches(180).
-has_color('Red').
-has_color('White').
-pattern_type('Mottled').
+animal_scales('Octopus', false).
+animal_fur('Octopus', false).
+animal_feathers('Octopus', false).
+animal_legs('Octopus', 8).
+animal_teeth('Octopus', false).
+animal_wings('Octopus', false).
+animal_weight_lbs('Octopus', 110).
+animal_height_inches('Octopus', 180).
+animal_has_color('Octopus', 'Red').
+animal_has_color('Octopus', 'White').
+animal_pattern_type('Octopus', 'Mottled').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Octopus', true).
+animal_hibernates('Octopus', false).
+animal_lives_in_groups('Octopus', false).
+animal_social_bonding_level('Octopus', 'Solitary').
+animal_hoarding_behavior('Octopus', false).
 
 % Habitat and Environment
-habitat('Ocean').
-% Temperature in Fahrenheit
-preferred_environment_temperature(45).
-% Territory size in square miles
-territory_size_sq_miles(0.5).
+animal_habitat('Octopus', 'Ocean').
+animal_preferred_environment_temperature('Octopus', 45).
+animal_territory_size_sq_miles('Octopus', 0.5).
 
 % Abilities
-flies(false).
-changes_color(true).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('None').
+animal_flies('Octopus', false).
+animal_changes_color('Octopus', true).
+animal_tree_climbing('Octopus', 'Poor').
+animal_fishing_ability('Octopus', 'Professional').
+animal_speech_capability('Octopus', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(100000).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Octopus', 100000).
+animal_clutches_per_year('Octopus', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Crustaceans').
-diet_preference('Mollusks').
+animal_diet('Octopus', 'Carnivore').
+animal_diet_preference('Octopus', 'Crustaceans').
+animal_diet_preference('Octopus', 'Mollusks').
 
 % Other Characteristics
-category('Mollusk').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(25).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(5).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(false).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Tool User').
-cheek_pouches(false).
-human_usage('Food').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Den;Rock Crevice').
-migration(false).
-hunting_technique('Ambush').
-hunting_technique('Tool Use').
-burrowing_behavior('Non-Burrowing').
+animal_category('Octopus', 'Mollusk').
+animal_lays_eggs('Octopus', true).
+animal_speed_mph('Octopus', 25).
+animal_has_a_pouch('Octopus', false).
+animal_domesticated('Octopus', false).
+animal_poisonous_or_venomous('Octopus', false).
+animal_breathes_under_water('Octopus', true).
+animal_metamorphosis('Octopus', false).
+animal_average_lifespan('Octopus', 5).
+animal_temperature('Octopus', 'Warm').
+animal_common_pet('Octopus', false).
+animal_endangered('Octopus', false).
+animal_has_tail('Octopus', false).
+animal_has_dorsal_fin('Octopus', false).
+animal_human_interaction('Octopus', 'Cautious').
+animal_intelligence_level('Octopus', 'Tool User').
+animal_cheek_pouches('Octopus', false).
+animal_human_usage('Octopus', 'Food').
+animal_human_usage('Octopus', 'Research').
+animal_group_size('Octopus', 1).
+animal_nest_location('Octopus', 'Den;Rock Crevice').
+animal_migration('Octopus', false).
+animal_hunting_technique('Octopus', 'Ambush').
+animal_hunting_technique('Octopus', 'Tool Use').
+animal_burrowing_behavior('Octopus', 'Non-Burrowing').

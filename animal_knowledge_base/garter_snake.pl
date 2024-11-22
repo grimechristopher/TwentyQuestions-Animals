@@ -1,79 +1,72 @@
+% Facts about Garter Snake
+
 name('Garter Snake').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.3).
-% Height in inches
-height_inches(36).
-has_color('Green').
-has_color('Yellow').
-has_color('Black').
-pattern_type('Striped').
+animal_scales('Garter Snake', true).
+animal_fur('Garter Snake', false).
+animal_feathers('Garter Snake', false).
+animal_legs('Garter Snake', 0).
+animal_teeth('Garter Snake', true).
+animal_wings('Garter Snake', false).
+animal_weight_lbs('Garter Snake', 0.3).
+animal_height_inches('Garter Snake', 36).
+animal_has_color('Garter Snake', 'Green').
+animal_has_color('Garter Snake', 'Yellow').
+animal_has_color('Garter Snake', 'Black').
+animal_pattern_type('Garter Snake', 'Striped').
 
 % Behavior
-nocturnal(false).
-hibernates(true).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Garter Snake', false).
+animal_hibernates('Garter Snake', true).
+animal_lives_in_groups('Garter Snake', false).
+animal_social_bonding_level('Garter Snake', 'Solitary').
+animal_hoarding_behavior('Garter Snake', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(72).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Garter Snake', 'Various').
+animal_preferred_environment_temperature('Garter Snake', 72).
+animal_territory_size_sq_miles('Garter Snake', 0.1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Garter Snake', false).
+animal_changes_color('Garter Snake', false).
+animal_tree_climbing('Garter Snake', 'Poor').
+animal_fishing_ability('Garter Snake', 'Poor').
+animal_speech_capability('Garter Snake', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(20).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Garter Snake', 20).
+animal_clutches_per_year('Garter Snake', 2).
 
 % Diet
-diet('Carnivore').
-diet_preference('Amphibians').
-diet_preference('Worms').
+animal_diet('Garter Snake', 'Carnivore').
+animal_diet_preference('Garter Snake', 'Amphibians').
+animal_diet_preference('Garter Snake', 'Worms').
 
 % Other Characteristics
-category('Reptile').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(8).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(4).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Neutral').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Ground Cover').
-migration(false).
-hunting_technique('Active Foraging').
-hunting_technique('Striking').
-burrowing_behavior('Non-Burrowing').
+animal_category('Garter Snake', 'Reptile').
+animal_lays_eggs('Garter Snake', true).
+animal_speed_mph('Garter Snake', 8).
+animal_has_a_pouch('Garter Snake', false).
+animal_domesticated('Garter Snake', false).
+animal_poisonous_or_venomous('Garter Snake', false).
+animal_breathes_under_water('Garter Snake', false).
+animal_metamorphosis('Garter Snake', false).
+animal_average_lifespan('Garter Snake', 4).
+animal_temperature('Garter Snake', 'Warm').
+animal_common_pet('Garter Snake', false).
+animal_endangered('Garter Snake', false).
+animal_has_tail('Garter Snake', true).
+animal_has_dorsal_fin('Garter Snake', false).
+animal_human_interaction('Garter Snake', 'Neutral').
+animal_intelligence_level('Garter Snake', 'Learning').
+animal_cheek_pouches('Garter Snake', false).
+animal_human_usage('Garter Snake', 'Pets').
+animal_human_usage('Garter Snake', 'Research').
+animal_group_size('Garter Snake', 1).
+animal_nest_location('Garter Snake', 'Ground Cover').
+animal_migration('Garter Snake', false).
+animal_hunting_technique('Garter Snake', 'Active Foraging').
+animal_hunting_technique('Garter Snake', 'Striking').
+animal_burrowing_behavior('Garter Snake', 'Non-Burrowing').

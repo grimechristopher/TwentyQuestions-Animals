@@ -1,78 +1,71 @@
+% Facts about Goat
+
 name('Goat').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(150).
-% Height in inches
-height_inches(30).
-has_color('Multiple').
-pattern_type('Various').
+animal_scales('Goat', false).
+animal_fur('Goat', 'Fur').
+animal_feathers('Goat', false).
+animal_legs('Goat', 4).
+animal_teeth('Goat', true).
+animal_wings('Goat', false).
+animal_weight_lbs('Goat', 150).
+animal_height_inches('Goat', 30).
+animal_has_color('Goat', 'Multiple').
+animal_pattern_type('Goat', 'Various').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Goat', false).
+animal_hibernates('Goat', false).
+animal_lives_in_groups('Goat', true).
+animal_social_bonding_level('Goat', 'Colonial').
+animal_hoarding_behavior('Goat', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Goat', 'Various').
+animal_preferred_environment_temperature('Goat', 70).
+animal_territory_size_sq_miles('Goat', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Good').
-fishing_ability('Poor').
-speech_capability('Basic Vocalizations').
+animal_flies('Goat', false).
+animal_changes_color('Goat', false).
+animal_tree_climbing('Goat', 'Good').
+animal_fishing_ability('Goat', 'Poor').
+animal_speech_capability('Goat', 'Basic Vocalizations').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Goat', 0).
+animal_clutches_per_year('Goat', 0).
 
 % Diet
-diet('Herbivore').
-diet_preference('Grass').
-diet_preference('Leaves').
-diet_preference('Bark').
+animal_diet('Goat', 'Herbivore').
+animal_diet_preference('Goat', 'Grass').
+animal_diet_preference('Goat', 'Leaves').
+animal_diet_preference('Goat', 'Bark').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(25).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(15).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Problem Solver').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Milk').
-human_usage('Hair').
-% Number of individuals in a typical group
-group_size(30).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Goat', 'Mammal').
+animal_lays_eggs('Goat', false).
+animal_speed_mph('Goat', 25).
+animal_has_a_pouch('Goat', false).
+animal_domesticated('Goat', true).
+animal_poisonous_or_venomous('Goat', false).
+animal_breathes_under_water('Goat', false).
+animal_metamorphosis('Goat', false).
+animal_average_lifespan('Goat', 15).
+animal_temperature('Goat', 'Warm').
+animal_common_pet('Goat', true).
+animal_endangered('Goat', false).
+animal_has_tail('Goat', true).
+animal_has_dorsal_fin('Goat', false).
+animal_human_interaction('Goat', 'Dependent').
+animal_intelligence_level('Goat', 'Problem Solver').
+animal_cheek_pouches('Goat', false).
+animal_human_usage('Goat', 'Meat').
+animal_human_usage('Goat', 'Milk').
+animal_human_usage('Goat', 'Hair').
+animal_group_size('Goat', 30).
+animal_nest_location('Goat', 'Ground Level').
+animal_migration('Goat', false).
+animal_hunting_technique('Goat', 'Grazing').
+animal_burrowing_behavior('Goat', 'Non-Burrowing').

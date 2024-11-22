@@ -1,77 +1,70 @@
+% Facts about Discus Fish
+
 name('Discus Fish').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.5).
-% Height in inches
-height_inches(8).
-has_color('Multiple').
-pattern_type('Various').
+animal_scales('Discus Fish', true).
+animal_fur('Discus Fish', false).
+animal_feathers('Discus Fish', false).
+animal_legs('Discus Fish', 0).
+animal_teeth('Discus Fish', true).
+animal_wings('Discus Fish', false).
+animal_weight_lbs('Discus Fish', 0.5).
+animal_height_inches('Discus Fish', 8).
+animal_has_color('Discus Fish', 'Multiple').
+animal_pattern_type('Discus Fish', 'Various').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Discus Fish', false).
+animal_hibernates('Discus Fish', false).
+animal_lives_in_groups('Discus Fish', true).
+animal_social_bonding_level('Discus Fish', 'Colonial').
+animal_hoarding_behavior('Discus Fish', false).
 
 % Habitat and Environment
-habitat('Freshwater').
-% Temperature in Fahrenheit
-preferred_environment_temperature(82).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Discus Fish', 'Freshwater').
+animal_preferred_environment_temperature('Discus Fish', 82).
+animal_territory_size_sq_miles('Discus Fish', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('None').
+animal_flies('Discus Fish', false).
+animal_changes_color('Discus Fish', false).
+animal_tree_climbing('Discus Fish', 'Poor').
+animal_fishing_ability('Discus Fish', 'Poor').
+animal_speech_capability('Discus Fish', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(100).
-% Number of clutches per year
-clutches_per_year(4).
+animal_eggs_per_clutch('Discus Fish', 100).
+animal_clutches_per_year('Discus Fish', 4).
 
 % Diet
-diet('Omnivore').
-diet_preference('Small Invertebrates').
-diet_preference('Plants').
+animal_diet('Discus Fish', 'Omnivore').
+animal_diet_preference('Discus Fish', 'Small Invertebrates').
+animal_diet_preference('Discus Fish', 'Plants').
 
 % Other Characteristics
-category('Fish').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(3).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(15).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-human_usage('Ornamental').
-% Number of individuals in a typical group
-group_size(8).
-nest_location('Vertical Surfaces').
-migration(false).
-hunting_technique('Grazing').
-hunting_technique('Picking').
-burrowing_behavior('Non-Burrowing').
+animal_category('Discus Fish', 'Fish').
+animal_lays_eggs('Discus Fish', true).
+animal_speed_mph('Discus Fish', 3).
+animal_has_a_pouch('Discus Fish', false).
+animal_domesticated('Discus Fish', true).
+animal_poisonous_or_venomous('Discus Fish', false).
+animal_breathes_under_water('Discus Fish', true).
+animal_metamorphosis('Discus Fish', false).
+animal_average_lifespan('Discus Fish', 15).
+animal_temperature('Discus Fish', 'Warm').
+animal_common_pet('Discus Fish', true).
+animal_endangered('Discus Fish', false).
+animal_has_tail('Discus Fish', true).
+animal_has_dorsal_fin('Discus Fish', true).
+animal_human_interaction('Discus Fish', 'Dependent').
+animal_intelligence_level('Discus Fish', 'Learning').
+animal_cheek_pouches('Discus Fish', false).
+animal_human_usage('Discus Fish', 'Pets').
+animal_human_usage('Discus Fish', 'Ornamental').
+animal_group_size('Discus Fish', 8).
+animal_nest_location('Discus Fish', 'Vertical Surfaces').
+animal_migration('Discus Fish', false).
+animal_hunting_technique('Discus Fish', 'Grazing').
+animal_hunting_technique('Discus Fish', 'Picking').
+animal_burrowing_behavior('Discus Fish', 'Non-Burrowing').

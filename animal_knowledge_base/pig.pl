@@ -1,79 +1,72 @@
+% Facts about Pig
+
 name('Pig').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(600).
-% Height in inches
-height_inches(36).
-has_color('Pink').
-has_color('Black').
-pattern_type('Solid').
+animal_scales('Pig', false).
+animal_fur('Pig', 'Fur').
+animal_feathers('Pig', false).
+animal_legs('Pig', 4).
+animal_teeth('Pig', true).
+animal_wings('Pig', false).
+animal_weight_lbs('Pig', 600).
+animal_height_inches('Pig', 36).
+animal_has_color('Pig', 'Pink').
+animal_has_color('Pig', 'Black').
+animal_pattern_type('Pig', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Pig', false).
+animal_hibernates('Pig', false).
+animal_lives_in_groups('Pig', true).
+animal_social_bonding_level('Pig', 'Colonial').
+animal_hoarding_behavior('Pig', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Pig', 'Various').
+animal_preferred_environment_temperature('Pig', 70).
+animal_territory_size_sq_miles('Pig', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic Vocalizations').
+animal_flies('Pig', false).
+animal_changes_color('Pig', false).
+animal_tree_climbing('Pig', 'Poor').
+animal_fishing_ability('Pig', 'Poor').
+animal_speech_capability('Pig', 'Basic Vocalizations').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Pig', 0).
+animal_clutches_per_year('Pig', 0).
 
 % Diet
-diet('Omnivore').
-diet_preference('Roots').
-diet_preference('Fruits').
-diet_preference('Everything').
+animal_diet('Pig', 'Omnivore').
+animal_diet_preference('Pig', 'Roots').
+animal_diet_preference('Pig', 'Fruits').
+animal_diet_preference('Pig', 'Everything').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(11).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(15).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Leather').
-% Number of individuals in a typical group
-group_size(20).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Rooting').
-hunting_technique('Foraging').
-burrowing_behavior('Tunneling').
+animal_category('Pig', 'Mammal').
+animal_lays_eggs('Pig', false).
+animal_speed_mph('Pig', 11).
+animal_has_a_pouch('Pig', false).
+animal_domesticated('Pig', true).
+animal_poisonous_or_venomous('Pig', false).
+animal_breathes_under_water('Pig', false).
+animal_metamorphosis('Pig', false).
+animal_average_lifespan('Pig', 15).
+animal_temperature('Pig', 'Warm').
+animal_common_pet('Pig', true).
+animal_endangered('Pig', false).
+animal_has_tail('Pig', true).
+animal_has_dorsal_fin('Pig', false).
+animal_human_interaction('Pig', 'Dependent').
+animal_intelligence_level('Pig', 'Complex Learner').
+animal_cheek_pouches('Pig', false).
+animal_human_usage('Pig', 'Meat').
+animal_human_usage('Pig', 'Leather').
+animal_group_size('Pig', 20).
+animal_nest_location('Pig', 'Ground Level').
+animal_migration('Pig', false).
+animal_hunting_technique('Pig', 'Rooting').
+animal_hunting_technique('Pig', 'Foraging').
+animal_burrowing_behavior('Pig', 'Tunneling').

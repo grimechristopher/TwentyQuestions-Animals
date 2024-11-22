@@ -1,78 +1,71 @@
+% Facts about Rat
+
 name('Rat').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.5).
-% Height in inches
-height_inches(7).
-has_color('Brown').
-has_color('Black').
-pattern_type('Solid').
+animal_scales('Rat', false).
+animal_fur('Rat', 'Fur').
+animal_feathers('Rat', false).
+animal_legs('Rat', 4).
+animal_teeth('Rat', true).
+animal_wings('Rat', false).
+animal_weight_lbs('Rat', 0.5).
+animal_height_inches('Rat', 7).
+animal_has_color('Rat', 'Brown').
+animal_has_color('Rat', 'Black').
+animal_pattern_type('Rat', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior('Simple').
+animal_nocturnal('Rat', true).
+animal_hibernates('Rat', false).
+animal_lives_in_groups('Rat', true).
+animal_social_bonding_level('Rat', 'Colonial').
+animal_hoarding_behavior('Rat', 'Simple').
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(72).
-% Territory size in square miles
-territory_size_sq_miles(0.01).
+animal_habitat('Rat', 'Various').
+animal_preferred_environment_temperature('Rat', 72).
+animal_territory_size_sq_miles('Rat', 0.01).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Excellent').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Rat', false).
+animal_changes_color('Rat', false).
+animal_tree_climbing('Rat', 'Excellent').
+animal_fishing_ability('Rat', 'Poor').
+animal_speech_capability('Rat', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Rat', 0).
+animal_clutches_per_year('Rat', 0).
 
 % Diet
-diet('Omnivore').
-diet_preference('Seeds').
-diet_preference('Human Food').
-diet_preference('Everything').
+animal_diet('Rat', 'Omnivore').
+animal_diet_preference('Rat', 'Seeds').
+animal_diet_preference('Rat', 'Human Food').
+animal_diet_preference('Rat', 'Everything').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(8).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(2).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Tolerant').
-intelligence_level('Complex Learner').
-cheek_pouches(true).
-human_usage('Research').
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(12).
-nest_location('Underground').
-migration(false).
-hunting_technique('Foraging').
-burrowing_behavior('Tunneling').
+animal_category('Rat', 'Mammal').
+animal_lays_eggs('Rat', false).
+animal_speed_mph('Rat', 8).
+animal_has_a_pouch('Rat', false).
+animal_domesticated('Rat', false).
+animal_poisonous_or_venomous('Rat', false).
+animal_breathes_under_water('Rat', false).
+animal_metamorphosis('Rat', false).
+animal_average_lifespan('Rat', 2).
+animal_temperature('Rat', 'Warm').
+animal_common_pet('Rat', true).
+animal_endangered('Rat', false).
+animal_has_tail('Rat', true).
+animal_has_dorsal_fin('Rat', false).
+animal_human_interaction('Rat', 'Tolerant').
+animal_intelligence_level('Rat', 'Complex Learner').
+animal_cheek_pouches('Rat', true).
+animal_human_usage('Rat', 'Research').
+animal_human_usage('Rat', 'Pets').
+animal_group_size('Rat', 12).
+animal_nest_location('Rat', 'Underground').
+animal_migration('Rat', false).
+animal_hunting_technique('Rat', 'Foraging').
+animal_burrowing_behavior('Rat', 'Tunneling').

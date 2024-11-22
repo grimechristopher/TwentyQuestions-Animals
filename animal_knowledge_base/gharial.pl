@@ -1,78 +1,71 @@
+% Facts about Gharial
+
 name('Gharial').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(350).
-% Height in inches
-height_inches(240).
-has_color('Olive').
-has_color('Gray').
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Gharial', true).
+animal_fur('Gharial', false).
+animal_feathers('Gharial', false).
+animal_legs('Gharial', 4).
+animal_teeth('Gharial', true).
+animal_wings('Gharial', false).
+animal_weight_lbs('Gharial', 350).
+animal_height_inches('Gharial', 240).
+animal_has_color('Gharial', 'Olive').
+animal_has_color('Gharial', 'Gray').
+animal_has_color('Gharial', 'Brown').
+animal_pattern_type('Gharial', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Gharial', false).
+animal_hibernates('Gharial', false).
+animal_lives_in_groups('Gharial', false).
+animal_social_bonding_level('Gharial', 'Solitary').
+animal_hoarding_behavior('Gharial', false).
 
 % Habitat and Environment
-habitat('River').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(2).
+animal_habitat('Gharial', 'River').
+animal_preferred_environment_temperature('Gharial', 80).
+animal_territory_size_sq_miles('Gharial', 2).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('Basic').
+animal_flies('Gharial', false).
+animal_changes_color('Gharial', false).
+animal_tree_climbing('Gharial', 'Poor').
+animal_fishing_ability('Gharial', 'Professional').
+animal_speech_capability('Gharial', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(40).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Gharial', 40).
+animal_clutches_per_year('Gharial', 2).
 
 % Diet
-diet('Carnivore').
-diet_preference('Fish').
+animal_diet('Gharial', 'Carnivore').
+animal_diet_preference('Gharial', 'Fish').
 
 % Other Characteristics
-category('Reptile').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(15).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(50).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-human_usage('Conservation').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('River Bank').
-migration(false).
-hunting_technique('Ambush').
-hunting_technique('Snapping').
-burrowing_behavior('Non-Burrowing').
+animal_category('Gharial', 'Reptile').
+animal_lays_eggs('Gharial', true).
+animal_speed_mph('Gharial', 15).
+animal_has_a_pouch('Gharial', false).
+animal_domesticated('Gharial', false).
+animal_poisonous_or_venomous('Gharial', false).
+animal_breathes_under_water('Gharial', true).
+animal_metamorphosis('Gharial', false).
+animal_average_lifespan('Gharial', 50).
+animal_temperature('Gharial', 'Warm').
+animal_common_pet('Gharial', false).
+animal_endangered('Gharial', true).
+animal_has_tail('Gharial', true).
+animal_has_dorsal_fin('Gharial', false).
+animal_human_interaction('Gharial', 'Fearful').
+animal_intelligence_level('Gharial', 'Learning').
+animal_cheek_pouches('Gharial', false).
+animal_human_usage('Gharial', 'Tourism').
+animal_human_usage('Gharial', 'Conservation').
+animal_group_size('Gharial', 1).
+animal_nest_location('Gharial', 'River Bank').
+animal_migration('Gharial', false).
+animal_hunting_technique('Gharial', 'Ambush').
+animal_hunting_technique('Gharial', 'Snapping').
+animal_burrowing_behavior('Gharial', 'Non-Burrowing').

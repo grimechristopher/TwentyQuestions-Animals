@@ -1,77 +1,70 @@
+% Facts about Porcupine
+
 name('Porcupine').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(20).
-% Height in inches
-height_inches(30).
-has_color('Brown').
-has_color('Black').
-pattern_type('Solid').
+animal_scales('Porcupine', false).
+animal_fur('Porcupine', 'Fur').
+animal_feathers('Porcupine', false).
+animal_legs('Porcupine', 4).
+animal_teeth('Porcupine', true).
+animal_wings('Porcupine', false).
+animal_weight_lbs('Porcupine', 20).
+animal_height_inches('Porcupine', 30).
+animal_has_color('Porcupine', 'Brown').
+animal_has_color('Porcupine', 'Black').
+animal_pattern_type('Porcupine', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Porcupine', true).
+animal_hibernates('Porcupine', false).
+animal_lives_in_groups('Porcupine', false).
+animal_social_bonding_level('Porcupine', 'Solitary').
+animal_hoarding_behavior('Porcupine', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0.2).
+animal_habitat('Porcupine', 'Various').
+animal_preferred_environment_temperature('Porcupine', 70).
+animal_territory_size_sq_miles('Porcupine', 0.2).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Good').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Porcupine', false).
+animal_changes_color('Porcupine', false).
+animal_tree_climbing('Porcupine', 'Good').
+animal_fishing_ability('Porcupine', 'Poor').
+animal_speech_capability('Porcupine', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Porcupine', 0).
+animal_clutches_per_year('Porcupine', 0).
 
 % Diet
-diet('Herbivore').
-diet_preference('Bark').
-diet_preference('Plants').
-diet_preference('Fruits').
+animal_diet('Porcupine', 'Herbivore').
+animal_diet_preference('Porcupine', 'Bark').
+animal_diet_preference('Porcupine', 'Plants').
+animal_diet_preference('Porcupine', 'Fruits').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(2).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(15).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Porcupine', 'Mammal').
+animal_lays_eggs('Porcupine', false).
+animal_speed_mph('Porcupine', 2).
+animal_has_a_pouch('Porcupine', false).
+animal_domesticated('Porcupine', false).
+animal_poisonous_or_venomous('Porcupine', false).
+animal_breathes_under_water('Porcupine', false).
+animal_metamorphosis('Porcupine', false).
+animal_average_lifespan('Porcupine', 15).
+animal_temperature('Porcupine', 'Warm').
+animal_common_pet('Porcupine', false).
+animal_endangered('Porcupine', false).
+animal_has_tail('Porcupine', true).
+animal_has_dorsal_fin('Porcupine', false).
+animal_human_interaction('Porcupine', 'Fearful').
+animal_intelligence_level('Porcupine', 'Learning').
+animal_cheek_pouches('Porcupine', false).
+animal_human_usage('Porcupine', 'Tourism').
+animal_group_size('Porcupine', 1).
+animal_nest_location('Porcupine', 'Ground Level').
+animal_migration('Porcupine', false).
+animal_hunting_technique('Porcupine', 'Grazing').
+animal_burrowing_behavior('Porcupine', 'Non-Burrowing').

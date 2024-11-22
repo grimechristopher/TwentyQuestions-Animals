@@ -1,78 +1,71 @@
+% Facts about Skunk
+
 name('Skunk').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(8).
-% Height in inches
-height_inches(10).
-has_color('Black').
-has_color('White').
-has_color('Gray').
-pattern_type('Striped').
+animal_scales('Skunk', false).
+animal_fur('Skunk', 'Fur').
+animal_feathers('Skunk', false).
+animal_legs('Skunk', 4).
+animal_teeth('Skunk', true).
+animal_wings('Skunk', false).
+animal_weight_lbs('Skunk', 8).
+animal_height_inches('Skunk', 10).
+animal_has_color('Skunk', 'Black').
+animal_has_color('Skunk', 'White').
+animal_has_color('Skunk', 'Gray').
+animal_pattern_type('Skunk', 'Striped').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior('Complex').
+animal_nocturnal('Skunk', true).
+animal_hibernates('Skunk', false).
+animal_lives_in_groups('Skunk', false).
+animal_social_bonding_level('Skunk', 'Solitary').
+animal_hoarding_behavior('Skunk', 'Complex').
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0.5).
+animal_habitat('Skunk', 'Various').
+animal_preferred_environment_temperature('Skunk', 70).
+animal_territory_size_sq_miles('Skunk', 0.5).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Skunk', false).
+animal_changes_color('Skunk', false).
+animal_tree_climbing('Skunk', 'Poor').
+animal_fishing_ability('Skunk', 'Poor').
+animal_speech_capability('Skunk', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Skunk', 0).
+animal_clutches_per_year('Skunk', 0).
 
 % Diet
-diet('Omnivore').
-diet_preference('Insects').
-diet_preference('Plants').
-diet_preference('Small Animals').
+animal_diet('Skunk', 'Omnivore').
+animal_diet_preference('Skunk', 'Insects').
+animal_diet_preference('Skunk', 'Plants').
+animal_diet_preference('Skunk', 'Small Animals').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(10).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(7).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Underground').
-migration(false).
-hunting_technique('Foraging').
-burrowing_behavior('Burrow User').
+animal_category('Skunk', 'Mammal').
+animal_lays_eggs('Skunk', false).
+animal_speed_mph('Skunk', 10).
+animal_has_a_pouch('Skunk', false).
+animal_domesticated('Skunk', false).
+animal_poisonous_or_venomous('Skunk', false).
+animal_breathes_under_water('Skunk', false).
+animal_metamorphosis('Skunk', false).
+animal_average_lifespan('Skunk', 7).
+animal_temperature('Skunk', 'Warm').
+animal_common_pet('Skunk', false).
+animal_endangered('Skunk', false).
+animal_has_tail('Skunk', true).
+animal_has_dorsal_fin('Skunk', false).
+animal_human_interaction('Skunk', 'Fearful').
+animal_intelligence_level('Skunk', 'Learning').
+animal_cheek_pouches('Skunk', false).
+animal_human_usage('Skunk', 'Tourism').
+animal_group_size('Skunk', 1).
+animal_nest_location('Skunk', 'Underground').
+animal_migration('Skunk', false).
+animal_hunting_technique('Skunk', 'Foraging').
+animal_burrowing_behavior('Skunk', 'Burrow User').

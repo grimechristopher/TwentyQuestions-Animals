@@ -1,76 +1,69 @@
+% Facts about Binturong
+
 name('Binturong').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(50).
-% Height in inches
-height_inches(30).
-has_color('Black').
-pattern_type('Solid').
+animal_scales('Binturong', false).
+animal_fur('Binturong', 'Fur').
+animal_feathers('Binturong', false).
+animal_legs('Binturong', 4).
+animal_teeth('Binturong', true).
+animal_wings('Binturong', false).
+animal_weight_lbs('Binturong', 50).
+animal_height_inches('Binturong', 30).
+animal_has_color('Binturong', 'Black').
+animal_pattern_type('Binturong', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Binturong', true).
+animal_hibernates('Binturong', false).
+animal_lives_in_groups('Binturong', false).
+animal_social_bonding_level('Binturong', 'Solitary').
+animal_hoarding_behavior('Binturong', false).
 
 % Habitat and Environment
-habitat('Forest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(1).
+animal_habitat('Binturong', 'Forest').
+animal_preferred_environment_temperature('Binturong', 75).
+animal_territory_size_sq_miles('Binturong', 1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Binturong', false).
+animal_changes_color('Binturong', false).
+animal_tree_climbing('Binturong', 'Professional').
+animal_fishing_ability('Binturong', 'Poor').
+animal_speech_capability('Binturong', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Binturong', 0).
+animal_clutches_per_year('Binturong', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Fruits').
-diet_preference('Small Animals').
+animal_diet('Binturong', 'Omnivore').
+animal_diet_preference('Binturong', 'Fruits').
+animal_diet_preference('Binturong', 'Small Animals').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(20).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(18).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Tree Hollow').
-migration(false).
-hunting_technique('Stalking').
-hunting_technique('Climbing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Binturong', 'Mammal').
+animal_lays_eggs('Binturong', false).
+animal_speed_mph('Binturong', 20).
+animal_has_a_pouch('Binturong', false).
+animal_domesticated('Binturong', false).
+animal_poisonous_or_venomous('Binturong', false).
+animal_breathes_under_water('Binturong', false).
+animal_metamorphosis('Binturong', false).
+animal_average_lifespan('Binturong', 18).
+animal_temperature('Binturong', 'Warm').
+animal_common_pet('Binturong', false).
+animal_endangered('Binturong', true).
+animal_has_tail('Binturong', true).
+animal_has_dorsal_fin('Binturong', false).
+animal_human_interaction('Binturong', 'Cautious').
+animal_intelligence_level('Binturong', 'Complex Learner').
+animal_cheek_pouches('Binturong', false).
+animal_human_usage('Binturong', 'Tourism').
+animal_group_size('Binturong', 1).
+animal_nest_location('Binturong', 'Tree Hollow').
+animal_migration('Binturong', false).
+animal_hunting_technique('Binturong', 'Stalking').
+animal_hunting_technique('Binturong', 'Climbing').
+animal_burrowing_behavior('Binturong', 'Non-Burrowing').

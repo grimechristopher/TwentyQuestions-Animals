@@ -1,78 +1,71 @@
+% Facts about Muscovy Duck
+
 name('Muscovy Duck').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(15).
-% Height in inches
-height_inches(30).
-has_color('Black').
-has_color('White').
-pattern_type('Various').
+animal_scales('Muscovy Duck', false).
+animal_fur('Muscovy Duck', false).
+animal_feathers('Muscovy Duck', true).
+animal_legs('Muscovy Duck', 2).
+animal_teeth('Muscovy Duck', false).
+animal_wings('Muscovy Duck', true).
+animal_weight_lbs('Muscovy Duck', 15).
+animal_height_inches('Muscovy Duck', 30).
+animal_has_color('Muscovy Duck', 'Black').
+animal_has_color('Muscovy Duck', 'White').
+animal_pattern_type('Muscovy Duck', 'Various').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Muscovy Duck', false).
+animal_hibernates('Muscovy Duck', false).
+animal_lives_in_groups('Muscovy Duck', true).
+animal_social_bonding_level('Muscovy Duck', 'Colonial').
+animal_hoarding_behavior('Muscovy Duck', false).
 
 % Habitat and Environment
-habitat('Semi-aquatic').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Muscovy Duck', 'Semi-aquatic').
+animal_preferred_environment_temperature('Muscovy Duck', 70).
+animal_territory_size_sq_miles('Muscovy Duck', 0).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Muscovy Duck', true).
+animal_changes_color('Muscovy Duck', false).
+animal_tree_climbing('Muscovy Duck', 'Poor').
+animal_fishing_ability('Muscovy Duck', 'Good').
+animal_speech_capability('Muscovy Duck', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(12).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Muscovy Duck', 12).
+animal_clutches_per_year('Muscovy Duck', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Plants').
-diet_preference('Insects').
+animal_diet('Muscovy Duck', 'Omnivore').
+animal_diet_preference('Muscovy Duck', 'Plants').
+animal_diet_preference('Muscovy Duck', 'Insects').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(15).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(12).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Eggs').
-% Number of individuals in a typical group
-group_size(15).
-nest_location('Ground Near Water').
-migration(false).
-hunting_technique('Dabbling').
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Muscovy Duck', 'Bird').
+animal_lays_eggs('Muscovy Duck', true).
+animal_speed_mph('Muscovy Duck', 15).
+animal_has_a_pouch('Muscovy Duck', false).
+animal_domesticated('Muscovy Duck', true).
+animal_poisonous_or_venomous('Muscovy Duck', false).
+animal_breathes_under_water('Muscovy Duck', true).
+animal_metamorphosis('Muscovy Duck', false).
+animal_average_lifespan('Muscovy Duck', 12).
+animal_temperature('Muscovy Duck', 'Warm').
+animal_common_pet('Muscovy Duck', true).
+animal_endangered('Muscovy Duck', false).
+animal_has_tail('Muscovy Duck', true).
+animal_has_dorsal_fin('Muscovy Duck', false).
+animal_human_interaction('Muscovy Duck', 'Dependent').
+animal_intelligence_level('Muscovy Duck', 'Learning').
+animal_cheek_pouches('Muscovy Duck', false).
+animal_human_usage('Muscovy Duck', 'Meat').
+animal_human_usage('Muscovy Duck', 'Eggs').
+animal_group_size('Muscovy Duck', 15).
+animal_nest_location('Muscovy Duck', 'Ground Near Water').
+animal_migration('Muscovy Duck', false).
+animal_hunting_technique('Muscovy Duck', 'Dabbling').
+animal_hunting_technique('Muscovy Duck', 'Grazing').
+animal_burrowing_behavior('Muscovy Duck', 'Non-Burrowing').

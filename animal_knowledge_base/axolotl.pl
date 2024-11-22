@@ -1,81 +1,74 @@
+% Facts about Axolotl
+
 name('Axolotl').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.5).
-% Height in inches
-height_inches(12).
-has_color('Pink').
-has_color('White').
-has_color('Black').
-has_color('Olive').
-pattern_type('Solid').
+animal_scales('Axolotl', false).
+animal_fur('Axolotl', false).
+animal_feathers('Axolotl', false).
+animal_legs('Axolotl', 4).
+animal_teeth('Axolotl', true).
+animal_wings('Axolotl', false).
+animal_weight_lbs('Axolotl', 0.5).
+animal_height_inches('Axolotl', 12).
+animal_has_color('Axolotl', 'Pink').
+animal_has_color('Axolotl', 'White').
+animal_has_color('Axolotl', 'Black').
+animal_has_color('Axolotl', 'Olive').
+animal_pattern_type('Axolotl', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Axolotl', false).
+animal_hibernates('Axolotl', false).
+animal_lives_in_groups('Axolotl', true).
+animal_social_bonding_level('Axolotl', 'Solitary').
+animal_hoarding_behavior('Axolotl', false).
 
 % Habitat and Environment
-habitat('Freshwater').
-% Temperature in Fahrenheit
-preferred_environment_temperature(68).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Axolotl', 'Freshwater').
+animal_preferred_environment_temperature('Axolotl', 68).
+animal_territory_size_sq_miles('Axolotl', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Axolotl', false).
+animal_changes_color('Axolotl', false).
+animal_tree_climbing('Axolotl', 'Poor').
+animal_fishing_ability('Axolotl', 'Poor').
+animal_speech_capability('Axolotl', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(100).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Axolotl', 100).
+animal_clutches_per_year('Axolotl', 2).
 
 % Diet
-diet('Carnivore').
-diet_preference('Insects').
-diet_preference('Worms').
-diet_preference('Small Fish').
+animal_diet('Axolotl', 'Carnivore').
+animal_diet_preference('Axolotl', 'Insects').
+animal_diet_preference('Axolotl', 'Worms').
+animal_diet_preference('Axolotl', 'Small Fish').
 
 % Other Characteristics
-category('Amphibian').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(2).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(12).
-temperature('Cold').
-common_pet(true).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Water's Edge').
-migration(false).
-hunting_technique('Ambush').
-hunting_technique('Foraging').
-burrowing_behavior('Non-Burrowing').
+animal_category('Axolotl', 'Amphibian').
+animal_lays_eggs('Axolotl', true).
+animal_speed_mph('Axolotl', 2).
+animal_has_a_pouch('Axolotl', false).
+animal_domesticated('Axolotl', true).
+animal_poisonous_or_venomous('Axolotl', false).
+animal_breathes_under_water('Axolotl', true).
+animal_metamorphosis('Axolotl', false).
+animal_average_lifespan('Axolotl', 12).
+animal_temperature('Axolotl', 'Cold').
+animal_common_pet('Axolotl', true).
+animal_endangered('Axolotl', true).
+animal_has_tail('Axolotl', true).
+animal_has_dorsal_fin('Axolotl', true).
+animal_human_interaction('Axolotl', 'Dependent').
+animal_intelligence_level('Axolotl', 'Learning').
+animal_cheek_pouches('Axolotl', false).
+animal_human_usage('Axolotl', 'Pets').
+animal_human_usage('Axolotl', 'Research').
+animal_group_size('Axolotl', 1).
+animal_nest_location('Axolotl', 'Water''s Edge').
+animal_migration('Axolotl', false).
+animal_hunting_technique('Axolotl', 'Ambush').
+animal_hunting_technique('Axolotl', 'Foraging').
+animal_burrowing_behavior('Axolotl', 'Non-Burrowing').

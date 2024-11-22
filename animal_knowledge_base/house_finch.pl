@@ -1,78 +1,71 @@
+% Facts about House Finch
+
 name('House Finch').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(0.07).
-% Height in inches
-height_inches(6).
-has_color('Red').
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('House Finch', false).
+animal_fur('House Finch', false).
+animal_feathers('House Finch', true).
+animal_legs('House Finch', 2).
+animal_teeth('House Finch', false).
+animal_wings('House Finch', true).
+animal_weight_lbs('House Finch', 0.07).
+animal_height_inches('House Finch', 6).
+animal_has_color('House Finch', 'Red').
+animal_has_color('House Finch', 'Brown').
+animal_pattern_type('House Finch', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior('Simple').
+animal_nocturnal('House Finch', false).
+animal_hibernates('House Finch', false).
+animal_lives_in_groups('House Finch', true).
+animal_social_bonding_level('House Finch', 'Colonial').
+animal_hoarding_behavior('House Finch', 'Simple').
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('House Finch', 'Various').
+animal_preferred_environment_temperature('House Finch', 70).
+animal_territory_size_sq_miles('House Finch', 0.1).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('House Finch', true).
+animal_changes_color('House Finch', false).
+animal_tree_climbing('House Finch', 'Poor').
+animal_fishing_ability('House Finch', 'Poor').
+animal_speech_capability('House Finch', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(5).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('House Finch', 5).
+animal_clutches_per_year('House Finch', 1).
 
 % Diet
-diet('Herbivore').
-diet_preference('Seeds').
-diet_preference('Fruits').
+animal_diet('House Finch', 'Herbivore').
+animal_diet_preference('House Finch', 'Seeds').
+animal_diet_preference('House Finch', 'Fruits').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(20).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(5).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Tolerant').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-human_usage('Education').
-% Number of individuals in a typical group
-group_size(15).
-nest_location('Building Ledges').
-migration('Some').
-hunting_technique('Picking').
-hunting_technique('Gleaning').
-burrowing_behavior('Non-Burrowing').
+animal_category('House Finch', 'Bird').
+animal_lays_eggs('House Finch', true).
+animal_speed_mph('House Finch', 20).
+animal_has_a_pouch('House Finch', false).
+animal_domesticated('House Finch', false).
+animal_poisonous_or_venomous('House Finch', false).
+animal_breathes_under_water('House Finch', false).
+animal_metamorphosis('House Finch', false).
+animal_average_lifespan('House Finch', 5).
+animal_temperature('House Finch', 'Warm').
+animal_common_pet('House Finch', false).
+animal_endangered('House Finch', false).
+animal_has_tail('House Finch', true).
+animal_has_dorsal_fin('House Finch', false).
+animal_human_interaction('House Finch', 'Tolerant').
+animal_intelligence_level('House Finch', 'Learning').
+animal_cheek_pouches('House Finch', false).
+animal_human_usage('House Finch', 'Tourism').
+animal_human_usage('House Finch', 'Education').
+animal_group_size('House Finch', 15).
+animal_nest_location('House Finch', 'Building Ledges').
+animal_migration('House Finch', 'Some').
+animal_hunting_technique('House Finch', 'Picking').
+animal_hunting_technique('House Finch', 'Gleaning').
+animal_burrowing_behavior('House Finch', 'Non-Burrowing').

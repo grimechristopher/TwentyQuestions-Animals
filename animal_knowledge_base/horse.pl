@@ -1,77 +1,70 @@
+% Facts about Horse
+
 name('Horse').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(1000).
-% Height in inches
-height_inches(66).
-has_color('Multiple').
-pattern_type('Various').
+animal_scales('Horse', false).
+animal_fur('Horse', false).
+animal_feathers('Horse', false).
+animal_legs('Horse', 4).
+animal_teeth('Horse', true).
+animal_wings('Horse', false).
+animal_weight_lbs('Horse', 1000).
+animal_height_inches('Horse', 66).
+animal_has_color('Horse', 'Multiple').
+animal_pattern_type('Horse', 'Various').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Horse', false).
+animal_hibernates('Horse', false).
+animal_lives_in_groups('Horse', true).
+animal_social_bonding_level('Horse', 'Colonial').
+animal_hoarding_behavior('Horse', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Horse', 'Various').
+animal_preferred_environment_temperature('Horse', 65).
+animal_territory_size_sq_miles('Horse', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic Vocalizations').
+animal_flies('Horse', false).
+animal_changes_color('Horse', false).
+animal_tree_climbing('Horse', 'Poor').
+animal_fishing_ability('Horse', 'Poor').
+animal_speech_capability('Horse', 'Basic Vocalizations').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Horse', 0).
+animal_clutches_per_year('Horse', 0).
 
 % Diet
-diet('Herbivore').
-diet_preference('Grass').
-diet_preference('Hay').
+animal_diet('Horse', 'Herbivore').
+animal_diet_preference('Horse', 'Grass').
+animal_diet_preference('Horse', 'Hay').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(55).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(27).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Transport').
-human_usage('Sport').
-human_usage('Work').
-% Number of individuals in a typical group
-group_size(20).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Horse', 'Mammal').
+animal_lays_eggs('Horse', false).
+animal_speed_mph('Horse', 55).
+animal_has_a_pouch('Horse', false).
+animal_domesticated('Horse', true).
+animal_poisonous_or_venomous('Horse', false).
+animal_breathes_under_water('Horse', false).
+animal_metamorphosis('Horse', false).
+animal_average_lifespan('Horse', 27).
+animal_temperature('Horse', 'Warm').
+animal_common_pet('Horse', true).
+animal_endangered('Horse', false).
+animal_has_tail('Horse', true).
+animal_has_dorsal_fin('Horse', false).
+animal_human_interaction('Horse', 'Dependent').
+animal_intelligence_level('Horse', 'Complex Learner').
+animal_cheek_pouches('Horse', false).
+animal_human_usage('Horse', 'Transport').
+animal_human_usage('Horse', 'Sport').
+animal_human_usage('Horse', 'Work').
+animal_group_size('Horse', 20).
+animal_nest_location('Horse', 'Ground Level').
+animal_migration('Horse', false).
+animal_hunting_technique('Horse', 'Grazing').
+animal_burrowing_behavior('Horse', 'Non-Burrowing').

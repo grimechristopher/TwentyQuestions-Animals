@@ -1,78 +1,71 @@
+% Facts about Mantis Shrimp
+
 name('Mantis Shrimp').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(8).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.5).
-% Height in inches
-height_inches(7).
-has_color('Multiple').
-pattern_type('Iridescent').
+animal_scales('Mantis Shrimp', false).
+animal_fur('Mantis Shrimp', false).
+animal_feathers('Mantis Shrimp', false).
+animal_legs('Mantis Shrimp', 8).
+animal_teeth('Mantis Shrimp', false).
+animal_wings('Mantis Shrimp', false).
+animal_weight_lbs('Mantis Shrimp', 0.5).
+animal_height_inches('Mantis Shrimp', 7).
+animal_has_color('Mantis Shrimp', 'Multiple').
+animal_pattern_type('Mantis Shrimp', 'Iridescent').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Mantis Shrimp', false).
+animal_hibernates('Mantis Shrimp', false).
+animal_lives_in_groups('Mantis Shrimp', false).
+animal_social_bonding_level('Mantis Shrimp', 'Solitary').
+animal_hoarding_behavior('Mantis Shrimp', false).
 
 % Habitat and Environment
-habitat('Marine').
-habitat('Coral Reef').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(0.01).
+animal_habitat('Mantis Shrimp', 'Marine').
+animal_habitat('Mantis Shrimp', 'Coral Reef').
+animal_preferred_environment_temperature('Mantis Shrimp', 75).
+animal_territory_size_sq_miles('Mantis Shrimp', 0.01).
 
 % Abilities
-flies(false).
-changes_color(true).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('None').
+animal_flies('Mantis Shrimp', false).
+animal_changes_color('Mantis Shrimp', true).
+animal_tree_climbing('Mantis Shrimp', 'Poor').
+animal_fishing_ability('Mantis Shrimp', 'Professional').
+animal_speech_capability('Mantis Shrimp', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(50).
-% Number of clutches per year
-clutches_per_year(3).
+animal_eggs_per_clutch('Mantis Shrimp', 50).
+animal_clutches_per_year('Mantis Shrimp', 3).
 
 % Diet
-diet('Carnivore').
-diet_preference('Crustaceans').
-diet_preference('Mollusks').
+animal_diet('Mantis Shrimp', 'Carnivore').
+animal_diet_preference('Mantis Shrimp', 'Crustaceans').
+animal_diet_preference('Mantis Shrimp', 'Mollusks').
 
 % Other Characteristics
-category('Crustacean').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(50).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous('Venomous').
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(6).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Neutral').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Research').
-human_usage('Education').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Burrow').
-migration(false).
-hunting_technique('Striking').
-hunting_technique('Spearing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Mantis Shrimp', 'Crustacean').
+animal_lays_eggs('Mantis Shrimp', true).
+animal_speed_mph('Mantis Shrimp', 50).
+animal_has_a_pouch('Mantis Shrimp', false).
+animal_domesticated('Mantis Shrimp', false).
+animal_poisonous_or_venomous('Mantis Shrimp', 'Venomous').
+animal_breathes_under_water('Mantis Shrimp', true).
+animal_metamorphosis('Mantis Shrimp', false).
+animal_average_lifespan('Mantis Shrimp', 6).
+animal_temperature('Mantis Shrimp', 'Warm').
+animal_common_pet('Mantis Shrimp', false).
+animal_endangered('Mantis Shrimp', false).
+animal_has_tail('Mantis Shrimp', true).
+animal_has_dorsal_fin('Mantis Shrimp', false).
+animal_human_interaction('Mantis Shrimp', 'Neutral').
+animal_intelligence_level('Mantis Shrimp', 'Complex Learner').
+animal_cheek_pouches('Mantis Shrimp', false).
+animal_human_usage('Mantis Shrimp', 'Research').
+animal_human_usage('Mantis Shrimp', 'Education').
+animal_group_size('Mantis Shrimp', 1).
+animal_nest_location('Mantis Shrimp', 'Burrow').
+animal_migration('Mantis Shrimp', false).
+animal_hunting_technique('Mantis Shrimp', 'Striking').
+animal_hunting_technique('Mantis Shrimp', 'Spearing').
+animal_burrowing_behavior('Mantis Shrimp', 'Non-Burrowing').

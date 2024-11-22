@@ -1,77 +1,70 @@
+% Facts about Cow
+
 name('Cow').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(1600).
-% Height in inches
-height_inches(60).
-has_color('Multiple').
-pattern_type('Patched').
+animal_scales('Cow', false).
+animal_fur('Cow', 'Fur').
+animal_feathers('Cow', false).
+animal_legs('Cow', 4).
+animal_teeth('Cow', true).
+animal_wings('Cow', false).
+animal_weight_lbs('Cow', 1600).
+animal_height_inches('Cow', 60).
+animal_has_color('Cow', 'Multiple').
+animal_pattern_type('Cow', 'Patched').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Cow', false).
+animal_hibernates('Cow', false).
+animal_lives_in_groups('Cow', true).
+animal_social_bonding_level('Cow', 'Colonial').
+animal_hoarding_behavior('Cow', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Cow', 'Various').
+animal_preferred_environment_temperature('Cow', 65).
+animal_territory_size_sq_miles('Cow', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic Vocalizations').
+animal_flies('Cow', false).
+animal_changes_color('Cow', false).
+animal_tree_climbing('Cow', 'Poor').
+animal_fishing_ability('Cow', 'Poor').
+animal_speech_capability('Cow', 'Basic Vocalizations').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Cow', 0).
+animal_clutches_per_year('Cow', 0).
 
 % Diet
-diet('Herbivore').
-diet_preference('Grass').
-diet_preference('Hay').
+animal_diet('Cow', 'Herbivore').
+animal_diet_preference('Cow', 'Grass').
+animal_diet_preference('Cow', 'Hay').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(25).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Milk').
-human_usage('Leather').
-% Number of individuals in a typical group
-group_size(50).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Cow', 'Mammal').
+animal_lays_eggs('Cow', false).
+animal_speed_mph('Cow', 25).
+animal_has_a_pouch('Cow', false).
+animal_domesticated('Cow', true).
+animal_poisonous_or_venomous('Cow', false).
+animal_breathes_under_water('Cow', false).
+animal_metamorphosis('Cow', false).
+animal_average_lifespan('Cow', 20).
+animal_temperature('Cow', 'Warm').
+animal_common_pet('Cow', false).
+animal_endangered('Cow', false).
+animal_has_tail('Cow', true).
+animal_has_dorsal_fin('Cow', false).
+animal_human_interaction('Cow', 'Dependent').
+animal_intelligence_level('Cow', 'Learning').
+animal_cheek_pouches('Cow', false).
+animal_human_usage('Cow', 'Meat').
+animal_human_usage('Cow', 'Milk').
+animal_human_usage('Cow', 'Leather').
+animal_group_size('Cow', 50).
+animal_nest_location('Cow', 'Ground Level').
+animal_migration('Cow', false).
+animal_hunting_technique('Cow', 'Grazing').
+animal_burrowing_behavior('Cow', 'Non-Burrowing').

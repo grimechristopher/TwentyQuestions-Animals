@@ -1,78 +1,71 @@
+% Facts about Flying Dragon Lizard
+
 name('Flying Dragon Lizard').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(4).
-teeth(true).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(0.14).
-% Height in inches
-height_inches(8).
-has_color('Green').
-has_color('Orange').
-has_color('Brown').
-pattern_type('Various').
+animal_scales('Flying Dragon Lizard', true).
+animal_fur('Flying Dragon Lizard', false).
+animal_feathers('Flying Dragon Lizard', false).
+animal_legs('Flying Dragon Lizard', 4).
+animal_teeth('Flying Dragon Lizard', true).
+animal_wings('Flying Dragon Lizard', true).
+animal_weight_lbs('Flying Dragon Lizard', 0.14).
+animal_height_inches('Flying Dragon Lizard', 8).
+animal_has_color('Flying Dragon Lizard', 'Green').
+animal_has_color('Flying Dragon Lizard', 'Orange').
+animal_has_color('Flying Dragon Lizard', 'Brown').
+animal_pattern_type('Flying Dragon Lizard', 'Various').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Flying Dragon Lizard', false).
+animal_hibernates('Flying Dragon Lizard', false).
+animal_lives_in_groups('Flying Dragon Lizard', false).
+animal_social_bonding_level('Flying Dragon Lizard', 'Solitary').
+animal_hoarding_behavior('Flying Dragon Lizard', false).
 
 % Habitat and Environment
-habitat('Forest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Flying Dragon Lizard', 'Forest').
+animal_preferred_environment_temperature('Flying Dragon Lizard', 80).
+animal_territory_size_sq_miles('Flying Dragon Lizard', 0.1).
 
 % Abilities
-flies('Glides').
-changes_color(true).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Flying Dragon Lizard', 'Glides').
+animal_changes_color('Flying Dragon Lizard', true).
+animal_tree_climbing('Flying Dragon Lizard', 'Professional').
+animal_fishing_ability('Flying Dragon Lizard', 'Poor').
+animal_speech_capability('Flying Dragon Lizard', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(4).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Flying Dragon Lizard', 4).
+animal_clutches_per_year('Flying Dragon Lizard', 2).
 
 % Diet
-diet('Carnivore').
-diet_preference('Insects').
+animal_diet('Flying Dragon Lizard', 'Carnivore').
+animal_diet_preference('Flying Dragon Lizard', 'Insects').
 
 % Other Characteristics
-category('Reptile').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(8).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(10).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Tree Holes').
-migration(false).
-hunting_technique('Gliding').
-hunting_technique('Ambush').
-burrowing_behavior('Non-Burrowing').
+animal_category('Flying Dragon Lizard', 'Reptile').
+animal_lays_eggs('Flying Dragon Lizard', true).
+animal_speed_mph('Flying Dragon Lizard', 8).
+animal_has_a_pouch('Flying Dragon Lizard', false).
+animal_domesticated('Flying Dragon Lizard', false).
+animal_poisonous_or_venomous('Flying Dragon Lizard', false).
+animal_breathes_under_water('Flying Dragon Lizard', false).
+animal_metamorphosis('Flying Dragon Lizard', false).
+animal_average_lifespan('Flying Dragon Lizard', 10).
+animal_temperature('Flying Dragon Lizard', 'Warm').
+animal_common_pet('Flying Dragon Lizard', false).
+animal_endangered('Flying Dragon Lizard', false).
+animal_has_tail('Flying Dragon Lizard', true).
+animal_has_dorsal_fin('Flying Dragon Lizard', false).
+animal_human_interaction('Flying Dragon Lizard', 'Fearful').
+animal_intelligence_level('Flying Dragon Lizard', 'Learning').
+animal_cheek_pouches('Flying Dragon Lizard', false).
+animal_human_usage('Flying Dragon Lizard', 'Tourism').
+animal_human_usage('Flying Dragon Lizard', 'Research').
+animal_group_size('Flying Dragon Lizard', 1).
+animal_nest_location('Flying Dragon Lizard', 'Tree Holes').
+animal_migration('Flying Dragon Lizard', false).
+animal_hunting_technique('Flying Dragon Lizard', 'Gliding').
+animal_hunting_technique('Flying Dragon Lizard', 'Ambush').
+animal_burrowing_behavior('Flying Dragon Lizard', 'Non-Burrowing').

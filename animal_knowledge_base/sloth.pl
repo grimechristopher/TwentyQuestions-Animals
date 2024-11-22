@@ -1,76 +1,69 @@
+% Facts about Sloth
+
 name('Sloth').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(15).
-% Height in inches
-height_inches(24).
-has_color('Brown').
-has_color('Gray').
-pattern_type('Solid').
+animal_scales('Sloth', false).
+animal_fur('Sloth', 'Fur').
+animal_feathers('Sloth', false).
+animal_legs('Sloth', 4).
+animal_teeth('Sloth', true).
+animal_wings('Sloth', false).
+animal_weight_lbs('Sloth', 15).
+animal_height_inches('Sloth', 24).
+animal_has_color('Sloth', 'Brown').
+animal_has_color('Sloth', 'Gray').
+animal_pattern_type('Sloth', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Sloth', true).
+animal_hibernates('Sloth', false).
+animal_lives_in_groups('Sloth', false).
+animal_social_bonding_level('Sloth', 'Solitary').
+animal_hoarding_behavior('Sloth', false).
 
 % Habitat and Environment
-habitat('Forest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Sloth', 'Forest').
+animal_preferred_environment_temperature('Sloth', 80).
+animal_territory_size_sq_miles('Sloth', 0.1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Sloth', false).
+animal_changes_color('Sloth', false).
+animal_tree_climbing('Sloth', 'Professional').
+animal_fishing_ability('Sloth', 'Poor').
+animal_speech_capability('Sloth', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Sloth', 0).
+animal_clutches_per_year('Sloth', 0).
 
 % Diet
-diet('Herbivore').
-diet_preference('Leaves').
-diet_preference('Fruits').
+animal_diet('Sloth', 'Herbivore').
+animal_diet_preference('Sloth', 'Leaves').
+animal_diet_preference('Sloth', 'Fruits').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(0.15).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(25).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Neutral').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Tree Branch').
-migration(false).
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Sloth', 'Mammal').
+animal_lays_eggs('Sloth', false).
+animal_speed_mph('Sloth', 0.15).
+animal_has_a_pouch('Sloth', false).
+animal_domesticated('Sloth', false).
+animal_poisonous_or_venomous('Sloth', false).
+animal_breathes_under_water('Sloth', false).
+animal_metamorphosis('Sloth', false).
+animal_average_lifespan('Sloth', 25).
+animal_temperature('Sloth', 'Warm').
+animal_common_pet('Sloth', false).
+animal_endangered('Sloth', true).
+animal_has_tail('Sloth', true).
+animal_has_dorsal_fin('Sloth', false).
+animal_human_interaction('Sloth', 'Neutral').
+animal_intelligence_level('Sloth', 'Learning').
+animal_cheek_pouches('Sloth', false).
+animal_human_usage('Sloth', 'Tourism').
+animal_group_size('Sloth', 1).
+animal_nest_location('Sloth', 'Tree Branch').
+animal_migration('Sloth', false).
+animal_hunting_technique('Sloth', 'Grazing').
+animal_burrowing_behavior('Sloth', 'Non-Burrowing').

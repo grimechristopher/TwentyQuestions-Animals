@@ -1,76 +1,69 @@
+% Facts about Wolf
+
 name('Wolf').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(100).
-% Height in inches
-height_inches(32).
-has_color('Gray').
-pattern_type('Solid').
+animal_scales('Wolf', false).
+animal_fur('Wolf', 'Fur').
+animal_feathers('Wolf', false).
+animal_legs('Wolf', 4).
+animal_teeth('Wolf', true).
+animal_wings('Wolf', false).
+animal_weight_lbs('Wolf', 100).
+animal_height_inches('Wolf', 32).
+animal_has_color('Wolf', 'Gray').
+animal_pattern_type('Wolf', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Family').
-hoarding_behavior('Simple').
+animal_nocturnal('Wolf', true).
+animal_hibernates('Wolf', false).
+animal_lives_in_groups('Wolf', true).
+animal_social_bonding_level('Wolf', 'Family').
+animal_hoarding_behavior('Wolf', 'Simple').
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(45).
-% Territory size in square miles
-territory_size_sq_miles(100).
+animal_habitat('Wolf', 'Various').
+animal_preferred_environment_temperature('Wolf', 45).
+animal_territory_size_sq_miles('Wolf', 100).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Good').
-fishing_ability('Poor').
-speech_capability('Complex Vocalizations').
+animal_flies('Wolf', false).
+animal_changes_color('Wolf', false).
+animal_tree_climbing('Wolf', 'Good').
+animal_fishing_ability('Wolf', 'Poor').
+animal_speech_capability('Wolf', 'Complex Vocalizations').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Wolf', 0).
+animal_clutches_per_year('Wolf', 0).
 
 % Diet
-diet('Carnivore').
-diet_preference('Large Mammals').
-diet_preference('Medium Mammals').
+animal_diet('Wolf', 'Carnivore').
+animal_diet_preference('Wolf', 'Large Mammals').
+animal_diet_preference('Wolf', 'Medium Mammals').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(40).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(13).
-temperature('Cold').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(8).
-nest_location('Cave').
-migration('Irregular').
-hunting_technique('Pack Hunting').
-hunting_technique('Pursuit').
-burrowing_behavior('Burrow User').
+animal_category('Wolf', 'Mammal').
+animal_lays_eggs('Wolf', false).
+animal_speed_mph('Wolf', 40).
+animal_has_a_pouch('Wolf', false).
+animal_domesticated('Wolf', false).
+animal_poisonous_or_venomous('Wolf', false).
+animal_breathes_under_water('Wolf', false).
+animal_metamorphosis('Wolf', false).
+animal_average_lifespan('Wolf', 13).
+animal_temperature('Wolf', 'Cold').
+animal_common_pet('Wolf', false).
+animal_endangered('Wolf', true).
+animal_has_tail('Wolf', true).
+animal_has_dorsal_fin('Wolf', false).
+animal_human_interaction('Wolf', 'Cautious').
+animal_intelligence_level('Wolf', 'Complex Learner').
+animal_cheek_pouches('Wolf', false).
+animal_human_usage('Wolf', 'Tourism').
+animal_group_size('Wolf', 8).
+animal_nest_location('Wolf', 'Cave').
+animal_migration('Wolf', 'Irregular').
+animal_hunting_technique('Wolf', 'Pack Hunting').
+animal_hunting_technique('Wolf', 'Pursuit').
+animal_burrowing_behavior('Wolf', 'Burrow User').

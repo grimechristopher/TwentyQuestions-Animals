@@ -1,78 +1,71 @@
+% Facts about Coyote
+
 name('Coyote').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(30).
-% Height in inches
-height_inches(24).
-has_color('Gray').
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Coyote', false).
+animal_fur('Coyote', 'Fur').
+animal_feathers('Coyote', false).
+animal_legs('Coyote', 4).
+animal_teeth('Coyote', true).
+animal_wings('Coyote', false).
+animal_weight_lbs('Coyote', 30).
+animal_height_inches('Coyote', 24).
+animal_has_color('Coyote', 'Gray').
+animal_has_color('Coyote', 'Brown').
+animal_pattern_type('Coyote', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Family').
-hoarding_behavior('Simple').
+animal_nocturnal('Coyote', true).
+animal_hibernates('Coyote', false).
+animal_lives_in_groups('Coyote', true).
+animal_social_bonding_level('Coyote', 'Family').
+animal_hoarding_behavior('Coyote', 'Simple').
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(10).
+animal_habitat('Coyote', 'Various').
+animal_preferred_environment_temperature('Coyote', 65).
+animal_territory_size_sq_miles('Coyote', 10).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Good').
-fishing_ability('Poor').
-speech_capability('Complex').
+animal_flies('Coyote', false).
+animal_changes_color('Coyote', false).
+animal_tree_climbing('Coyote', 'Good').
+animal_fishing_ability('Coyote', 'Poor').
+animal_speech_capability('Coyote', 'Complex').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Coyote', 0).
+animal_clutches_per_year('Coyote', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Small Mammals').
-diet_preference('Birds').
+animal_diet('Coyote', 'Carnivore').
+animal_diet_preference('Coyote', 'Small Mammals').
+animal_diet_preference('Coyote', 'Birds').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(43).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(14).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Fur').
-human_usage('Pest Control').
-% Number of individuals in a typical group
-group_size(6).
-nest_location('Ground Den').
-migration(false).
-hunting_technique('Pack Hunting').
-hunting_technique('Stalking').
-burrowing_behavior('Burrow User').
+animal_category('Coyote', 'Mammal').
+animal_lays_eggs('Coyote', false).
+animal_speed_mph('Coyote', 43).
+animal_has_a_pouch('Coyote', false).
+animal_domesticated('Coyote', false).
+animal_poisonous_or_venomous('Coyote', false).
+animal_breathes_under_water('Coyote', false).
+animal_metamorphosis('Coyote', false).
+animal_average_lifespan('Coyote', 14).
+animal_temperature('Coyote', 'Warm').
+animal_common_pet('Coyote', false).
+animal_endangered('Coyote', false).
+animal_has_tail('Coyote', true).
+animal_has_dorsal_fin('Coyote', false).
+animal_human_interaction('Coyote', 'Cautious').
+animal_intelligence_level('Coyote', 'Complex Learner').
+animal_cheek_pouches('Coyote', false).
+animal_human_usage('Coyote', 'Fur').
+animal_human_usage('Coyote', 'Pest Control').
+animal_group_size('Coyote', 6).
+animal_nest_location('Coyote', 'Ground Den').
+animal_migration('Coyote', false).
+animal_hunting_technique('Coyote', 'Pack Hunting').
+animal_hunting_technique('Coyote', 'Stalking').
+animal_burrowing_behavior('Coyote', 'Burrow User').

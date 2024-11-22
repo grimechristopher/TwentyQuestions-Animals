@@ -1,76 +1,69 @@
+% Facts about Mosquito
+
 name('Mosquito').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(6).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(0.00001).
-% Height in inches
-height_inches(0.25).
-has_color('Gray').
-has_color('Black').
-pattern_type('Solid').
+animal_scales('Mosquito', false).
+animal_fur('Mosquito', false).
+animal_feathers('Mosquito', false).
+animal_legs('Mosquito', 6).
+animal_teeth('Mosquito', false).
+animal_wings('Mosquito', true).
+animal_weight_lbs('Mosquito', 0.00001).
+animal_height_inches('Mosquito', 0.25).
+animal_has_color('Mosquito', 'Gray').
+animal_has_color('Mosquito', 'Black').
+animal_pattern_type('Mosquito', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Swarms').
-hoarding_behavior(false).
+animal_nocturnal('Mosquito', true).
+animal_hibernates('Mosquito', false).
+animal_lives_in_groups('Mosquito', true).
+animal_social_bonding_level('Mosquito', 'Swarms').
+animal_hoarding_behavior('Mosquito', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Mosquito', 'Various').
+animal_preferred_environment_temperature('Mosquito', 75).
+animal_territory_size_sq_miles('Mosquito', 0).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('None').
+animal_flies('Mosquito', true).
+animal_changes_color('Mosquito', false).
+animal_tree_climbing('Mosquito', 'Poor').
+animal_fishing_ability('Mosquito', 'Poor').
+animal_speech_capability('Mosquito', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(100).
-% Number of clutches per year
-clutches_per_year(4).
+animal_eggs_per_clutch('Mosquito', 100).
+animal_clutches_per_year('Mosquito', 4).
 
 % Diet
-diet('Carnivore').
-diet_preference('Blood').
-diet_preference('Nectar').
+animal_diet('Mosquito', 'Carnivore').
+animal_diet_preference('Mosquito', 'Blood').
+animal_diet_preference('Mosquito', 'Nectar').
 
 % Other Characteristics
-category('Insect').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(1.5).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(true).
-% Lifespan in years
-average_lifespan(0.1).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(false).
-has_dorsal_fin(false).
-human_interaction('Social').
-intelligence_level('Simple').
-cheek_pouches(false).
-human_usage('Pest Control').
-% Number of individuals in a typical group
-group_size(1000).
-nest_location('Water Surface').
-migration(true).
-hunting_technique('Blood Feeding').
-burrowing_behavior('Non-Burrowing').
+animal_category('Mosquito', 'Insect').
+animal_lays_eggs('Mosquito', true).
+animal_speed_mph('Mosquito', 1.5).
+animal_has_a_pouch('Mosquito', false).
+animal_domesticated('Mosquito', false).
+animal_poisonous_or_venomous('Mosquito', false).
+animal_breathes_under_water('Mosquito', false).
+animal_metamorphosis('Mosquito', true).
+animal_average_lifespan('Mosquito', 0.1).
+animal_temperature('Mosquito', 'Warm').
+animal_common_pet('Mosquito', false).
+animal_endangered('Mosquito', false).
+animal_has_tail('Mosquito', false).
+animal_has_dorsal_fin('Mosquito', false).
+animal_human_interaction('Mosquito', 'Social').
+animal_intelligence_level('Mosquito', 'Simple').
+animal_cheek_pouches('Mosquito', false).
+animal_human_usage('Mosquito', 'Pest Control').
+animal_group_size('Mosquito', 1000).
+animal_nest_location('Mosquito', 'Water Surface').
+animal_migration('Mosquito', true).
+animal_hunting_technique('Mosquito', 'Blood Feeding').
+animal_burrowing_behavior('Mosquito', 'Non-Burrowing').

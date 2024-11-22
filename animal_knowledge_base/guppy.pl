@@ -1,75 +1,68 @@
+% Facts about Guppy
+
 name('Guppy').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.1).
-% Height in inches
-height_inches(2).
-has_color('Multiple').
-pattern_type('Various').
+animal_scales('Guppy', true).
+animal_fur('Guppy', false).
+animal_feathers('Guppy', false).
+animal_legs('Guppy', 0).
+animal_teeth('Guppy', true).
+animal_wings('Guppy', false).
+animal_weight_lbs('Guppy', 0.1).
+animal_height_inches('Guppy', 2).
+animal_has_color('Guppy', 'Multiple').
+animal_pattern_type('Guppy', 'Various').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Social').
-hoarding_behavior(false).
+animal_nocturnal('Guppy', false).
+animal_hibernates('Guppy', false).
+animal_lives_in_groups('Guppy', true).
+animal_social_bonding_level('Guppy', 'Social').
+animal_hoarding_behavior('Guppy', false).
 
 % Habitat and Environment
-habitat('Freshwater').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Guppy', 'Freshwater').
+animal_preferred_environment_temperature('Guppy', 75).
+animal_territory_size_sq_miles('Guppy', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('None').
+animal_flies('Guppy', false).
+animal_changes_color('Guppy', false).
+animal_tree_climbing('Guppy', 'Poor').
+animal_fishing_ability('Guppy', 'Poor').
+animal_speech_capability('Guppy', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(60).
-% Number of clutches per year
-clutches_per_year(12).
+animal_eggs_per_clutch('Guppy', 60).
+animal_clutches_per_year('Guppy', 12).
 
 % Diet
-diet('Omnivore').
-diet_preference('Fish Food').
-diet_preference('Algae').
+animal_diet('Guppy', 'Omnivore').
+animal_diet_preference('Guppy', 'Fish Food').
+animal_diet_preference('Guppy', 'Algae').
 
 % Other Characteristics
-category('Fish').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(2).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(2).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-% Number of individuals in a typical group
-group_size(10).
-nest_location('Plants').
-migration(false).
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Guppy', 'Fish').
+animal_lays_eggs('Guppy', true).
+animal_speed_mph('Guppy', 2).
+animal_has_a_pouch('Guppy', false).
+animal_domesticated('Guppy', true).
+animal_poisonous_or_venomous('Guppy', false).
+animal_breathes_under_water('Guppy', true).
+animal_metamorphosis('Guppy', false).
+animal_average_lifespan('Guppy', 2).
+animal_temperature('Guppy', 'Warm').
+animal_common_pet('Guppy', true).
+animal_endangered('Guppy', false).
+animal_has_tail('Guppy', true).
+animal_has_dorsal_fin('Guppy', true).
+animal_human_interaction('Guppy', 'Dependent').
+animal_intelligence_level('Guppy', 'Learning').
+animal_cheek_pouches('Guppy', false).
+animal_human_usage('Guppy', 'Pets').
+animal_group_size('Guppy', 10).
+animal_nest_location('Guppy', 'Plants').
+animal_migration('Guppy', false).
+animal_hunting_technique('Guppy', 'Grazing').
+animal_burrowing_behavior('Guppy', 'Non-Burrowing').

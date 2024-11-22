@@ -1,78 +1,71 @@
+% Facts about Fire-bellied Newt
+
 name('Fire-bellied Newt').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(4).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.035).
-% Height in inches
-height_inches(3).
-has_color('Black').
-has_color('Red').
-pattern_type('Two-toned').
+animal_scales('Fire-bellied Newt', false).
+animal_fur('Fire-bellied Newt', false).
+animal_feathers('Fire-bellied Newt', false).
+animal_legs('Fire-bellied Newt', 4).
+animal_teeth('Fire-bellied Newt', false).
+animal_wings('Fire-bellied Newt', false).
+animal_weight_lbs('Fire-bellied Newt', 0.035).
+animal_height_inches('Fire-bellied Newt', 3).
+animal_has_color('Fire-bellied Newt', 'Black').
+animal_has_color('Fire-bellied Newt', 'Red').
+animal_pattern_type('Fire-bellied Newt', 'Two-toned').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Social').
-hoarding_behavior(false).
+animal_nocturnal('Fire-bellied Newt', false).
+animal_hibernates('Fire-bellied Newt', false).
+animal_lives_in_groups('Fire-bellied Newt', false).
+animal_social_bonding_level('Fire-bellied Newt', 'Social').
+animal_hoarding_behavior('Fire-bellied Newt', false).
 
 % Habitat and Environment
-habitat('Wetland').
-% Temperature in Fahrenheit
-preferred_environment_temperature(68).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Fire-bellied Newt', 'Wetland').
+animal_preferred_environment_temperature('Fire-bellied Newt', 68).
+animal_territory_size_sq_miles('Fire-bellied Newt', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Fire-bellied Newt', false).
+animal_changes_color('Fire-bellied Newt', false).
+animal_tree_climbing('Fire-bellied Newt', 'Poor').
+animal_fishing_ability('Fire-bellied Newt', 'Poor').
+animal_speech_capability('Fire-bellied Newt', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(200).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Fire-bellied Newt', 200).
+animal_clutches_per_year('Fire-bellied Newt', 2).
 
 % Diet
-diet('Carnivore').
-diet_preference('Insects').
-diet_preference('Worms').
+animal_diet('Fire-bellied Newt', 'Carnivore').
+animal_diet_preference('Fire-bellied Newt', 'Insects').
+animal_diet_preference('Fire-bellied Newt', 'Worms').
 
 % Other Characteristics
-category('Amphibian').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(0.5).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous('Poisonous').
-breathes_under_water(true).
-metamorphosis(true).
-% Lifespan in years
-average_lifespan(15).
-temperature('Cold').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(5).
-nest_location('Water Edge').
-migration(false).
-hunting_technique('Stalking').
-hunting_technique('Ambush').
-burrowing_behavior('Non-Burrowing').
+animal_category('Fire-bellied Newt', 'Amphibian').
+animal_lays_eggs('Fire-bellied Newt', true).
+animal_speed_mph('Fire-bellied Newt', 0.5).
+animal_has_a_pouch('Fire-bellied Newt', false).
+animal_domesticated('Fire-bellied Newt', true).
+animal_poisonous_or_venomous('Fire-bellied Newt', 'Poisonous').
+animal_breathes_under_water('Fire-bellied Newt', true).
+animal_metamorphosis('Fire-bellied Newt', true).
+animal_average_lifespan('Fire-bellied Newt', 15).
+animal_temperature('Fire-bellied Newt', 'Cold').
+animal_common_pet('Fire-bellied Newt', true).
+animal_endangered('Fire-bellied Newt', false).
+animal_has_tail('Fire-bellied Newt', true).
+animal_has_dorsal_fin('Fire-bellied Newt', false).
+animal_human_interaction('Fire-bellied Newt', 'Dependent').
+animal_intelligence_level('Fire-bellied Newt', 'Learning').
+animal_cheek_pouches('Fire-bellied Newt', false).
+animal_human_usage('Fire-bellied Newt', 'Pets').
+animal_human_usage('Fire-bellied Newt', 'Research').
+animal_group_size('Fire-bellied Newt', 5).
+animal_nest_location('Fire-bellied Newt', 'Water Edge').
+animal_migration('Fire-bellied Newt', false).
+animal_hunting_technique('Fire-bellied Newt', 'Stalking').
+animal_hunting_technique('Fire-bellied Newt', 'Ambush').
+animal_burrowing_behavior('Fire-bellied Newt', 'Non-Burrowing').

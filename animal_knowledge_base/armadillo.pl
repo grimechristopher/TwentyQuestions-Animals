@@ -1,78 +1,71 @@
+% Facts about Armadillo
+
 name('Armadillo').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(12).
-% Height in inches
-height_inches(16).
-has_color('Gray').
-has_color('Pink').
-pattern_type('Plated').
+animal_scales('Armadillo', true).
+animal_fur('Armadillo', false).
+animal_feathers('Armadillo', false).
+animal_legs('Armadillo', 4).
+animal_teeth('Armadillo', true).
+animal_wings('Armadillo', false).
+animal_weight_lbs('Armadillo', 12).
+animal_height_inches('Armadillo', 16).
+animal_has_color('Armadillo', 'Gray').
+animal_has_color('Armadillo', 'Pink').
+animal_pattern_type('Armadillo', 'Plated').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Armadillo', true).
+animal_hibernates('Armadillo', false).
+animal_lives_in_groups('Armadillo', false).
+animal_social_bonding_level('Armadillo', 'Solitary').
+animal_hoarding_behavior('Armadillo', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Armadillo', 'Various').
+animal_preferred_environment_temperature('Armadillo', 75).
+animal_territory_size_sq_miles('Armadillo', 0.1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Armadillo', false).
+animal_changes_color('Armadillo', false).
+animal_tree_climbing('Armadillo', 'Poor').
+animal_fishing_ability('Armadillo', 'Poor').
+animal_speech_capability('Armadillo', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(4).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Armadillo', 4).
+animal_clutches_per_year('Armadillo', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Insects').
-diet_preference('Worms').
+animal_diet('Armadillo', 'Omnivore').
+animal_diet_preference('Armadillo', 'Insects').
+animal_diet_preference('Armadillo', 'Worms').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(3).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(12).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Burrow').
-migration(false).
-hunting_technique('Digging').
-hunting_technique('Foraging').
-burrowing_behavior('Tunneling').
+animal_category('Armadillo', 'Mammal').
+animal_lays_eggs('Armadillo', false).
+animal_speed_mph('Armadillo', 3).
+animal_has_a_pouch('Armadillo', false).
+animal_domesticated('Armadillo', false).
+animal_poisonous_or_venomous('Armadillo', false).
+animal_breathes_under_water('Armadillo', false).
+animal_metamorphosis('Armadillo', false).
+animal_average_lifespan('Armadillo', 12).
+animal_temperature('Armadillo', 'Warm').
+animal_common_pet('Armadillo', false).
+animal_endangered('Armadillo', false).
+animal_has_tail('Armadillo', true).
+animal_has_dorsal_fin('Armadillo', false).
+animal_human_interaction('Armadillo', 'Cautious').
+animal_intelligence_level('Armadillo', 'Learning').
+animal_cheek_pouches('Armadillo', false).
+animal_human_usage('Armadillo', 'Meat').
+animal_human_usage('Armadillo', 'Research').
+animal_group_size('Armadillo', 1).
+animal_nest_location('Armadillo', 'Burrow').
+animal_migration('Armadillo', false).
+animal_hunting_technique('Armadillo', 'Digging').
+animal_hunting_technique('Armadillo', 'Foraging').
+animal_burrowing_behavior('Armadillo', 'Tunneling').

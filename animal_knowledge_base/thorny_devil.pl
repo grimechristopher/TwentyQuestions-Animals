@@ -1,77 +1,70 @@
+% Facts about Thorny Devil
+
 name('Thorny Devil').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(4).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.2).
-% Height in inches
-height_inches(8).
-has_color('Brown').
-has_color('Tan').
-pattern_type('Spiky').
+animal_scales('Thorny Devil', true).
+animal_fur('Thorny Devil', false).
+animal_feathers('Thorny Devil', false).
+animal_legs('Thorny Devil', 4).
+animal_teeth('Thorny Devil', false).
+animal_wings('Thorny Devil', false).
+animal_weight_lbs('Thorny Devil', 0.2).
+animal_height_inches('Thorny Devil', 8).
+animal_has_color('Thorny Devil', 'Brown').
+animal_has_color('Thorny Devil', 'Tan').
+animal_pattern_type('Thorny Devil', 'Spiky').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Thorny Devil', false).
+animal_hibernates('Thorny Devil', false).
+animal_lives_in_groups('Thorny Devil', false).
+animal_social_bonding_level('Thorny Devil', 'Solitary').
+animal_hoarding_behavior('Thorny Devil', false).
 
 % Habitat and Environment
-habitat('Desert').
-% Temperature in Fahrenheit
-preferred_environment_temperature(95).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Thorny Devil', 'Desert').
+animal_preferred_environment_temperature('Thorny Devil', 95).
+animal_territory_size_sq_miles('Thorny Devil', 0.1).
 
 % Abilities
-flies(false).
-changes_color(true).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Thorny Devil', false).
+animal_changes_color('Thorny Devil', true).
+animal_tree_climbing('Thorny Devil', 'Poor').
+animal_fishing_ability('Thorny Devil', 'Poor').
+animal_speech_capability('Thorny Devil', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(8).
-% Number of clutches per year
-clutches_per_year(1.4).
+animal_eggs_per_clutch('Thorny Devil', 8).
+animal_clutches_per_year('Thorny Devil', 1.4).
 
 % Diet
-diet('Carnivore').
-diet_preference('Ants').
+animal_diet('Thorny Devil', 'Carnivore').
+animal_diet_preference('Thorny Devil', 'Ants').
 
 % Other Characteristics
-category('Reptile').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(2).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Sand Burrow').
-migration(false).
-hunting_technique('Ambush').
-hunting_technique('Tongue Capture').
-burrowing_behavior('Non-Burrowing').
+animal_category('Thorny Devil', 'Reptile').
+animal_lays_eggs('Thorny Devil', true).
+animal_speed_mph('Thorny Devil', 2).
+animal_has_a_pouch('Thorny Devil', false).
+animal_domesticated('Thorny Devil', false).
+animal_poisonous_or_venomous('Thorny Devil', false).
+animal_breathes_under_water('Thorny Devil', false).
+animal_metamorphosis('Thorny Devil', false).
+animal_average_lifespan('Thorny Devil', 20).
+animal_temperature('Thorny Devil', 'Warm').
+animal_common_pet('Thorny Devil', false).
+animal_endangered('Thorny Devil', false).
+animal_has_tail('Thorny Devil', true).
+animal_has_dorsal_fin('Thorny Devil', false).
+animal_human_interaction('Thorny Devil', 'Fearful').
+animal_intelligence_level('Thorny Devil', 'Learning').
+animal_cheek_pouches('Thorny Devil', false).
+animal_human_usage('Thorny Devil', 'Tourism').
+animal_human_usage('Thorny Devil', 'Research').
+animal_group_size('Thorny Devil', 1).
+animal_nest_location('Thorny Devil', 'Sand Burrow').
+animal_migration('Thorny Devil', false).
+animal_hunting_technique('Thorny Devil', 'Ambush').
+animal_hunting_technique('Thorny Devil', 'Tongue Capture').
+animal_burrowing_behavior('Thorny Devil', 'Non-Burrowing').

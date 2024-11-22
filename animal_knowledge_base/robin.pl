@@ -1,78 +1,71 @@
+% Facts about Robin
+
 name('Robin').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(0.17).
-% Height in inches
-height_inches(6).
-has_color('Brown').
-has_color('Red').
-pattern_type('Solid').
+animal_scales('Robin', false).
+animal_fur('Robin', false).
+animal_feathers('Robin', true).
+animal_legs('Robin', 2).
+animal_teeth('Robin', false).
+animal_wings('Robin', true).
+animal_weight_lbs('Robin', 0.17).
+animal_height_inches('Robin', 6).
+animal_has_color('Robin', 'Brown').
+animal_has_color('Robin', 'Red').
+animal_pattern_type('Robin', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Pairs').
-hoarding_behavior(false).
+animal_nocturnal('Robin', false).
+animal_hibernates('Robin', false).
+animal_lives_in_groups('Robin', true).
+animal_social_bonding_level('Robin', 'Pairs').
+animal_hoarding_behavior('Robin', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Robin', 'Various').
+animal_preferred_environment_temperature('Robin', 65).
+animal_territory_size_sq_miles('Robin', 0.1).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Robin', true).
+animal_changes_color('Robin', false).
+animal_tree_climbing('Robin', 'Poor').
+animal_fishing_ability('Robin', 'Poor').
+animal_speech_capability('Robin', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(4).
-% Number of clutches per year
-clutches_per_year(2).
+animal_eggs_per_clutch('Robin', 4).
+animal_clutches_per_year('Robin', 2).
 
 % Diet
-diet('Omnivore').
-diet_preference('Worms').
-diet_preference('Insects').
+animal_diet('Robin', 'Omnivore').
+animal_diet_preference('Robin', 'Worms').
+animal_diet_preference('Robin', 'Insects').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(20).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(2).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Tolerant').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-human_usage('Education').
-% Number of individuals in a typical group
-group_size(2).
-nest_location('Tree Branch').
-migration('Some').
-hunting_technique('Ground Feeding').
-hunting_technique('Probing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Robin', 'Bird').
+animal_lays_eggs('Robin', true).
+animal_speed_mph('Robin', 20).
+animal_has_a_pouch('Robin', false).
+animal_domesticated('Robin', false).
+animal_poisonous_or_venomous('Robin', false).
+animal_breathes_under_water('Robin', false).
+animal_metamorphosis('Robin', false).
+animal_average_lifespan('Robin', 2).
+animal_temperature('Robin', 'Warm').
+animal_common_pet('Robin', false).
+animal_endangered('Robin', false).
+animal_has_tail('Robin', true).
+animal_has_dorsal_fin('Robin', false).
+animal_human_interaction('Robin', 'Tolerant').
+animal_intelligence_level('Robin', 'Learning').
+animal_cheek_pouches('Robin', false).
+animal_human_usage('Robin', 'Tourism').
+animal_human_usage('Robin', 'Education').
+animal_group_size('Robin', 2).
+animal_nest_location('Robin', 'Tree Branch').
+animal_migration('Robin', 'Some').
+animal_hunting_technique('Robin', 'Ground Feeding').
+animal_hunting_technique('Robin', 'Probing').
+animal_burrowing_behavior('Robin', 'Non-Burrowing').

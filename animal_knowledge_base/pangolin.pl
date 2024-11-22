@@ -1,76 +1,69 @@
+% Facts about Pangolin
+
 name('Pangolin').
 
 % Physical Characteristics
-scales(true).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(33).
-% Height in inches
-height_inches(24).
-has_color('Brown').
-pattern_type('Scaled').
+animal_scales('Pangolin', true).
+animal_fur('Pangolin', 'Fur').
+animal_feathers('Pangolin', false).
+animal_legs('Pangolin', 4).
+animal_teeth('Pangolin', false).
+animal_wings('Pangolin', false).
+animal_weight_lbs('Pangolin', 33).
+animal_height_inches('Pangolin', 24).
+animal_has_color('Pangolin', 'Brown').
+animal_pattern_type('Pangolin', 'Scaled').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Pangolin', true).
+animal_hibernates('Pangolin', false).
+animal_lives_in_groups('Pangolin', false).
+animal_social_bonding_level('Pangolin', 'Solitary').
+animal_hoarding_behavior('Pangolin', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(0.5).
+animal_habitat('Pangolin', 'Various').
+animal_preferred_environment_temperature('Pangolin', 75).
+animal_territory_size_sq_miles('Pangolin', 0.5).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Good').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Pangolin', false).
+animal_changes_color('Pangolin', false).
+animal_tree_climbing('Pangolin', 'Good').
+animal_fishing_ability('Pangolin', 'Poor').
+animal_speech_capability('Pangolin', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Pangolin', 0).
+animal_clutches_per_year('Pangolin', 0).
 
 % Diet
-diet('Insectivore').
-diet_preference('Ants').
-diet_preference('Termites').
+animal_diet('Pangolin', 'Insectivore').
+animal_diet_preference('Pangolin', 'Ants').
+animal_diet_preference('Pangolin', 'Termites').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(3).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Underground').
-migration(false).
-hunting_technique('Tongue Hunting').
-hunting_technique('Digging').
-burrowing_behavior('Tunneling').
+animal_category('Pangolin', 'Mammal').
+animal_lays_eggs('Pangolin', false).
+animal_speed_mph('Pangolin', 3).
+animal_has_a_pouch('Pangolin', false).
+animal_domesticated('Pangolin', false).
+animal_poisonous_or_venomous('Pangolin', false).
+animal_breathes_under_water('Pangolin', false).
+animal_metamorphosis('Pangolin', false).
+animal_average_lifespan('Pangolin', 20).
+animal_temperature('Pangolin', 'Warm').
+animal_common_pet('Pangolin', false).
+animal_endangered('Pangolin', true).
+animal_has_tail('Pangolin', true).
+animal_has_dorsal_fin('Pangolin', false).
+animal_human_interaction('Pangolin', 'Fearful').
+animal_intelligence_level('Pangolin', 'Learning').
+animal_cheek_pouches('Pangolin', false).
+animal_human_usage('Pangolin', 'Tourism').
+animal_group_size('Pangolin', 1).
+animal_nest_location('Pangolin', 'Underground').
+animal_migration('Pangolin', false).
+animal_hunting_technique('Pangolin', 'Tongue Hunting').
+animal_hunting_technique('Pangolin', 'Digging').
+animal_burrowing_behavior('Pangolin', 'Tunneling').

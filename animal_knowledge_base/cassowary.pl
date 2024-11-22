@@ -1,78 +1,71 @@
+% Facts about Cassowary
+
 name('Cassowary').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(130).
-% Height in inches
-height_inches(72).
-has_color('Black').
-has_color('Blue').
-has_color('Red').
-pattern_type('Solid').
+animal_scales('Cassowary', false).
+animal_fur('Cassowary', false).
+animal_feathers('Cassowary', true).
+animal_legs('Cassowary', 2).
+animal_teeth('Cassowary', false).
+animal_wings('Cassowary', false).
+animal_weight_lbs('Cassowary', 130).
+animal_height_inches('Cassowary', 72).
+animal_has_color('Cassowary', 'Black').
+animal_has_color('Cassowary', 'Blue').
+animal_has_color('Cassowary', 'Red').
+animal_pattern_type('Cassowary', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Cassowary', false).
+animal_hibernates('Cassowary', false).
+animal_lives_in_groups('Cassowary', false).
+animal_social_bonding_level('Cassowary', 'Solitary').
+animal_hoarding_behavior('Cassowary', false).
 
 % Habitat and Environment
-habitat('Rainforest').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(2).
+animal_habitat('Cassowary', 'Rainforest').
+animal_preferred_environment_temperature('Cassowary', 80).
+animal_territory_size_sq_miles('Cassowary', 2).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Cassowary', false).
+animal_changes_color('Cassowary', false).
+animal_tree_climbing('Cassowary', 'Poor').
+animal_fishing_ability('Cassowary', 'Poor').
+animal_speech_capability('Cassowary', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(5).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Cassowary', 5).
+animal_clutches_per_year('Cassowary', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Fruits').
-diet_preference('Small Animals').
+animal_diet('Cassowary', 'Omnivore').
+animal_diet_preference('Cassowary', 'Fruits').
+animal_diet_preference('Cassowary', 'Small Animals').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(31).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(40).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Aggressive').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Foraging').
-hunting_technique('Kicking').
-burrowing_behavior('Non-Burrowing').
+animal_category('Cassowary', 'Bird').
+animal_lays_eggs('Cassowary', true).
+animal_speed_mph('Cassowary', 31).
+animal_has_a_pouch('Cassowary', false).
+animal_domesticated('Cassowary', false).
+animal_poisonous_or_venomous('Cassowary', false).
+animal_breathes_under_water('Cassowary', false).
+animal_metamorphosis('Cassowary', false).
+animal_average_lifespan('Cassowary', 40).
+animal_temperature('Cassowary', 'Warm').
+animal_common_pet('Cassowary', false).
+animal_endangered('Cassowary', true).
+animal_has_tail('Cassowary', true).
+animal_has_dorsal_fin('Cassowary', false).
+animal_human_interaction('Cassowary', 'Aggressive').
+animal_intelligence_level('Cassowary', 'Learning').
+animal_cheek_pouches('Cassowary', false).
+animal_human_usage('Cassowary', 'Tourism').
+animal_group_size('Cassowary', 1).
+animal_nest_location('Cassowary', 'Ground Level').
+animal_migration('Cassowary', false).
+animal_hunting_technique('Cassowary', 'Foraging').
+animal_hunting_technique('Cassowary', 'Kicking').
+animal_burrowing_behavior('Cassowary', 'Non-Burrowing').

@@ -1,76 +1,69 @@
+% Facts about Lobster
+
 name('Lobster').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(10).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(4).
-% Height in inches
-height_inches(24).
-has_color('Red').
-has_color('Brown').
-pattern_type('Solid').
+animal_scales('Lobster', false).
+animal_fur('Lobster', false).
+animal_feathers('Lobster', false).
+animal_legs('Lobster', 10).
+animal_teeth('Lobster', false).
+animal_wings('Lobster', false).
+animal_weight_lbs('Lobster', 4).
+animal_height_inches('Lobster', 24).
+animal_has_color('Lobster', 'Red').
+animal_has_color('Lobster', 'Brown').
+animal_pattern_type('Lobster', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Lobster', true).
+animal_hibernates('Lobster', false).
+animal_lives_in_groups('Lobster', false).
+animal_social_bonding_level('Lobster', 'Solitary').
+animal_hoarding_behavior('Lobster', false).
 
 % Habitat and Environment
-habitat('Marine').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(0.1).
+animal_habitat('Lobster', 'Marine').
+animal_preferred_environment_temperature('Lobster', 65).
+animal_territory_size_sq_miles('Lobster', 0.1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('None').
+animal_flies('Lobster', false).
+animal_changes_color('Lobster', false).
+animal_tree_climbing('Lobster', 'Poor').
+animal_fishing_ability('Lobster', 'Professional').
+animal_speech_capability('Lobster', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(10000).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Lobster', 10000).
+animal_clutches_per_year('Lobster', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Fish').
-diet_preference('Mollusks').
+animal_diet('Lobster', 'Omnivore').
+animal_diet_preference('Lobster', 'Fish').
+animal_diet_preference('Lobster', 'Mollusks').
 
 % Other Characteristics
-category('Crustacean').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(5).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(50).
-temperature('Cold').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Neutral').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Food').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Ocean Floor').
-migration(false).
-hunting_technique('Scavenging').
-burrowing_behavior('Non-Burrowing').
+animal_category('Lobster', 'Crustacean').
+animal_lays_eggs('Lobster', true).
+animal_speed_mph('Lobster', 5).
+animal_has_a_pouch('Lobster', false).
+animal_domesticated('Lobster', false).
+animal_poisonous_or_venomous('Lobster', false).
+animal_breathes_under_water('Lobster', true).
+animal_metamorphosis('Lobster', false).
+animal_average_lifespan('Lobster', 50).
+animal_temperature('Lobster', 'Cold').
+animal_common_pet('Lobster', false).
+animal_endangered('Lobster', false).
+animal_has_tail('Lobster', true).
+animal_has_dorsal_fin('Lobster', false).
+animal_human_interaction('Lobster', 'Neutral').
+animal_intelligence_level('Lobster', 'Learning').
+animal_cheek_pouches('Lobster', false).
+animal_human_usage('Lobster', 'Food').
+animal_group_size('Lobster', 1).
+animal_nest_location('Lobster', 'Ocean Floor').
+animal_migration('Lobster', false).
+animal_hunting_technique('Lobster', 'Scavenging').
+animal_burrowing_behavior('Lobster', 'Non-Burrowing').

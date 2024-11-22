@@ -1,77 +1,70 @@
+% Facts about Orca
+
 name('Orca').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(22000).
-% Height in inches
-height_inches(300).
-has_color('Black').
-has_color('White').
-pattern_type('Bi-colored').
+animal_scales('Orca', false).
+animal_fur('Orca', false).
+animal_feathers('Orca', false).
+animal_legs('Orca', 0).
+animal_teeth('Orca', true).
+animal_wings('Orca', false).
+animal_weight_lbs('Orca', 22000).
+animal_height_inches('Orca', 300).
+animal_has_color('Orca', 'Black').
+animal_has_color('Orca', 'White').
+animal_pattern_type('Orca', 'Bi-colored').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Family').
-hoarding_behavior(false).
+animal_nocturnal('Orca', false).
+animal_hibernates('Orca', false).
+animal_lives_in_groups('Orca', true).
+animal_social_bonding_level('Orca', 'Family').
+animal_hoarding_behavior('Orca', false).
 
 % Habitat and Environment
-habitat('Ocean').
-% Temperature in Fahrenheit
-preferred_environment_temperature(45).
-% Territory size in square miles
-territory_size_sq_miles(1500).
+animal_habitat('Orca', 'Ocean').
+animal_preferred_environment_temperature('Orca', 45).
+animal_territory_size_sq_miles('Orca', 1500).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('Complex Vocalizations').
+animal_flies('Orca', false).
+animal_changes_color('Orca', false).
+animal_tree_climbing('Orca', 'Poor').
+animal_fishing_ability('Orca', 'Professional').
+animal_speech_capability('Orca', 'Complex Vocalizations').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Orca', 0).
+animal_clutches_per_year('Orca', 0).
 
 % Diet
-diet('Carnivore').
-diet_preference('Fish').
-diet_preference('Marine Mammals').
+animal_diet('Orca', 'Carnivore').
+animal_diet_preference('Orca', 'Fish').
+animal_diet_preference('Orca', 'Marine Mammals').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(34).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(90).
-temperature('Cold').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Social').
-intelligence_level('Abstract Thinker').
-cheek_pouches(false).
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(25).
-nest_location('Ground Level').
-migration('Ocean').
-hunting_technique('Pack Hunting').
-hunting_technique('Echolocation').
-burrowing_behavior('Non-Burrowing').
+animal_category('Orca', 'Mammal').
+animal_lays_eggs('Orca', false).
+animal_speed_mph('Orca', 34).
+animal_has_a_pouch('Orca', false).
+animal_domesticated('Orca', false).
+animal_poisonous_or_venomous('Orca', false).
+animal_breathes_under_water('Orca', true).
+animal_metamorphosis('Orca', false).
+animal_average_lifespan('Orca', 90).
+animal_temperature('Orca', 'Cold').
+animal_common_pet('Orca', false).
+animal_endangered('Orca', false).
+animal_has_tail('Orca', true).
+animal_has_dorsal_fin('Orca', true).
+animal_human_interaction('Orca', 'Social').
+animal_intelligence_level('Orca', 'Abstract Thinker').
+animal_cheek_pouches('Orca', false).
+animal_human_usage('Orca', 'Tourism').
+animal_group_size('Orca', 25).
+animal_nest_location('Orca', 'Ground Level').
+animal_migration('Orca', 'Ocean').
+animal_hunting_technique('Orca', 'Pack Hunting').
+animal_hunting_technique('Orca', 'Echolocation').
+animal_burrowing_behavior('Orca', 'Non-Burrowing').

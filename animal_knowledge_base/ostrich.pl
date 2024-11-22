@@ -1,79 +1,72 @@
+% Facts about Ostrich
+
 name('Ostrich').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(290).
-% Height in inches
-height_inches(108).
-has_color('Black').
-has_color('White').
-pattern_type('Bi-colored').
+animal_scales('Ostrich', false).
+animal_fur('Ostrich', false).
+animal_feathers('Ostrich', true).
+animal_legs('Ostrich', 2).
+animal_teeth('Ostrich', false).
+animal_wings('Ostrich', false).
+animal_weight_lbs('Ostrich', 290).
+animal_height_inches('Ostrich', 108).
+animal_has_color('Ostrich', 'Black').
+animal_has_color('Ostrich', 'White').
+animal_pattern_type('Ostrich', 'Bi-colored').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Ostrich', false).
+animal_hibernates('Ostrich', false).
+animal_lives_in_groups('Ostrich', true).
+animal_social_bonding_level('Ostrich', 'Colonial').
+animal_hoarding_behavior('Ostrich', false).
 
 % Habitat and Environment
-habitat('Grassland').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(1).
+animal_habitat('Ostrich', 'Grassland').
+animal_preferred_environment_temperature('Ostrich', 80).
+animal_territory_size_sq_miles('Ostrich', 1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Ostrich', false).
+animal_changes_color('Ostrich', false).
+animal_tree_climbing('Ostrich', 'Poor').
+animal_fishing_ability('Ostrich', 'Good').
+animal_speech_capability('Ostrich', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(12).
-% Number of clutches per year
-clutches_per_year(4).
+animal_eggs_per_clutch('Ostrich', 12).
+animal_clutches_per_year('Ostrich', 4).
 
 % Diet
-diet('Omnivore').
-diet_preference('Plants').
-diet_preference('Seeds').
-diet_preference('Small Animals').
+animal_diet('Ostrich', 'Omnivore').
+animal_diet_preference('Ostrich', 'Plants').
+animal_diet_preference('Ostrich', 'Seeds').
+animal_diet_preference('Ostrich', 'Small Animals').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(45).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(40).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Feathers').
-human_usage('Eggs').
-% Number of individuals in a typical group
-group_size(10).
-nest_location('Ground Level').
-migration(false).
-hunting_technique('Foraging').
-burrowing_behavior('Non-Burrowing').
+animal_category('Ostrich', 'Bird').
+animal_lays_eggs('Ostrich', true).
+animal_speed_mph('Ostrich', 45).
+animal_has_a_pouch('Ostrich', false).
+animal_domesticated('Ostrich', true).
+animal_poisonous_or_venomous('Ostrich', false).
+animal_breathes_under_water('Ostrich', false).
+animal_metamorphosis('Ostrich', false).
+animal_average_lifespan('Ostrich', 40).
+animal_temperature('Ostrich', 'Warm').
+animal_common_pet('Ostrich', false).
+animal_endangered('Ostrich', false).
+animal_has_tail('Ostrich', true).
+animal_has_dorsal_fin('Ostrich', false).
+animal_human_interaction('Ostrich', 'Cautious').
+animal_intelligence_level('Ostrich', 'Learning').
+animal_cheek_pouches('Ostrich', false).
+animal_human_usage('Ostrich', 'Meat').
+animal_human_usage('Ostrich', 'Feathers').
+animal_human_usage('Ostrich', 'Eggs').
+animal_group_size('Ostrich', 10).
+animal_nest_location('Ostrich', 'Ground Level').
+animal_migration('Ostrich', false).
+animal_hunting_technique('Ostrich', 'Foraging').
+animal_burrowing_behavior('Ostrich', 'Non-Burrowing').

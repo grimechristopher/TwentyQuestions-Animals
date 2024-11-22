@@ -1,80 +1,73 @@
+% Facts about Alligator
+
 name('Alligator').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(500).
-% Height in inches
-height_inches(48).
-has_color('Green').
-has_color('Gray').
-has_color('Black').
-pattern_type('Scaly').
+animal_scales('Alligator', true).
+animal_fur('Alligator', false).
+animal_feathers('Alligator', false).
+animal_legs('Alligator', 4).
+animal_teeth('Alligator', true).
+animal_wings('Alligator', false).
+animal_weight_lbs('Alligator', 500).
+animal_height_inches('Alligator', 48).
+animal_has_color('Alligator', 'Green').
+animal_has_color('Alligator', 'Gray').
+animal_has_color('Alligator', 'Black').
+animal_pattern_type('Alligator', 'Scaly').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Alligator', true).
+animal_hibernates('Alligator', false).
+animal_lives_in_groups('Alligator', true).
+animal_social_bonding_level('Alligator', 'Solitary').
+animal_hoarding_behavior('Alligator', false).
 
 % Habitat and Environment
-habitat('Wetlands').
-habitat('Rivers').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(2).
+animal_habitat('Alligator', 'Wetlands').
+animal_habitat('Alligator', 'Rivers').
+animal_preferred_environment_temperature('Alligator', 75).
+animal_territory_size_sq_miles('Alligator', 2).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Excellent').
-speech_capability('Basic').
+animal_flies('Alligator', false).
+animal_changes_color('Alligator', false).
+animal_tree_climbing('Alligator', 'Poor').
+animal_fishing_ability('Alligator', 'Excellent').
+animal_speech_capability('Alligator', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(40).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Alligator', 40).
+animal_clutches_per_year('Alligator', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Fish').
-diet_preference('Medium Mammals').
+animal_diet('Alligator', 'Carnivore').
+animal_diet_preference('Alligator', 'Fish').
+animal_diet_preference('Alligator', 'Medium Mammals').
 
 % Other Characteristics
-category('Reptile').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(20).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(40).
-temperature('Cold').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Problem Solver').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Leather').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Water's Edge').
-migration(false).
-hunting_technique('Ambush').
-hunting_technique('Diving').
-burrowing_behavior('Non-Burrowing').
+animal_category('Alligator', 'Reptile').
+animal_lays_eggs('Alligator', true).
+animal_speed_mph('Alligator', 20).
+animal_has_a_pouch('Alligator', false).
+animal_domesticated('Alligator', false).
+animal_poisonous_or_venomous('Alligator', false).
+animal_breathes_under_water('Alligator', false).
+animal_metamorphosis('Alligator', false).
+animal_average_lifespan('Alligator', 40).
+animal_temperature('Alligator', 'Cold').
+animal_common_pet('Alligator', false).
+animal_endangered('Alligator', false).
+animal_has_tail('Alligator', true).
+animal_has_dorsal_fin('Alligator', false).
+animal_human_interaction('Alligator', 'Fearful').
+animal_intelligence_level('Alligator', 'Problem Solver').
+animal_cheek_pouches('Alligator', false).
+animal_human_usage('Alligator', 'Meat').
+animal_human_usage('Alligator', 'Leather').
+animal_group_size('Alligator', 1).
+animal_nest_location('Alligator', 'Water''s Edge').
+animal_migration('Alligator', false).
+animal_hunting_technique('Alligator', 'Ambush').
+animal_hunting_technique('Alligator', 'Diving').
+animal_burrowing_behavior('Alligator', 'Non-Burrowing').

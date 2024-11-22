@@ -1,76 +1,69 @@
+% Facts about Warthog
+
 name('Warthog').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(250).
-% Height in inches
-height_inches(30).
-has_color('Gray').
-pattern_type('Solid').
+animal_scales('Warthog', false).
+animal_fur('Warthog', 'Fur').
+animal_feathers('Warthog', false).
+animal_legs('Warthog', 4).
+animal_teeth('Warthog', true).
+animal_wings('Warthog', false).
+animal_weight_lbs('Warthog', 250).
+animal_height_inches('Warthog', 30).
+animal_has_color('Warthog', 'Gray').
+animal_pattern_type('Warthog', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Warthog', false).
+animal_hibernates('Warthog', false).
+animal_lives_in_groups('Warthog', true).
+animal_social_bonding_level('Warthog', 'Colonial').
+animal_hoarding_behavior('Warthog', false).
 
 % Habitat and Environment
-habitat('Savanna').
-% Temperature in Fahrenheit
-preferred_environment_temperature(80).
-% Territory size in square miles
-territory_size_sq_miles(1).
+animal_habitat('Warthog', 'Savanna').
+animal_preferred_environment_temperature('Warthog', 80).
+animal_territory_size_sq_miles('Warthog', 1).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Warthog', false).
+animal_changes_color('Warthog', false).
+animal_tree_climbing('Warthog', 'Poor').
+animal_fishing_ability('Warthog', 'Poor').
+animal_speech_capability('Warthog', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Warthog', 0).
+animal_clutches_per_year('Warthog', 0).
 
 % Diet
-diet('Omnivore').
-diet_preference('Roots').
-diet_preference('Plants').
-diet_preference('Small Animals').
+animal_diet('Warthog', 'Omnivore').
+animal_diet_preference('Warthog', 'Roots').
+animal_diet_preference('Warthog', 'Plants').
+animal_diet_preference('Warthog', 'Small Animals').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(30).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(15).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Meat').
-% Number of individuals in a typical group
-group_size(20).
-nest_location('Underground').
-migration(false).
-hunting_technique('Rooting').
-burrowing_behavior('Tunneling').
+animal_category('Warthog', 'Mammal').
+animal_lays_eggs('Warthog', false).
+animal_speed_mph('Warthog', 30).
+animal_has_a_pouch('Warthog', false).
+animal_domesticated('Warthog', false).
+animal_poisonous_or_venomous('Warthog', false).
+animal_breathes_under_water('Warthog', false).
+animal_metamorphosis('Warthog', false).
+animal_average_lifespan('Warthog', 15).
+animal_temperature('Warthog', 'Warm').
+animal_common_pet('Warthog', false).
+animal_endangered('Warthog', false).
+animal_has_tail('Warthog', true).
+animal_has_dorsal_fin('Warthog', false).
+animal_human_interaction('Warthog', 'Cautious').
+animal_intelligence_level('Warthog', 'Complex Learner').
+animal_cheek_pouches('Warthog', false).
+animal_human_usage('Warthog', 'Meat').
+animal_group_size('Warthog', 20).
+animal_nest_location('Warthog', 'Underground').
+animal_migration('Warthog', false).
+animal_hunting_technique('Warthog', 'Rooting').
+animal_burrowing_behavior('Warthog', 'Tunneling').

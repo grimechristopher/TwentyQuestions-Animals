@@ -1,78 +1,71 @@
+% Facts about Red-tailed Hawk
+
 name('Red-tailed Hawk').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(3).
-% Height in inches
-height_inches(22).
-has_color('Brown').
-has_color('Red').
-pattern_type('Mottled').
+animal_scales('Red-tailed Hawk', false).
+animal_fur('Red-tailed Hawk', false).
+animal_feathers('Red-tailed Hawk', true).
+animal_legs('Red-tailed Hawk', 2).
+animal_teeth('Red-tailed Hawk', false).
+animal_wings('Red-tailed Hawk', true).
+animal_weight_lbs('Red-tailed Hawk', 3).
+animal_height_inches('Red-tailed Hawk', 22).
+animal_has_color('Red-tailed Hawk', 'Brown').
+animal_has_color('Red-tailed Hawk', 'Red').
+animal_pattern_type('Red-tailed Hawk', 'Mottled').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Pairs').
-hoarding_behavior(false).
+animal_nocturnal('Red-tailed Hawk', false).
+animal_hibernates('Red-tailed Hawk', false).
+animal_lives_in_groups('Red-tailed Hawk', false).
+animal_social_bonding_level('Red-tailed Hawk', 'Pairs').
+animal_hoarding_behavior('Red-tailed Hawk', false).
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(2).
+animal_habitat('Red-tailed Hawk', 'Various').
+animal_preferred_environment_temperature('Red-tailed Hawk', 70).
+animal_territory_size_sq_miles('Red-tailed Hawk', 2).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Excellent').
-speech_capability('Basic').
+animal_flies('Red-tailed Hawk', true).
+animal_changes_color('Red-tailed Hawk', false).
+animal_tree_climbing('Red-tailed Hawk', 'Professional').
+animal_fishing_ability('Red-tailed Hawk', 'Excellent').
+animal_speech_capability('Red-tailed Hawk', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(3).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Red-tailed Hawk', 3).
+animal_clutches_per_year('Red-tailed Hawk', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Small Mammals').
-diet_preference('Birds').
+animal_diet('Red-tailed Hawk', 'Carnivore').
+animal_diet_preference('Red-tailed Hawk', 'Small Mammals').
+animal_diet_preference('Red-tailed Hawk', 'Birds').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(120).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Fearful').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Tourism').
-human_usage('Education').
-% Number of individuals in a typical group
-group_size(2).
-nest_location('Tree Top;Cliff').
-migration('Some').
-hunting_technique('Soaring').
-hunting_technique('Diving').
-burrowing_behavior('Non-Burrowing').
+animal_category('Red-tailed Hawk', 'Bird').
+animal_lays_eggs('Red-tailed Hawk', true).
+animal_speed_mph('Red-tailed Hawk', 120).
+animal_has_a_pouch('Red-tailed Hawk', false).
+animal_domesticated('Red-tailed Hawk', false).
+animal_poisonous_or_venomous('Red-tailed Hawk', false).
+animal_breathes_under_water('Red-tailed Hawk', false).
+animal_metamorphosis('Red-tailed Hawk', false).
+animal_average_lifespan('Red-tailed Hawk', 20).
+animal_temperature('Red-tailed Hawk', 'Warm').
+animal_common_pet('Red-tailed Hawk', false).
+animal_endangered('Red-tailed Hawk', false).
+animal_has_tail('Red-tailed Hawk', true).
+animal_has_dorsal_fin('Red-tailed Hawk', false).
+animal_human_interaction('Red-tailed Hawk', 'Fearful').
+animal_intelligence_level('Red-tailed Hawk', 'Complex Learner').
+animal_cheek_pouches('Red-tailed Hawk', false).
+animal_human_usage('Red-tailed Hawk', 'Tourism').
+animal_human_usage('Red-tailed Hawk', 'Education').
+animal_group_size('Red-tailed Hawk', 2).
+animal_nest_location('Red-tailed Hawk', 'Tree Top;Cliff').
+animal_migration('Red-tailed Hawk', 'Some').
+animal_hunting_technique('Red-tailed Hawk', 'Soaring').
+animal_hunting_technique('Red-tailed Hawk', 'Diving').
+animal_burrowing_behavior('Red-tailed Hawk', 'Non-Burrowing').

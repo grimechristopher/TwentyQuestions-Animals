@@ -1,77 +1,70 @@
+% Facts about Green Iguana
+
 name('Green Iguana').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(11).
-% Height in inches
-height_inches(72).
-has_color('Green').
-pattern_type('Solid').
+animal_scales('Green Iguana', true).
+animal_fur('Green Iguana', false).
+animal_feathers('Green Iguana', false).
+animal_legs('Green Iguana', 4).
+animal_teeth('Green Iguana', true).
+animal_wings('Green Iguana', false).
+animal_weight_lbs('Green Iguana', 11).
+animal_height_inches('Green Iguana', 72).
+animal_has_color('Green Iguana', 'Green').
+animal_pattern_type('Green Iguana', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(false).
-social_bonding_level('Solitary').
-hoarding_behavior(false).
+animal_nocturnal('Green Iguana', false).
+animal_hibernates('Green Iguana', false).
+animal_lives_in_groups('Green Iguana', false).
+animal_social_bonding_level('Green Iguana', 'Solitary').
+animal_hoarding_behavior('Green Iguana', false).
 
 % Habitat and Environment
-habitat('Tropical').
-% Temperature in Fahrenheit
-preferred_environment_temperature(85).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Green Iguana', 'Tropical').
+animal_preferred_environment_temperature('Green Iguana', 85).
+animal_territory_size_sq_miles('Green Iguana', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Green Iguana', false).
+animal_changes_color('Green Iguana', false).
+animal_tree_climbing('Green Iguana', 'Professional').
+animal_fishing_ability('Green Iguana', 'Poor').
+animal_speech_capability('Green Iguana', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(40).
-% Number of clutches per year
-clutches_per_year(1.5).
+animal_eggs_per_clutch('Green Iguana', 40).
+animal_clutches_per_year('Green Iguana', 1.5).
 
 % Diet
-diet('Herbivore').
-diet_preference('Leaves').
-diet_preference('Fruits').
+animal_diet('Green Iguana', 'Herbivore').
+animal_diet_preference('Green Iguana', 'Leaves').
+animal_diet_preference('Green Iguana', 'Fruits').
 
 % Other Characteristics
-category('Reptile').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(21).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Pets').
-human_usage('Leather').
-% Number of individuals in a typical group
-group_size(1).
-nest_location('Ground Burrow').
-migration(false).
-hunting_technique('Browsing').
-hunting_technique('Climbing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Green Iguana', 'Reptile').
+animal_lays_eggs('Green Iguana', true).
+animal_speed_mph('Green Iguana', 21).
+animal_has_a_pouch('Green Iguana', false).
+animal_domesticated('Green Iguana', true).
+animal_poisonous_or_venomous('Green Iguana', false).
+animal_breathes_under_water('Green Iguana', false).
+animal_metamorphosis('Green Iguana', false).
+animal_average_lifespan('Green Iguana', 20).
+animal_temperature('Green Iguana', 'Warm').
+animal_common_pet('Green Iguana', true).
+animal_endangered('Green Iguana', false).
+animal_has_tail('Green Iguana', true).
+animal_has_dorsal_fin('Green Iguana', false).
+animal_human_interaction('Green Iguana', 'Dependent').
+animal_intelligence_level('Green Iguana', 'Learning').
+animal_cheek_pouches('Green Iguana', false).
+animal_human_usage('Green Iguana', 'Pets').
+animal_human_usage('Green Iguana', 'Leather').
+animal_group_size('Green Iguana', 1).
+animal_nest_location('Green Iguana', 'Ground Burrow').
+animal_migration('Green Iguana', false).
+animal_hunting_technique('Green Iguana', 'Browsing').
+animal_hunting_technique('Green Iguana', 'Climbing').
+animal_burrowing_behavior('Green Iguana', 'Non-Burrowing').

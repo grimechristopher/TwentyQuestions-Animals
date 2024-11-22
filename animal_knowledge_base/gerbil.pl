@@ -1,77 +1,70 @@
+% Facts about Gerbil
+
 name('Gerbil').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(0.15).
-% Height in inches
-height_inches(4).
-has_color('Multiple').
-pattern_type('Solid').
+animal_scales('Gerbil', false).
+animal_fur('Gerbil', 'Fur').
+animal_feathers('Gerbil', false).
+animal_legs('Gerbil', 4).
+animal_teeth('Gerbil', true).
+animal_wings('Gerbil', false).
+animal_weight_lbs('Gerbil', 0.15).
+animal_height_inches('Gerbil', 4).
+animal_has_color('Gerbil', 'Multiple').
+animal_pattern_type('Gerbil', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior('Complex').
+animal_nocturnal('Gerbil', true).
+animal_hibernates('Gerbil', false).
+animal_lives_in_groups('Gerbil', true).
+animal_social_bonding_level('Gerbil', 'Colonial').
+animal_hoarding_behavior('Gerbil', 'Complex').
 
 % Habitat and Environment
-habitat('Desert').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Gerbil', 'Desert').
+animal_preferred_environment_temperature('Gerbil', 75).
+animal_territory_size_sq_miles('Gerbil', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Gerbil', false).
+animal_changes_color('Gerbil', false).
+animal_tree_climbing('Gerbil', 'Poor').
+animal_fishing_ability('Gerbil', 'Poor').
+animal_speech_capability('Gerbil', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0.7).
+animal_eggs_per_clutch('Gerbil', 0).
+animal_clutches_per_year('Gerbil', 0.7).
 
 % Diet
-diet('Omnivore').
-diet_preference('Seeds').
-diet_preference('Plants').
+animal_diet('Gerbil', 'Omnivore').
+animal_diet_preference('Gerbil', 'Seeds').
+animal_diet_preference('Gerbil', 'Plants').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(8).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(4).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Learning').
-cheek_pouches(true).
-human_usage('Pets').
-human_usage('Research').
-% Number of individuals in a typical group
-group_size(8).
-nest_location('Underground Burrow').
-migration(false).
-hunting_technique('Foraging').
-hunting_technique('Digging').
-burrowing_behavior('Tunneling').
+animal_category('Gerbil', 'Mammal').
+animal_lays_eggs('Gerbil', false).
+animal_speed_mph('Gerbil', 8).
+animal_has_a_pouch('Gerbil', false).
+animal_domesticated('Gerbil', true).
+animal_poisonous_or_venomous('Gerbil', false).
+animal_breathes_under_water('Gerbil', false).
+animal_metamorphosis('Gerbil', false).
+animal_average_lifespan('Gerbil', 4).
+animal_temperature('Gerbil', 'Warm').
+animal_common_pet('Gerbil', true).
+animal_endangered('Gerbil', false).
+animal_has_tail('Gerbil', true).
+animal_has_dorsal_fin('Gerbil', false).
+animal_human_interaction('Gerbil', 'Dependent').
+animal_intelligence_level('Gerbil', 'Learning').
+animal_cheek_pouches('Gerbil', true).
+animal_human_usage('Gerbil', 'Pets').
+animal_human_usage('Gerbil', 'Research').
+animal_group_size('Gerbil', 8).
+animal_nest_location('Gerbil', 'Underground Burrow').
+animal_migration('Gerbil', false).
+animal_hunting_technique('Gerbil', 'Foraging').
+animal_hunting_technique('Gerbil', 'Digging').
+animal_burrowing_behavior('Gerbil', 'Tunneling').

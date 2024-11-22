@@ -1,77 +1,70 @@
+% Facts about Ferret
+
 name('Ferret').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(3).
-% Height in inches
-height_inches(15).
-has_color('Multiple').
-pattern_type('Solid').
+animal_scales('Ferret', false).
+animal_fur('Ferret', 'Fur').
+animal_feathers('Ferret', false).
+animal_legs('Ferret', 4).
+animal_teeth('Ferret', true).
+animal_wings('Ferret', false).
+animal_weight_lbs('Ferret', 3).
+animal_height_inches('Ferret', 15).
+animal_has_color('Ferret', 'Multiple').
+animal_pattern_type('Ferret', 'Solid').
 
 % Behavior
-nocturnal(true).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior('Simple').
+animal_nocturnal('Ferret', true).
+animal_hibernates('Ferret', false).
+animal_lives_in_groups('Ferret', true).
+animal_social_bonding_level('Ferret', 'Colonial').
+animal_hoarding_behavior('Ferret', 'Simple').
 
 % Habitat and Environment
-habitat('Various').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Ferret', 'Various').
+animal_preferred_environment_temperature('Ferret', 70).
+animal_territory_size_sq_miles('Ferret', 0).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Good').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('Ferret', false).
+animal_changes_color('Ferret', false).
+animal_tree_climbing('Ferret', 'Good').
+animal_fishing_ability('Ferret', 'Poor').
+animal_speech_capability('Ferret', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(0).
+animal_eggs_per_clutch('Ferret', 0).
+animal_clutches_per_year('Ferret', 0).
 
 % Diet
-diet('Carnivore').
-diet_preference('Small Mammals').
-diet_preference('Birds').
+animal_diet('Ferret', 'Carnivore').
+animal_diet_preference('Ferret', 'Small Mammals').
+animal_diet_preference('Ferret', 'Birds').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(15).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(8).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Pets').
-human_usage('Hunting').
-% Number of individuals in a typical group
-group_size(8).
-nest_location('Underground').
-migration(false).
-hunting_technique('Stalking').
-hunting_technique('Tunneling').
-burrowing_behavior('Non-Burrowing').
+animal_category('Ferret', 'Mammal').
+animal_lays_eggs('Ferret', false).
+animal_speed_mph('Ferret', 15).
+animal_has_a_pouch('Ferret', false).
+animal_domesticated('Ferret', true).
+animal_poisonous_or_venomous('Ferret', false).
+animal_breathes_under_water('Ferret', false).
+animal_metamorphosis('Ferret', false).
+animal_average_lifespan('Ferret', 8).
+animal_temperature('Ferret', 'Warm').
+animal_common_pet('Ferret', true).
+animal_endangered('Ferret', false).
+animal_has_tail('Ferret', true).
+animal_has_dorsal_fin('Ferret', false).
+animal_human_interaction('Ferret', 'Dependent').
+animal_intelligence_level('Ferret', 'Complex Learner').
+animal_cheek_pouches('Ferret', false).
+animal_human_usage('Ferret', 'Pets').
+animal_human_usage('Ferret', 'Hunting').
+animal_group_size('Ferret', 8).
+animal_nest_location('Ferret', 'Underground').
+animal_migration('Ferret', false).
+animal_hunting_technique('Ferret', 'Stalking').
+animal_hunting_technique('Ferret', 'Tunneling').
+animal_burrowing_behavior('Ferret', 'Non-Burrowing').

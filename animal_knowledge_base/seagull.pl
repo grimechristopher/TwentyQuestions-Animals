@@ -1,78 +1,71 @@
+% Facts about Seagull
+
 name('Seagull').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(2.5).
-% Height in inches
-height_inches(24).
-has_color('White').
-has_color('Gray').
-pattern_type('Solid').
+animal_scales('Seagull', false).
+animal_fur('Seagull', false).
+animal_feathers('Seagull', true).
+animal_legs('Seagull', 2).
+animal_teeth('Seagull', false).
+animal_wings('Seagull', true).
+animal_weight_lbs('Seagull', 2.5).
+animal_height_inches('Seagull', 24).
+animal_has_color('Seagull', 'White').
+animal_has_color('Seagull', 'Gray').
+animal_pattern_type('Seagull', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('Seagull', false).
+animal_hibernates('Seagull', false).
+animal_lives_in_groups('Seagull', true).
+animal_social_bonding_level('Seagull', 'Colonial').
+animal_hoarding_behavior('Seagull', false).
 
 % Habitat and Environment
-habitat('Coastal').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(10).
+animal_habitat('Seagull', 'Coastal').
+animal_preferred_environment_temperature('Seagull', 65).
+animal_territory_size_sq_miles('Seagull', 10).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Good').
-speech_capability('Basic').
+animal_flies('Seagull', true).
+animal_changes_color('Seagull', false).
+animal_tree_climbing('Seagull', 'Poor').
+animal_fishing_ability('Seagull', 'Good').
+animal_speech_capability('Seagull', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(3).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Seagull', 3).
+animal_clutches_per_year('Seagull', 1).
 
 % Diet
-diet('Omnivore').
-diet_preference('Fish').
-diet_preference('Human Food').
+animal_diet('Seagull', 'Omnivore').
+animal_diet_preference('Seagull', 'Fish').
+animal_diet_preference('Seagull', 'Human Food').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(25).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(10).
-temperature('Warm').
-common_pet(false).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Social').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Research').
-human_usage('Education').
-% Number of individuals in a typical group
-group_size(100).
-nest_location('Ground;Cliff').
-migration(true).
-hunting_technique('Scavenging').
-hunting_technique('Diving').
-burrowing_behavior('Non-Burrowing').
+animal_category('Seagull', 'Bird').
+animal_lays_eggs('Seagull', true).
+animal_speed_mph('Seagull', 25).
+animal_has_a_pouch('Seagull', false).
+animal_domesticated('Seagull', false).
+animal_poisonous_or_venomous('Seagull', false).
+animal_breathes_under_water('Seagull', false).
+animal_metamorphosis('Seagull', false).
+animal_average_lifespan('Seagull', 10).
+animal_temperature('Seagull', 'Warm').
+animal_common_pet('Seagull', false).
+animal_endangered('Seagull', false).
+animal_has_tail('Seagull', true).
+animal_has_dorsal_fin('Seagull', false).
+animal_human_interaction('Seagull', 'Social').
+animal_intelligence_level('Seagull', 'Complex Learner').
+animal_cheek_pouches('Seagull', false).
+animal_human_usage('Seagull', 'Research').
+animal_human_usage('Seagull', 'Education').
+animal_group_size('Seagull', 100).
+animal_nest_location('Seagull', 'Ground;Cliff').
+animal_migration('Seagull', true).
+animal_hunting_technique('Seagull', 'Scavenging').
+animal_hunting_technique('Seagull', 'Diving').
+animal_burrowing_behavior('Seagull', 'Non-Burrowing').

@@ -1,78 +1,71 @@
+% Facts about American Bison
+
 name('American Bison').
 
 % Physical Characteristics
-scales(false).
-fur('Fur').
-feathers(false).
-legs(4).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(1500).
-% Height in inches
-height_inches(66).
-has_color('Brown').
-has_color('Black').
-pattern_type('Solid').
+animal_scales('American Bison', false).
+animal_fur('American Bison', 'Fur').
+animal_feathers('American Bison', false).
+animal_legs('American Bison', 4).
+animal_teeth('American Bison', true).
+animal_wings('American Bison', false).
+animal_weight_lbs('American Bison', 1500).
+animal_height_inches('American Bison', 66).
+animal_has_color('American Bison', 'Brown').
+animal_has_color('American Bison', 'Black').
+animal_pattern_type('American Bison', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Colonial').
-hoarding_behavior(false).
+animal_nocturnal('American Bison', false).
+animal_hibernates('American Bison', false).
+animal_lives_in_groups('American Bison', true).
+animal_social_bonding_level('American Bison', 'Colonial').
+animal_hoarding_behavior('American Bison', false).
 
 % Habitat and Environment
-habitat('Grassland').
-% Temperature in Fahrenheit
-preferred_environment_temperature(65).
-% Territory size in square miles
-territory_size_sq_miles(10).
+animal_habitat('American Bison', 'Grassland').
+animal_preferred_environment_temperature('American Bison', 65).
+animal_territory_size_sq_miles('American Bison', 10).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Poor').
-speech_capability('Basic').
+animal_flies('American Bison', false).
+animal_changes_color('American Bison', false).
+animal_tree_climbing('American Bison', 'Poor').
+animal_fishing_ability('American Bison', 'Poor').
+animal_speech_capability('American Bison', 'Basic').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(0).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('American Bison', 0).
+animal_clutches_per_year('American Bison', 1).
 
 % Diet
-diet('Herbivore').
-diet_preference('Grass').
-diet_preference('Plants').
+animal_diet('American Bison', 'Herbivore').
+animal_diet_preference('American Bison', 'Grass').
+animal_diet_preference('American Bison', 'Plants').
 
 % Other Characteristics
-category('Mammal').
-lays_eggs(false).
-% Speed in miles per hour
-speed_mph(35).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Cold').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Cautious').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Meat').
-human_usage('Hide').
-human_usage('Tourism').
-% Number of individuals in a typical group
-group_size(50).
-nest_location('Ground Level').
-migration('Seasonal').
-hunting_technique('Grazing').
-burrowing_behavior('Non-Burrowing').
+animal_category('American Bison', 'Mammal').
+animal_lays_eggs('American Bison', false).
+animal_speed_mph('American Bison', 35).
+animal_has_a_pouch('American Bison', false).
+animal_domesticated('American Bison', false).
+animal_poisonous_or_venomous('American Bison', false).
+animal_breathes_under_water('American Bison', false).
+animal_metamorphosis('American Bison', false).
+animal_average_lifespan('American Bison', 20).
+animal_temperature('American Bison', 'Cold').
+animal_common_pet('American Bison', false).
+animal_endangered('American Bison', true).
+animal_has_tail('American Bison', true).
+animal_has_dorsal_fin('American Bison', false).
+animal_human_interaction('American Bison', 'Cautious').
+animal_intelligence_level('American Bison', 'Learning').
+animal_cheek_pouches('American Bison', false).
+animal_human_usage('American Bison', 'Meat').
+animal_human_usage('American Bison', 'Hide').
+animal_human_usage('American Bison', 'Tourism').
+animal_group_size('American Bison', 50).
+animal_nest_location('American Bison', 'Ground Level').
+animal_migration('American Bison', 'Seasonal').
+animal_hunting_technique('American Bison', 'Grazing').
+animal_burrowing_behavior('American Bison', 'Non-Burrowing').

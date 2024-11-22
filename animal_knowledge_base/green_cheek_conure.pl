@@ -1,79 +1,72 @@
+% Facts about Green Cheek Conure
+
 name('Green Cheek Conure').
 
 % Physical Characteristics
-scales(false).
-fur(false).
-feathers(true).
-legs(2).
-teeth(false).
-wings(true).
-% Weight in pounds (lbs)
-weight_lbs(0.3).
-% Height in inches
-height_inches(10).
-has_color('Green').
-has_color('Red').
-has_color('Yellow').
-pattern_type('Multi-colored').
+animal_scales('Green Cheek Conure', false).
+animal_fur('Green Cheek Conure', false).
+animal_feathers('Green Cheek Conure', true).
+animal_legs('Green Cheek Conure', 2).
+animal_teeth('Green Cheek Conure', false).
+animal_wings('Green Cheek Conure', true).
+animal_weight_lbs('Green Cheek Conure', 0.3).
+animal_height_inches('Green Cheek Conure', 10).
+animal_has_color('Green Cheek Conure', 'Green').
+animal_has_color('Green Cheek Conure', 'Red').
+animal_has_color('Green Cheek Conure', 'Yellow').
+animal_pattern_type('Green Cheek Conure', 'Multi-colored').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('Pairs').
-hoarding_behavior(false).
+animal_nocturnal('Green Cheek Conure', false).
+animal_hibernates('Green Cheek Conure', false).
+animal_lives_in_groups('Green Cheek Conure', true).
+animal_social_bonding_level('Green Cheek Conure', 'Pairs').
+animal_hoarding_behavior('Green Cheek Conure', false).
 
 % Habitat and Environment
-habitat('Domestic').
-% Temperature in Fahrenheit
-preferred_environment_temperature(75).
-% Territory size in square miles
-territory_size_sq_miles(0).
+animal_habitat('Green Cheek Conure', 'Domestic').
+animal_preferred_environment_temperature('Green Cheek Conure', 75).
+animal_territory_size_sq_miles('Green Cheek Conure', 0).
 
 % Abilities
-flies(true).
-changes_color(false).
-tree_climbing('Professional').
-fishing_ability('Poor').
-speech_capability('Basic Speech').
+animal_flies('Green Cheek Conure', true).
+animal_changes_color('Green Cheek Conure', false).
+animal_tree_climbing('Green Cheek Conure', 'Professional').
+animal_fishing_ability('Green Cheek Conure', 'Poor').
+animal_speech_capability('Green Cheek Conure', 'Basic Speech').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(4).
-% Number of clutches per year
-clutches_per_year(1.2).
+animal_eggs_per_clutch('Green Cheek Conure', 4).
+animal_clutches_per_year('Green Cheek Conure', 1.2).
 
 % Diet
-diet('Omnivore').
-diet_preference('Seeds').
-diet_preference('Fruits').
+animal_diet('Green Cheek Conure', 'Omnivore').
+animal_diet_preference('Green Cheek Conure', 'Seeds').
+animal_diet_preference('Green Cheek Conure', 'Fruits').
 
 % Other Characteristics
-category('Bird').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(20).
-has_a_pouch(false).
-domesticated(true).
-poisonous_or_venomous(false).
-breathes_under_water(false).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(25).
-temperature('Warm').
-common_pet(true).
-endangered(false).
-has_tail(true).
-has_dorsal_fin(false).
-human_interaction('Dependent').
-intelligence_level('Complex Learner').
-cheek_pouches(false).
-human_usage('Pets').
-human_usage('Entertainment').
-% Number of individuals in a typical group
-group_size(2).
-nest_location('Tree Cavity').
-migration(false).
-hunting_technique('Foraging').
-hunting_technique('Crushing').
-burrowing_behavior('Non-Burrowing').
+animal_category('Green Cheek Conure', 'Bird').
+animal_lays_eggs('Green Cheek Conure', true).
+animal_speed_mph('Green Cheek Conure', 20).
+animal_has_a_pouch('Green Cheek Conure', false).
+animal_domesticated('Green Cheek Conure', true).
+animal_poisonous_or_venomous('Green Cheek Conure', false).
+animal_breathes_under_water('Green Cheek Conure', false).
+animal_metamorphosis('Green Cheek Conure', false).
+animal_average_lifespan('Green Cheek Conure', 25).
+animal_temperature('Green Cheek Conure', 'Warm').
+animal_common_pet('Green Cheek Conure', true).
+animal_endangered('Green Cheek Conure', false).
+animal_has_tail('Green Cheek Conure', true).
+animal_has_dorsal_fin('Green Cheek Conure', false).
+animal_human_interaction('Green Cheek Conure', 'Dependent').
+animal_intelligence_level('Green Cheek Conure', 'Complex Learner').
+animal_cheek_pouches('Green Cheek Conure', false).
+animal_human_usage('Green Cheek Conure', 'Pets').
+animal_human_usage('Green Cheek Conure', 'Entertainment').
+animal_group_size('Green Cheek Conure', 2).
+animal_nest_location('Green Cheek Conure', 'Tree Cavity').
+animal_migration('Green Cheek Conure', false).
+animal_hunting_technique('Green Cheek Conure', 'Foraging').
+animal_hunting_technique('Green Cheek Conure', 'Crushing').
+animal_burrowing_behavior('Green Cheek Conure', 'Non-Burrowing').

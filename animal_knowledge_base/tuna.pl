@@ -1,76 +1,69 @@
+% Facts about Tuna
+
 name('Tuna').
 
 % Physical Characteristics
-scales(true).
-fur(false).
-feathers(false).
-legs(0).
-teeth(true).
-wings(false).
-% Weight in pounds (lbs)
-weight_lbs(1000).
-% Height in inches
-height_inches(72).
-has_color('Blue').
-has_color('Silver').
-pattern_type('Solid').
+animal_scales('Tuna', true).
+animal_fur('Tuna', false).
+animal_feathers('Tuna', false).
+animal_legs('Tuna', 0).
+animal_teeth('Tuna', true).
+animal_wings('Tuna', false).
+animal_weight_lbs('Tuna', 1000).
+animal_height_inches('Tuna', 72).
+animal_has_color('Tuna', 'Blue').
+animal_has_color('Tuna', 'Silver').
+animal_pattern_type('Tuna', 'Solid').
 
 % Behavior
-nocturnal(false).
-hibernates(false).
-lives_in_groups(true).
-social_bonding_level('School').
-hoarding_behavior(false).
+animal_nocturnal('Tuna', false).
+animal_hibernates('Tuna', false).
+animal_lives_in_groups('Tuna', true).
+animal_social_bonding_level('Tuna', 'School').
+animal_hoarding_behavior('Tuna', false).
 
 % Habitat and Environment
-habitat('Marine').
-% Temperature in Fahrenheit
-preferred_environment_temperature(70).
-% Territory size in square miles
-territory_size_sq_miles(1000).
+animal_habitat('Tuna', 'Marine').
+animal_preferred_environment_temperature('Tuna', 70).
+animal_territory_size_sq_miles('Tuna', 1000).
 
 % Abilities
-flies(false).
-changes_color(false).
-tree_climbing('Poor').
-fishing_ability('Professional').
-speech_capability('None').
+animal_flies('Tuna', false).
+animal_changes_color('Tuna', false).
+animal_tree_climbing('Tuna', 'Poor').
+animal_fishing_ability('Tuna', 'Professional').
+animal_speech_capability('Tuna', 'None').
 
 % Reproduction
-% Number of eggs per clutch
-eggs_per_clutch(1000000).
-% Number of clutches per year
-clutches_per_year(1).
+animal_eggs_per_clutch('Tuna', 1000000).
+animal_clutches_per_year('Tuna', 1).
 
 % Diet
-diet('Carnivore').
-diet_preference('Fish').
-diet_preference('Squid').
+animal_diet('Tuna', 'Carnivore').
+animal_diet_preference('Tuna', 'Fish').
+animal_diet_preference('Tuna', 'Squid').
 
 % Other Characteristics
-category('Fish').
-lays_eggs(true).
-% Speed in miles per hour
-speed_mph(47).
-has_a_pouch(false).
-domesticated(false).
-poisonous_or_venomous(false).
-breathes_under_water(true).
-metamorphosis(false).
-% Lifespan in years
-average_lifespan(20).
-temperature('Warm').
-common_pet(false).
-endangered(true).
-has_tail(true).
-has_dorsal_fin(true).
-human_interaction('Neutral').
-intelligence_level('Learning').
-cheek_pouches(false).
-human_usage('Food').
-% Number of individuals in a typical group
-group_size(100).
-nest_location('Open Ocean').
-migration(true).
-hunting_technique('Pack Hunting').
-burrowing_behavior('Non-Burrowing').
+animal_category('Tuna', 'Fish').
+animal_lays_eggs('Tuna', true).
+animal_speed_mph('Tuna', 47).
+animal_has_a_pouch('Tuna', false).
+animal_domesticated('Tuna', false).
+animal_poisonous_or_venomous('Tuna', false).
+animal_breathes_under_water('Tuna', true).
+animal_metamorphosis('Tuna', false).
+animal_average_lifespan('Tuna', 20).
+animal_temperature('Tuna', 'Warm').
+animal_common_pet('Tuna', false).
+animal_endangered('Tuna', true).
+animal_has_tail('Tuna', true).
+animal_has_dorsal_fin('Tuna', true).
+animal_human_interaction('Tuna', 'Neutral').
+animal_intelligence_level('Tuna', 'Learning').
+animal_cheek_pouches('Tuna', false).
+animal_human_usage('Tuna', 'Food').
+animal_group_size('Tuna', 100).
+animal_nest_location('Tuna', 'Open Ocean').
+animal_migration('Tuna', true).
+animal_hunting_technique('Tuna', 'Pack Hunting').
+animal_burrowing_behavior('Tuna', 'Non-Burrowing').
