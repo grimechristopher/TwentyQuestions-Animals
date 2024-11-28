@@ -20,9 +20,14 @@ class TwentyQuestions:
         # return a key value of name and probability (initialize to 0, sinnce I'm doing count)
         return {result["X"]: 0 for result in results}
     
+    # A list of possible to ask questions
+    available_questions = [
+        
+    ]
+
     # I want a dictionary of questions and prolog queries
     questions_dict = {
-        # Chimpanzee example
+        # Alpaca example using chimp questions
         "Does it have teeth?": {
             "yes": "name(X), animal_teeth(X, true)",
             "no": "name(X), animal_teeth(X, false)",
@@ -49,7 +54,7 @@ class TwentyQuestions:
         },
         "Does it eat meat?": {
             "yes": "name(X), (animal_diet(X, Carnivore); animal_diet(X, Omnivore))",
-            "no": "name(X), (animal_diet(X, Herbivore);",
+            "no": "name(X), animal_diet(X, Herbivore)",
         },
         "Is it known for fishing?": {
             "yes": "name(X), animal_fishing_ability(X, Good)",
@@ -58,6 +63,11 @@ class TwentyQuestions:
         "Does it have fur?": {
             "yes": "name(X), animal_fur(X, Fur)",
             "no": "name(X), animal_fur(X, No Fur)",
+            "actions": {
+                "yes": {
+                    "fur": False
+                }
+            }
         },
         "Is it multi-colored?": {
             "yes": "name(X), animal_pattern_type(X, Multi-Colored)",
@@ -130,20 +140,25 @@ def main():
 
     # for the length of the questions dictionary, ask a random question
     # and update the animal probabilities
-    # make an array of the answers for chimpanze, yes or no for each question
-    answers = ["yes", "no", "no", "no", "yes", "no", "yes", "no", "yes", "no", "no", "no", "no", "yes", "no", "no", "yes", "no", "no", "no"]
+    # make an array of the answers for alpaca, yes or no for each question
+    answers = ["no", "no", "no", "no", "no", "no", "no", "no", "yes", "no", "yes", "no", "no", "no", "no", "no", "yes", "yes", "no"]
     for i in range(len(twenty_q.questions_dict)):
         question = twenty_q.ask_random_question()
 
         animals = twenty_q.answer_question(question, answers[i])
         twenty_q.update_animal_probabilities(animals)
 
+        print()
+        sorted_animals = sorted(twenty_q.animal_probabilities.items(), key=lambda x: x[1], reverse=True)
+        print(sorted_animals)
+        print()
+
     # Get best matching animal
     sorted_animals = sorted(twenty_q.animal_probabilities.items(), key=lambda x: x[1], reverse=True)
     print("Is the animal you're thinking of... a " + sorted_animals[0][0] + '?')
 
-    # print("\nFinal Results:")
-    # print(sorted_animals)
+    print("\nFinal Results:")
+    print(sorted_animals)
 
 
 if __name__ == "__main__":

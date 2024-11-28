@@ -8,7 +8,7 @@ animal_fur('Flying Dragon Lizard', false).
 animal_feathers('Flying Dragon Lizard', false).
 animal_legs('Flying Dragon Lizard', 4).
 animal_teeth('Flying Dragon Lizard', true).
-animal_wings('Flying Dragon Lizard', true).
+animal_wings('Flying Dragon Lizard', false).
 animal_weight_lbs('Flying Dragon Lizard', 0.14).
 animal_height_inches('Flying Dragon Lizard', 8).
 animal_has_color('Flying Dragon Lizard', 'Green').

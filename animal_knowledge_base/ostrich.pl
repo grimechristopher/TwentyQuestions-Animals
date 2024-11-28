@@ -8,7 +8,7 @@ animal_fur('Ostrich', false).
 animal_feathers('Ostrich', true).
 animal_legs('Ostrich', 2).
 animal_teeth('Ostrich', false).
-animal_wings('Ostrich', false).
+animal_wings('Ostrich', true).
 animal_weight_lbs('Ostrich', 290).
 animal_height_inches('Ostrich', 108).
 animal_has_color('Ostrich', 'Black').

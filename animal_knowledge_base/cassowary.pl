@@ -8,7 +8,7 @@ animal_fur('Cassowary', false).
 animal_feathers('Cassowary', true).
 animal_legs('Cassowary', 2).
 animal_teeth('Cassowary', false).
-animal_wings('Cassowary', false).
+animal_wings('Cassowary', true).
 animal_weight_lbs('Cassowary', 130).
 animal_height_inches('Cassowary', 72).
 animal_has_color('Cassowary', 'Black').

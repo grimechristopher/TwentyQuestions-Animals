@@ -8,7 +8,7 @@ animal_fur('Penguin', false).
 animal_feathers('Penguin', true).
 animal_legs('Penguin', 2).
 animal_teeth('Penguin', false).
-animal_wings('Penguin', false).
+animal_wings('Penguin', true).
 animal_weight_lbs('Penguin', 50).
 animal_height_inches('Penguin', 36).
 animal_has_color('Penguin', 'Black').
