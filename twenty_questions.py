@@ -10,24 +10,19 @@ class TwentyQuestions:
         self.initialize_database()
         self.animal_probabilities = self.get_all_animals()
         self.questions_asked = 0
-        self.max_questions = 19  # Changed to 19 questions before final guess
+        self.max_questions = 19
 
         self.available_questions = available_questions.copy()
         self.questions_dict = questions
     
     def initialize_database(self, directory: str = 'animal_knowledge_base'):
-        # Initialize the database with animal facts from prolog files
         self.prolog.load_files(directory)
 
     def get_all_animals(self) -> List[str]:
-        # Get all animal names in the database
         results = self.prolog.query("name(X)")
-        # return a key value of name and probability (initialize to 0, since I'm doing count)
         return {result["X"]: 0 for result in results}
 
     def ask_random_question(self):
-        # If questions_dict is empty but we haven't reached max questions,
-        # add a random question from available_questions
         if not self.questions_dict and self.questions_asked < self.max_questions and self.available_questions:
             random_question = random.choice(self.available_questions)
             self.questions_dict.append(random_question)
@@ -39,6 +34,21 @@ class TwentyQuestions:
             return question
         return None
     
+    def parse_answer(self, user_input: str) -> bool:
+        """Convert various forms of yes/no input to boolean"""
+        user_input = user_input.lower().strip()
+        positive_responses = ['yes', 'y', 'yeah', 'yep', 'true', '1']
+        negative_responses = ['no', 'n', 'nope', 'false', '0']
+        
+        if user_input in positive_responses:
+            return True
+        elif user_input in negative_responses:
+            return False
+        else:
+            # If input is unclear, ask again
+            print("Please answer with yes/no (y/n)")
+            return self.parse_answer(input("> "))
+    
     def answer_question(self, question, answer):
         if not question:
             return []
@@ -46,20 +56,16 @@ class TwentyQuestions:
         query = question.yes_query if answer else question.no_query
         results = self.prolog.query(query)
         animals = [result["X"] for result in results]
-        print(answer)
 
-        # delete the question from the dictionary
         if question in self.questions_dict:
             self.questions_dict.remove(question)
 
         for animal in animals:
             self.animal_probabilities[animal] += 1
 
-        # Add relevant questions from available questions to the questions dictionary
         if question.attributes:
             for attribute in question.attributes:
                 if answer in attribute:
-                    # find available questions with dependency that matches the attribute
                     added_questions = []
                     for available_question in self.available_questions:
                         if attribute[answer] in available_question.dependencies:
@@ -75,15 +81,9 @@ class TwentyQuestions:
 def main():
     twenty_q = TwentyQuestions()    
 
-    # Prompt user to think of an animal and click enter
     print("\nThink of an animal and press 'Enter' to continue...")
     input()
 
-    # Array for 19 questions
-    answers = ["no", "no", "no", "no", "no", "no", "no", "no", "yes", "no", 
-              "yes", "no", "no", "no", "no", "no", "yes", "yes", "no"]
-    
-    i = 0
     while twenty_q.questions_asked < twenty_q.max_questions:
         print(f"\nQuestion {twenty_q.questions_asked + 1}:")
         question = twenty_q.ask_random_question()
@@ -92,14 +92,20 @@ def main():
             print("No more questions available!")
             break
 
-        answer = True if answers[i].lower() == "yes" else False    
-        i += 1    
+        user_answer = input("Your answer (yes/no): ")
+        answer = twenty_q.parse_answer(user_answer)
         animals = twenty_q.answer_question(question, answer)
 
-    # Get best matching animal - this is question 20
+    # Question 20 - Final guess
     sorted_animals = sorted(twenty_q.animal_probabilities.items(), key=lambda x: x[1], reverse=True)
     print(f"\nQuestion 20:")
     print("Is the animal you're thinking of... a " + sorted_animals[0][0] + '?')
+    
+    final_answer = input("Your answer (yes/no): ")
+    if twenty_q.parse_answer(final_answer):
+        print("Great! I guessed it correctly!")
+    else:
+        print("Oh well, better luck next time!")
 
     print("\nFinal Results:")
     print(sorted_animals)
