@@ -53,7 +53,7 @@ available_questions = [
     ),
     Question(
         text="Does it have fur?",
-        yes_query="name(X), animal_fur(X, true)",
+        yes_query="name(X), animal_fur(X, 'Fur')",
         no_query="name(X), animal_fur(X, false)",
         dependencies=['Cant Fly'],
         attributes=[{True: "Has Fur"}, {False: "No Fur"}]
@@ -243,7 +243,7 @@ questions = [
     Question(
         text="Does it like the cold?",
         yes_query="name(X), animal_preferred_environment_temperature(X, Y), Y < 40",
-        no_query="name(X), animal_preferred_environment_temperature(X, 'Y'), Y >= 40",
+        no_query="name(X), animal_preferred_environment_temperature(X, Y), Y >= 40",
         dependencies=[],
         attributes=[{True: "Cold Climate"}, {False: "Warm Climate"}]
     ),
@@ -269,18 +269,18 @@ questions = [
         attributes=[{True: "Aquatic"}, {False: "Non-Aquatic"}]
     ),
     Question(
-        text="Is it bigger than a human?",
-        yes_query="name(X), ((animal_weight_lbs(X, W), W > 150); (animal_height_inches(X, H), H > 66))",
-        no_query="name(X), animal_weight_lbs(X, W), W =< 150, animal_height_inches(X, H), H =< 66",
+        text="Is it heavier than a human?",
+        yes_query="name(X), animal_weight_lbs(X, W), W > 150",
+        no_query="name(X), animal_weight_lbs(X, W), W =< 150",
         dependencies=[],
         attributes=[{False: "Smaller than a Human"}]
     ),
     Question(
         text="Is it venomous or poisonous?",
-        yes_query="name(X), animal_poisonous_or_venomous(X, true)",
+        yes_query="name(X), (animal_poisonous_or_venomous(X, 'Poisonous'); animal_poisonous_or_venomous(X, 'Venomous'))",
         no_query="name(X), animal_poisonous_or_venomous(X, false)",
-        dependencies=[{True: "Poisonous"}],
-        attributes=[]
+        attributes=[{True: "Poisonous"}],
+        dependencies=[]
     ),
     Question(
         text="Does it live in groups?",
