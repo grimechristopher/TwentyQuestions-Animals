@@ -23,7 +23,7 @@ class TwentyQuestions:
         return {result["X"]: 0 for result in results}
 
     def choose_question(self) -> Question:
-        """Choose a random question from available questions"""
+        # Choose a random question from available questions 
         if not self.questions_dict and self.questions_asked < self.max_questions and self.available_questions:
             random_question = random.choice(self.available_questions)
             self.questions_dict.append(random_question)
