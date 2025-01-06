@@ -1,5 +1,3 @@
-from typing import  Dict
-
 class Question:
     def __init__(self, text: str, yes_query: str, no_query: str, dependencies: list = None, attributes: list = None):
         self.text = text
